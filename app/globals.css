@@ -1,10 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.header {
-    background-color: lightgreen;
-    height: 200px;
-    width: 100%;
+.nav {
+    border: 1px solid #4d00ff;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+.korean {
+    font-family: 'Black Han Sans', sans-serif;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: #4d00ff;
 }
