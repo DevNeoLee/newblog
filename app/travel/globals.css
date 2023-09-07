@@ -8,6 +8,7 @@
 
 .nav {
     border: 1px solid #4d00ff;
+    background-color: lightblue;
 }
 .logo {
     display: flex;
