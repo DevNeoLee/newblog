@@ -29,9 +29,11 @@ export default function Home() {
     <div>
       <div>
         {catalogues.map((ele, eleIdx)=> (
-          <Link href={`travel/${ele}`} key={`travel/${eleIdx}`}>
-            <span key={eleIdx}>{ele}</span>
-          </Link>
+        <div className="catalogueMenuLinksContainer">
+            <Link className="catalogueMenuLinks" href={`travel/${ele}`} key={`travel/${eleIdx}`}>
+                <div key={eleIdx}>{ele}</div>
+            </Link>
+        </div>
         ))}
         </div>
         {metadata.map((post, id) => (

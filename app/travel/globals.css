@@ -21,3 +21,14 @@
     letter-spacing: 2px;
     color: #4d00ff;
 }
+
+.catalogueMenuLinks {
+    padding: 0 15px;
+    display: flex;
+    /* background-color: coral; */
+}
+
+.catalogueMenuLinksContainer {
+    background-color: lightblue;
+    display: flex;
+}
