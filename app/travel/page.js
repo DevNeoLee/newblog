@@ -29,7 +29,7 @@ export default function Home() {
     <div>
       <div>
         {catalogues.map((ele, eleIdx)=> (
-        <div className="catalogueMenuLinksContainer">
+        <div className="catalogueMenuLinksContainer" key={`travel/${eleIdx}`}>
             <Link className="catalogueMenuLinks" href={`travel/${ele}`} key={`travel/${eleIdx}`}>
                 <div key={eleIdx}>{ele}</div>
             </Link>
