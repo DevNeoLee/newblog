@@ -4,9 +4,7 @@ import getMetadata from './utils/getMetadata';
 import fs from 'fs'
 
 const getCatalogue = () => {
-  const files = fs.readdirSync(`app/travel/(pages)`);
-  console.log('files: ', files)
-
+  const files = fs.readdirSync(`app/travel/(pages)`)
   return files
 }
 
@@ -14,37 +12,30 @@ export default function Home() {
   const catalogues = getCatalogue();
 
   const metadata = getMetadata("prologue");
+
   const postPreviews = metadata.map((post, id) => (
-    <div key={id}>
-      <Link href={`travel/prologue/${post.title}`}>
+    <div className="catalogueMiddle" key={id}>
+      <Link className="catalogueTitle" href={`travel/prologue/${post.title}`}>
         <h2>{post.title}</h2>
       </Link>
-      <p>{post.subtitle}</p>
-      <p>{post.date}</p>
-
+      <p className="catalogueSubtitle" >{post.subtitle}</p>
+      <p className="catalogueDate" >{post.date}</p>
+      <div className="catalogueContentBorder"></div>
     </div>
   ))
 
   return (
-    <div>
-      <div>
+    <div className="cataloguePage">
+      <div className="catalogueFrameTop">
         {catalogues.map((ele, eleIdx)=> (
-        <div className="catalogueMenuLinksContainer" key={`travel/${eleIdx}`}>
-            <Link className="catalogueMenuLinks" href={`travel/${ele}`} key={`travel/${eleIdx}`}>
-                <div key={eleIdx}>{ele}</div>
-            </Link>
-        </div>
+          <Link href={`travel/${ele}`} key={`travel/${eleIdx}`} className="catalogueMenuLink"> 
+            <div  key={`travel/${eleIdx}`}>{ele.toUpperCase()}</div>
+          </Link>
         ))}
-        </div>
-        {metadata.map((post, id) => (
-      <div key={id}>
-        <Link href={`travel/prologue/${post.title}`}>
-          <h2>{post.title}</h2>
-        </Link>
-        <p>{post.subtitle}</p>
-        <p>{post.date}</p>
-
-      </div>))}
+      </div>
+      <div className="catalogueMain">
+        {postPreviews}
+      </div>
     </div>
   )
 }

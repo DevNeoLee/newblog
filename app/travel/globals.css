@@ -6,29 +6,112 @@
     padding: 0;
 }
 
-.nav {
-    border: 1px solid #4d00ff;
-    background-color: lightblue;
+a {
+    text-decoration: none;
 }
-.logo {
+
+.nav {
+    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100px;
+    align-items: center;
 }
-.korean {
+.logo {
+    width: 589px;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImage {
+    color: gray;
+}
+
+.logoText {
+    /* background-color: bisque; */
+    /* height: 40px; */
+    /* width: 490px; */
+}
+
+.logoKorean {
     font-family: 'Black Han Sans', sans-serif;
-    padding: 20px;
+    letter-spacing: 50px;
+    font-size: 55px;
+    line-height: 1.0;
+    margin: 4px 0 0 28px;
+    font-weight: 100;
+    color: rgb(69, 69, 69);
+}
+
+.cataloguePage {
+    /* background-color: lightblue; */
+}
+
+.catalogueFrameTop {
+    /* background-color: lightcoral; */
+    border-top: 1px solid rgba(155, 155, 155, 0.168);
+    border-bottom: 1px solid rgba(155, 155, 155, 0.168);
+    padding: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.catalogueMenuLink {
+    /* padding: 0 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.051);
+    color: white;
+    background-color: darkgray;
+    border-radius: 5px;
     letter-spacing: 2px;
-    color: #4d00ff;
+    height: 30px;
+    padding: 2px 15px;
+    margin: 4px 10px;
 }
 
-.catalogueMenuLinks {
-    padding: 0 15px;
-    display: flex;
-    /* background-color: coral; */
+.catalogueMain {
+    /* background-color: lightseagreen; */
+    padding: 20px;
 }
 
-.catalogueMenuLinksContainer {
-    background-color: lightblue;
-    display: flex;
+.catalogueMiddle {
+    /* background-color: lightblue; */
+    min-width: 250px;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
+
+.catalogueTitle {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: rgb(43, 43, 43);
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.catalogueSubtitle {
+    font-size: 20px;
+    color: rgb(118, 118, 118);
+    letter-spacing: 1px;
+    margin: 0 0 7px 0;
+}
+
+.catalogueDate {
+    font-size: 18px;
+    color: rgb(80, 80, 80);
+}
+
+.catalogueContentBorder {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(155, 155, 155, 0.168);
+}
+
+
