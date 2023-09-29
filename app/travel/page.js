@@ -1,12 +1,9 @@
 
 import Link from 'next/link'
-import getMetadata from './utils/getMetadata';
+import { getMetadata, getCatalogue } from './utils/getData';
 import fs from 'fs'
 
-const getCatalogue = () => {
-  const files = fs.readdirSync(`app/travel/(pages)`)
-  return files
-}
+
 
 export default function Home() {
   const catalogues = getCatalogue();

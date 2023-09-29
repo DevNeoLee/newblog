@@ -1,7 +1,7 @@
 import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
-import getMetadata from '@/app/travel/utils/getMetadata';
+import { getMetadata } from '@/app/travel/utils/getData';
 
 const getPostContent = (title) => {
     const folder= 'travelData/asia';

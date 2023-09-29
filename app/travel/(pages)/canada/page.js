@@ -1,6 +1,6 @@
 
 import Link from 'next/link'
-import getMetadata from '../../utils/getMetadata';
+import { getMetadata } from '@/app/travel/utils/getData'; 
 
 export default function CanadaHome() {
   const metadata = getMetadata('canada');

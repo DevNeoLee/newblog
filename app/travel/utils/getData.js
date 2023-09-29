@@ -1,7 +1,12 @@
 import matter from "gray-matter";
 import fs from 'fs'
 
-const getMetadata = (path) => {
+export const getCatalogue = () => {
+  const files = fs.readdirSync(`app/travel/(pages)`)
+  return files
+}
+
+export const getMetadata = (path) => {
     const files = fs.readdirSync(`travelData/${path}`);
     const markdownPosts = files.filter(file => file.endsWith('.md'))
   
@@ -17,5 +22,3 @@ const getMetadata = (path) => {
     })
     return posts;
   } 
-
-  export default getMetadata;

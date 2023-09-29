@@ -1,6 +1,6 @@
 
 import Link from 'next/link'
-import getMetadata from '../../utils/getMetadata';
+import { getMetadata } from '@/app/travel/utils/getData'; 
 
 export default function PrologueHome(props) {
   const metadata = getMetadata('europe');
