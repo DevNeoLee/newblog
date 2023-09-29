@@ -17,7 +17,7 @@ export const getMetadata = (path) => {
         title: matterResult.data.title,
         date: matterResult.data.date,
         subtitle: matterResult.data.subtitle,
-        title: fileName.replace('.md', ''),
+        link: fileName.replace('.md', ''),
         color: matterResult.data.color,
       }
     })

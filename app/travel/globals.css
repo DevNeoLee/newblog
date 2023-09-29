@@ -14,6 +14,8 @@ a {
 
 :root {
     --darkblue: #191960;
+    --darkgray: #676767;
+    --gray:#999;
 }
 /*********************      header / nav       *********************/
 
@@ -40,7 +42,7 @@ a {
     /* background-color: bisque; */
     /* height: 40px; */
     /* width: 490px; */
-    color: var(--darkblue);
+    color: var(--gray);
 }
 
 .logoKorean {
@@ -51,14 +53,14 @@ a {
     margin: 4px 0 0 28px;
     font-weight: 100;
     color: rgb(69, 69, 69);
-    color: var(--darkblue);
+    color: var(--gray);
 }
 
 
 /*********************      homepage      *********************/
 
 .cataloguePage {
-    color: var(--darkblue);
+    color: var(--darkgray);
 }
 
 .catalogueFrameTop {
@@ -71,7 +73,7 @@ a {
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    color: var(--darkblue);
+    color: var(--darkgray);
 }
 
 .catalogueMenuLink {
@@ -81,7 +83,7 @@ a {
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.051);
     color: white;
-    background-color:  var(--darkblue);
+    background-color:  var(--gray);
     border-radius: 5px;
     letter-spacing: 2px;
     height: 30px;
@@ -106,7 +108,7 @@ a {
 .catalogueTitle {
     font-size: 18px;
     margin: 0 0 10px 0;
-    color: var(--darkblue);
+    color: var(--darkgray);
     letter-spacing: 1px;
     display: inline-block;
 }
@@ -116,7 +118,7 @@ a {
     color: rgb(118, 118, 118);
     letter-spacing: 1px;
     margin: 0 0 7px 0;
-    color: var(--darkblue);
+    color: var(--darkgray);
 
 }
 
@@ -140,7 +142,7 @@ a {
 }
 
 .countryCategory {
-    color: var(--darkblue);
+    color: var(--darkgray);
     margin: 20px auto;
     min-width: 250px;
     max-width: 650px;
@@ -158,7 +160,7 @@ a {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    color: var(--darkblue);
+    color: var(--darkgray);
 }
 
 .countryCard {
@@ -167,7 +169,7 @@ a {
     width: 250px;
     /* border: 1px solid rgba(0, 0, 0, 0.081); */
     margin: 25px;
-    color: var(--darkblue);
+    color: var(--darkgray);
     /* padding: 15px; */
     display: flex;
     flex-direction: column;
@@ -186,14 +188,16 @@ a {
 
 .countryTitle {
     padding: 5px 10px;
-    color: var(--darkblue);
+    color: var(--darkgray);
     height: 20px;
+    font-size: 20px;
 }
 
 
 .countryDate {
     padding: 5px;
-    color: var(--darkblue);
+    margin-top: 13px;
+    color: var(--darkgray);
     display: flex;
     justify-content: flex-end;
 }
@@ -204,6 +208,6 @@ a {
 
 .countrySubtitle {
     padding: 5px;
-    color: var(--darkblue);
+    color: var(--darkgray);
     line-height: 1.6;
 }

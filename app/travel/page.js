@@ -3,8 +3,6 @@ import Link from 'next/link'
 import { getMetadata, getCatalogue } from './utils/getData';
 import fs from 'fs'
 
-
-
 export default function Home() {
   const catalogues = getCatalogue();
 
@@ -21,10 +19,10 @@ export default function Home() {
         <div className="countryMain">
         <div className="countryBottom">
           {metadata.map((post, id) => (
-            <Link href={`travel/prologue/${post.title}`}>
+            <Link href={`travel/prologue/${post.link}`}>
               <div className="countryCard" key={id}>
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>
-                <h2 className="countryTitle" >{post.title}</h2>
+                <h2 className="countryTitle" >{ post.title.length > 24 ? post.title.slice(0, 24) + "..." : post.title} </h2>
                 <p className="countryDate" >{post.date}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>

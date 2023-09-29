@@ -15,10 +15,10 @@ export default function PrologueHome(props) {
       </div>
       <div className="countryBottom">
           {metadata.map((post, id) => (
-            <Link href={`prologue/${post.title}`}>
+            <Link href={`prologue/${post.link}`}>
               <div className="countryCard" key={id}>
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>
-                <h2 className="countryTitle" >{post.title}</h2>
+                <h2 className="countryTitle" >{ post.title.length > 24 ? post.title.slice(0, 24) + "..." : post.title} </h2>
                 <p className="countryDate" >{post.date}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>
