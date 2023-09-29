@@ -10,19 +10,21 @@ export default function PrologueHome(props) {
 
   return (
     <div className="countryContainer">
-      <div className="countryTitle">
+      <div className="countryCategory">
         <h2>Prologue </h2>
       </div>
       <div className="countryMain">
         <div className="countryBottom">
-          {metadata.map((post, id) => (
-            <div className="countryCard" key={id}>
-              <Link className="country" href={`prologue/${post.title}`}>
-                <h2 className="country" >{post.title}</h2>
-              </Link>
-              <p className="country" >{post.subtitle}</p>
-              <p className="country" >{post.date}</p>
-            </div>
+          {metadata.reverse().map((post, id) => (
+            <Link href={`prologue/${post.title}`}>
+              <div className="countryCard" key={id}>
+                <h2 className="countryTitle" >{post.title}</h2>
+                <p className="countryDate" >{post.date}</p>
+                <div className="countryParagraph" >
+                  <p className="countrySubtitle" >{post.subtitle}</p>
+                </div>
+              </div>
+            </Link>
           ))}
         </div>
       </div>

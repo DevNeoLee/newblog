@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+
+:root {
+    --darkblue: #191960;
+}
 /*********************      header / nav       *********************/
 
 .nav {
@@ -35,6 +39,7 @@ a {
     /* background-color: bisque; */
     /* height: 40px; */
     /* width: 490px; */
+    color: var(--darkblue);
 }
 
 .logoKorean {
@@ -45,13 +50,14 @@ a {
     margin: 4px 0 0 28px;
     font-weight: 100;
     color: rgb(69, 69, 69);
+    color: var(--darkblue);
 }
 
 
 /*********************      homepage      *********************/
 
 .cataloguePage {
-    /* background-color: lightblue; */
+    color: var(--darkblue);
 }
 
 .catalogueFrameTop {
@@ -64,6 +70,7 @@ a {
     justify-content: center;
     width: 100%;
     margin: 0 auto;
+    color: var(--darkblue);
 }
 
 .catalogueMenuLink {
@@ -73,17 +80,18 @@ a {
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.051);
     color: white;
-    background-color: darkgray;
+    background-color:  var(--darkblue);
     border-radius: 5px;
     letter-spacing: 2px;
     height: 30px;
     padding: 2px 15px;
     margin: 4px 10px;
+
 }
 
 .catalogueMain {
     /* background-color: lightseagreen; */
-    padding: 20px;
+    padding: 10px;
 }
 
 .catalogueMiddle {
@@ -95,9 +103,9 @@ a {
 }
 
 .catalogueTitle {
-    font-size: 28px;
+    font-size: 18px;
     margin: 0 0 10px 0;
-    color: rgb(43, 43, 43);
+    color: var(--darkblue);
     letter-spacing: 1px;
     display: inline-block;
 }
@@ -107,6 +115,8 @@ a {
     color: rgb(118, 118, 118);
     letter-spacing: 1px;
     margin: 0 0 7px 0;
+    color: var(--darkblue);
+
 }
 
 .catalogueDate {
@@ -122,22 +132,24 @@ a {
 /*********************      country catalogue page    *********************/
 
 .countryContainer {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     height: 100%;
     min-height: 100vh;
     border-top: 1px solid rgba(0, 0, 0, 0.211);
 }
 
-.countryTitle {
-    color: blue;
+.countryCategory {
+    color: var(--darkblue);
     margin: 20px auto;
     min-width: 250px;
-    max-width: 750px;
+    max-width: 650px;
     width: 100%;
+    /* background-color: lightcoral; */
 }
 
 .countryBottom {
-    background-color: lightgreen;
+    border-top: 1px solid rgba(155, 155, 155, 0.168);
+    /* background-color: lightgreen; */
     height: 100%;
     min-width: 250px;
     max-width: 644px;
@@ -145,12 +157,42 @@ a {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    color: var(--darkblue);
 }
 
 .countryCard {
-    background-color: lightblue;
-    height: 300px;
-    width: 300px;
+    background-color: rgb(243, 243, 243);
+    height: 250px;
+    width: 250px;
     border: 1px solid rgba(0, 0, 0, 0.211);
     margin: 10px;
+    color: var(--darkblue);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.countryTitle {
+    padding: 10px;
+    color: var(--darkblue);
+    height: 20px;
+}
+
+
+.countryDate {
+    padding: 10px;
+    color: var(--darkblue);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.countryParagraph {
+    /* background-color: lightgreen; */
+}
+
+.countrySubtitle {
+    padding: 10px;
+    color: var(--darkblue);
+    line-height: 1.6;
 }
