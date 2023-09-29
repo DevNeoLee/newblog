@@ -1,8 +1,9 @@
 ---
 title: "Create retro games with PICO-8"
 subtitle: "8-bit games are a great way to learn and expand your portfolio."
-date: "2020-12-19"
+date: "2021-07-20"
 cr: ["https://www.artstation.com/shizuorin"]
+color: "lightcoral"
 ---
 
 After watching [High Score](https://www.youtube.com/watch?v=B4jopG1wX88) on Netflix, I was suddenly inspired to develop a retro-style game. I think it was a combination of the aesthetics and nostalgia that motivated me.

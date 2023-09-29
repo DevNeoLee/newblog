@@ -18,6 +18,7 @@ export const getMetadata = (path) => {
         date: matterResult.data.date,
         subtitle: matterResult.data.subtitle,
         title: fileName.replace('.md', ''),
+        color: matterResult.data.color,
       }
     })
     return posts;

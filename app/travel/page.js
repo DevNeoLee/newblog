@@ -18,27 +18,12 @@ export default function Home() {
             </Link>
           ))}
         </div>
-        {/* <div className="catalogueMain">
-          { 
-            metadata.map((post, id) => (
-            <div className="catalogueMiddle" key={id}>
-              <Link 
-                className="catalogueTitle" 
-                href={`travel/prologue/${post.title}`}>
-                <h2>{post.title}</h2>
-              </Link>
-              <p className="catalogueSubtitle" >{post.subtitle}</p>
-              <p className="catalogueDate" >{post.date}</p>
-              <div className="catalogueContentBorder"></div>
-            </div>
-            ))
-          }
-        </div> */}
-            <div className="countryMain">
+        <div className="countryMain">
         <div className="countryBottom">
-          {metadata.reverse().map((post, id) => (
-            <Link href={`prologue/${post.title}`}>
+          {metadata.map((post, id) => (
+            <Link href={`travel/prologue/${post.title}`}>
               <div className="countryCard" key={id}>
+                <div className="countryImage" style={{ backgroundColor: post.color}}></div>
                 <h2 className="countryTitle" >{post.title}</h2>
                 <p className="countryDate" >{post.date}</p>
                 <div className="countryParagraph" >

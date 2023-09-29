@@ -13,11 +13,11 @@ export default function PrologueHome(props) {
       <div className="countryCategory">
         <h2>Prologue </h2>
       </div>
-      <div className="countryMain">
-        <div className="countryBottom">
-          {metadata.reverse().map((post, id) => (
+      <div className="countryBottom">
+          {metadata.map((post, id) => (
             <Link href={`prologue/${post.title}`}>
               <div className="countryCard" key={id}>
+                <div className="countryImage" style={{ backgroundColor: post.color}}></div>
                 <h2 className="countryTitle" >{post.title}</h2>
                 <p className="countryDate" >{post.date}</p>
                 <div className="countryParagraph" >
@@ -26,7 +26,6 @@ export default function PrologueHome(props) {
               </div>
             </Link>
           ))}
-        </div>
       </div>
   </div>
   )
