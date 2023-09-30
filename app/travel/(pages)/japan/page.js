@@ -11,7 +11,8 @@ export default function JapanHome(props) {
       </div>
       <div className="countryBottom">
           {metadata.map((post, id) => (
-            <Link href={`japan/${post.link}`}>
+            <Link href={`japan/${post.link}`} key={id}>
+
               <div className="countryCard" key={id}>
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>
                 <h2 className="countryTitle" >{ post.title.length > 24 ? post.title.slice(0, 24) + "..." : post.title} </h2>
