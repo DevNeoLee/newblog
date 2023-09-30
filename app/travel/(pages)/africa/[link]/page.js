@@ -3,25 +3,25 @@ import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import { getMetadata } from '@/app/travel/utils/getData';
 
-const getPostContent = (title) => {
-    const folder= 'travelData/asia';
-    const file = `${folder}/${title}.md`;
+const getPostContent = (link) => {
+    const folder= 'travelData/africa';
+    const file = `${folder}/${link}.md`;
     const content = fs.readFileSync(file, 'utf8');
     const matterResult = matter(content);
     return matterResult;
 }
 
 export const generateStaticParams = async () => {
-    const posts = getMetadata('asia');
-    console.log('asia: ', posts)
+    const posts = getMetadata('africa');
+    console.log('africa: ', posts)
     return posts.map(post => ({
-        title: post.title,
+        link: post.link,
     }))
 }
 
 export default function PostPage(props) {
-    const title = props.params.title;
-    const post = getPostContent(title);
+    const link = props.params.link;
+    const post = getPostContent(link);
 
   return (
     <div className="detailContainer">
