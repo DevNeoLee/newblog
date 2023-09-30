@@ -24,10 +24,11 @@ export default function PostPage(props) {
     const post = getPostContent(title);
 
   return (
-    <div>
-        <h2>{post.data.title}</h2>
-        <h1>{post.data.title}</h1>
+    <div className="detailContainer">
+      <div className="detailMain">
+        <div className="detailTitle"><h1>{post.data.title}</h1></div>
         <Markdown>{post.content}</Markdown>
+      </div>
     </div>
   )
 }
