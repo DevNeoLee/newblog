@@ -1,12 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+KR:wght@800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
   }
 
+:root {
+    --darkblue: #191960;
+    --darkgray: #676767;
+    --gray:#999;
+}
 
 h1 {
     letter-spacing: 2px;
@@ -24,7 +31,7 @@ h2 {
     margin: 20px 0 0 60px;
     font-weight: 100;
     color: var(--darkblue);
-    color:rgb(36, 36, 36)
+    /* color:rgb(36, 36, 36) */
 }
 
 h3 {
@@ -79,11 +86,6 @@ table {
     margin: 20px 50px;
 }
 
-:root {
-    --darkblue: #191960;
-    --darkgray: #676767;
-    --gray:#999;
-}
 /*********************      header / nav       *********************/
 
 .nav {
@@ -113,14 +115,14 @@ table {
 }
 
 .logoKorean {
-    font-family: 'Black Han Sans', sans-serif;
-    letter-spacing: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 20px;
     font-size: 55px;
-    line-height: 1.0;
-    margin: 4px 0 0 28px;
-    font-weight: 100;
-    color: rgb(69, 69, 69);
-    color: var(--gray);
+    line-height: 1;
+    margin: 4px 0 0 20px;
+    color: var(--darkblue);
+    line-height: 1.6;
+    margin: 20px;
 }
 
 
@@ -148,16 +150,24 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(0, 0, 0, 0.051);
-    color: white;
-    background-color:  var(--gray);
-    border-radius: 5px;
+    /* border: 1px solid rgba(0, 0, 0, 0.051); */
+    color: var(--darkgray);
+    /* background-color:  var(--gray); */
+    /* border-radius: 5px; */
     letter-spacing: 2px;
     height: 30px;
-    padding: 2px 15px;
-    margin: 4px 10px;
-
+    /* padding: 2px 15px; */
+    margin: 4px 20px;
+    border-bottom: 3px solid white;
+    transition: 500ms step-start;
 }
+
+.catalogueMenuLink:hover {
+    border-bottom: 3px solid var(--darkgray);
+    transition: 500ms step-start;
+}
+
+
 
 .catalogueMain {
     /* background-color: lightseagreen; */
@@ -208,13 +218,16 @@ table {
     border-top: 1px solid rgba(0, 0, 0, 0.211);
 }
 
-.countryCategory {
+.countryCategory h2{
     color: var(--darkgray);
     margin: 20px auto;
-    min-width: 250px;
+    /* min-width: 250px; */
     max-width: 650px;
-    width: 100%;
+    /* width: 100%; */
     /* background-color: lightcoral; */
+    letter-spacing: 3px;
+    text-decoration:underline;
+    /* : 3px solid var(--darkgray); */
 }
 
 .countryBottom {
