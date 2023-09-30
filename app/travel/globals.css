@@ -259,6 +259,10 @@ table {
     border-radius: 5px;
 }
 
+.countryCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
 .countryImage {
     width: 100%;
     height: 100px;
