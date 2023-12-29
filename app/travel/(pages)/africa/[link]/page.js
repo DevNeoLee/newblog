@@ -2,6 +2,7 @@ import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import { getMetadata } from '@/app/travel/utils/getData';
+import Head from 'next/head';
 
 const getPostContent = (link) => {
     const folder= 'travelData/아프리카';
@@ -11,10 +12,7 @@ const getPostContent = (link) => {
     return matterResult;
 }
 
-// export const metadata = {
-//   title: '테스트1',
-//   description: '테스트2',
-// }
+
 
 export const generateStaticParams = async () => {
     const posts = getMetadata('아프리카');
@@ -24,29 +22,26 @@ export const generateStaticParams = async () => {
     }))
 }
 
-
-
-export default function PostPage(props) {
-
+export default async function PostPage(props) {
   const link = props.params.link;
   const post = getPostContent(link);
- 
 
   return (
-    <div className="continentContainer">
-      <div className="continentMain">
-        <div className="detailTitle"><h1>{post.data.title}</h1></div>
-        <Markdown>{post.content}</Markdown>
+      <div className="continentContainer">
+        <div className="continentMain">
+          <div className="detailTitle"><h1>{post.data.title}</h1></div>
+          <Markdown>{post.content}</Markdown>
+        </div>
       </div>
-    </div>
   )
 }
 
-export const metadata = (props) => {
-  console.log('props: ', props)
+export function generateMetadata({ params, searchParams }) {
+  const details = getPostContent(params.link);
 
-  return {
-      title: "hello world2",
-      description: "hello world"
-  }
+  return { 
+    title: details.data.title,
+    description: details.content.slice(1, 175)
+  };
 }
+ 

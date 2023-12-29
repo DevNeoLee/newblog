@@ -19,16 +19,25 @@ export const generateStaticParams = async () => {
     }))
 }
 
-export default function PostPage(props) {
-    const link = props.params.link;
-    const post = getPostContent(link);
+export default async function PostPage(props) {
+  const link = props.params.link;
+  const post = getPostContent(link);
 
-    return (
-        <div className="continentContainer">
-          <div className="continentMain">
-            <div className="detailTitle"><h1>{post.data.title}</h1></div>
-            <Markdown>{post.content}</Markdown>
-          </div>
+  return (
+      <div className="continentContainer">
+        <div className="continentMain">
+          <div className="detailTitle"><h1>{post.data.title}</h1></div>
+          <Markdown>{post.content}</Markdown>
         </div>
-      )
-    }
+      </div>
+  )
+}
+
+export function generateMetadata({ params, searchParams }) {
+  const details = getPostContent(params.link);
+
+  return { 
+    title: details.data.title,
+    description: details.content.slice(1, 175)
+  };
+}
