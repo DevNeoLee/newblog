@@ -2,12 +2,17 @@
 import Link from 'next/link'
 import { getMetadata } from '@/app/travel/utils/getData'; 
 
+export const metadata = {
+  title: '현지 여행 고수들의 현지 가이드 미국 꿀팁',
+  description: '미국 배낭 여행 현지 여행 고수들의 꿀팁 및 주의 사항, 가이드 등, 최신자료를 엄선하여 소개합니다. 워싱톤, 록키 산, 뉴욕, 시에틀, 샌프란시스코, 샌디에고, 플로리다, 엘에이, 해변, 등산, 낚시, 로컬',
+}
+
 export default function USAHome(props) {
   const metadata = getMetadata('usa');
   return (
     <div className="countryContainer">
       <div className="countryCategory">
-        <h2>USA </h2>
+        <h2>미국 </h2>
       </div>
       <div className="countryBottom">
           {metadata.map((post, id) => (

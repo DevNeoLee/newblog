@@ -1,12 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+KR:wght@800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Noto Serif KR', serif; */
   }
 
 :root {
@@ -17,11 +17,12 @@
 
 h1 {
     letter-spacing: 2px;
-    font-size: 38px;
+    font-size: 2rem;
     line-height: 1.6;
     margin: 20px 0;
     font-weight: 100;
     color: rgb(27, 27, 27);
+    font-family: 'Noto Serif KR', serif;
 }
 
 h2 {
@@ -35,7 +36,6 @@ h2 {
 }
 
 h3 {
-    /* font-family: 'Black Han Sans', sans-serif; */
     letter-spacing: 2px;
     font-size: 22px;
     line-height: 2.0;
@@ -46,7 +46,6 @@ h3 {
 }
 
 h4 {
-    /* font-family: 'Black Han Sans', sans-serif; */
     letter-spacing: 2px;
     font-size: 18px;
     line-height: 2.0;
@@ -57,7 +56,6 @@ h4 {
 }
 
 p {
-    /* font-family: 'Black Han Sans', sans-serif; */
     letter-spacing: 2px;
     font-size: 20px;
     line-height: 2.5;
@@ -65,6 +63,7 @@ p {
     font-weight: 100;
     color: rgb(24, 24, 24);
     color: var(--gray);
+    font-family: 'Noto Serif KR', serif;
 
 }
 
@@ -86,21 +85,46 @@ table {
     margin: 20px 50px;
 }
 
+/*********************      home   *********************/
+
+.homeContainer {
+    /* background-color: lightcoral; */
+    padding: 2rem;
+}
 /*********************      header / nav       *********************/
 
 .nav {
-    height: 100px;
+    /* height: 100px; */
+    width: 100%;
+
+}
+
+.navCenter {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0 0 0;
+    /* background-color: aqua; */
 }
+
+.navSubTitle {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    text-align: center;
+    letter-spacing: 20px;
+    /* color: red; */
+    font-size: 1rem;
+}
+
 .logo {
-    width: 589px;
+    /* width: 520px; */
     display: flex;
-    height: 45px;
+    /* height: 75px; */
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
+    /* background-color: lightcoral; */
 }
 
 .logoImage {
@@ -118,70 +142,81 @@ table {
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: 20px;
     font-size: 55px;
-    line-height: 1;
+    /* line-height: 1; */
     margin: 4px 0 0 20px;
     color: var(--darkgray);
     line-height: 1.6;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 
-/*********************      homepage      *********************/
+/*********************      Travel Main Page      *********************/
 
-.cataloguePage {
+.travelContainer {
     color: var(--darkgray);
+    font-size: 30px;
 }
 
-.catalogueFrameTop {
-    /* background-color: lightcoral; */
-    border-top: 1px solid rgba(155, 155, 155, 0.168);
-    border-bottom: 1px solid rgba(155, 155, 155, 0.168);
-    padding: 2px;
+.travelMenu {
+    /* border-top: 1px solid rgba(155, 155, 155, 0.168); */
+    /* border-bottom: 1px solid rgba(155, 155, 155, 0.168); */
+    padding: 3px;
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 100%;
-    margin: 0 auto;
     color: var(--darkgray);
 }
 
-.catalogueMenuLink {
-    /* padding: 0 15px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid rgba(0, 0, 0, 0.051); */
+.countryLink {
+    margin: 5px 30px;
     color: var(--darkgray);
-    /* background-color:  var(--gray); */
-    /* border-radius: 5px; */
-    letter-spacing: 2px;
-    height: 30px;
-    /* padding: 2px 15px; */
-    margin: 4px 20px;
-    border-bottom: 3px solid white;
-    transition: 500ms step-start;
+    transition: 300ms;
 }
 
-.catalogueMenuLink:hover {
-    border-bottom: 3px solid var(--darkgray);
-    transition: 500ms step-start;
+.country {
+    font-size: 1.5rem;
+    letter-spacing: 15px;
+    padding: 8px 10px 5px 25px;
+    border-radius: 35px;
+    /* border-bottom: 2px solid gray; */
+    transition: box-shadow 300ms;
+    /* text-decoration: underline; */
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
 }
 
+.country:hover {
+    font-size: 1.5rem;
+    letter-spacing: 15px;
+    padding: 8px 10px 5px 25px;
+    border-radius: 35px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 11px, rgb(255, 85, 85) 0px 0px 0px 13px;
+    font-weight: 600;
+    color: rgb(0, 6, 164);
+}
 
-
-.catalogueMain {
+.travelMain {
     /* background-color: lightseagreen; */
+}
+
+
+
+/* .catalogueMain {
     padding: 10px;
 }
 
 .catalogueMiddle {
-    /* background-color: lightblue; */
+    background-color: lightblue;
     min-width: 250px;
     max-width: 750px;
     margin: 0 auto;
     padding: 20px 0;
-}
-
+} */
+/* 
 .catalogueTitle {
     font-size: 18px;
     margin: 0 0 10px 0;
@@ -207,7 +242,7 @@ table {
 .catalogueContentBorder {
     padding: 10px 0;
     border-bottom: 1px solid rgba(155, 155, 155, 0.168);
-}
+} */
 
 /*********************      country catalogue page    *********************/
 

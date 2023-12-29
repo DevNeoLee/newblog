@@ -1,22 +1,22 @@
 
 import Link from 'next/link'
-import { getMetadata, getCatalogue } from './utils/getData';
+import { getMetadata, getCatalogue, getKorean } from './utils/getData';
 import fs from 'fs'
 
-export default function Home() {
+export default function Travel() {
   const catalogues = getCatalogue();
 
   const metadata = getMetadata("prologue");
     return (
-      <div className="cataloguePage">
-        <div className="catalogueFrameTop">
+      <div className="travelContainer">
+        <div className="travelMenu">
           {catalogues.map((ele, eleIdx)=> (
-            <Link href={`travel/${ele}`} key={`travel/${eleIdx}`} className="catalogueMenuLink"> 
-              <div  key={`travel/${eleIdx}`}>{ele.toUpperCase()}</div>
+            <Link href={`travel/${ele}`} key={`travel/${eleIdx}`} className="countryLink" > 
+              <div  className="country" key={`travel/${eleIdx}`}>{getKorean(ele)}</div>
             </Link>
           ))}
         </div>
-        <div className="countryMain">
+        <div className="travelMain">
         <div className="countryBottom">
           {metadata.map((post, id) => (
             <Link href={`travel/prologue/${post.link}`} key={id}>
@@ -32,7 +32,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
-      </div>
+        </div>
       </div>
     )
   }

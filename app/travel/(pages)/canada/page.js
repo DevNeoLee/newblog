@@ -2,13 +2,18 @@
 import Link from 'next/link'
 import { getMetadata } from '@/app/travel/utils/getData'; 
 
+export const metadata = {
+  title: '현지 여행 고수들의 현지 가이드 캐나다 꿀팁',
+  description: '캐나다 배낭 여행 현지 여행 고수들의 꿀팁 및 주의 사항, 가이드 등, 최신자료를 엄선하여 소개합니다. 벤쿠버, 캘거리, 토론토, 나이아가라 폭포, 록키 산맥, 오타와, 천섬, 로컬',
+}
+
 export default function CanadaHome() {
   const metadata = getMetadata('canada');
   console.log("metadata: ", metadata)
   return (
     <div className="countryContainer">
       <div className="countryCategory">
-        <h2>Canada </h2>
+        <h2>캐나다 </h2>
       </div>
       <div className="countryBottom">
           {metadata.map((post, id) => (
