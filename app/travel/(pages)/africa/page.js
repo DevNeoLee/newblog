@@ -10,16 +10,16 @@ export const metadata = {
 export default function 아프리카(props) {
   const metadata = getMetadata('아프리카');
   return (
-    <div className="countryContainer">
-      <div className="countryCategory">
+    <div className="continentContainer">
+      <div className="continentCategory">
         <h2>아프리카 </h2>
       </div>
-      <div className="countryBottom">
+      <div className="continentMain">
           {metadata.map((post, id) => (
             <Link href={`africa/${post.link}`} key={id}>
               <div className="countryCard" key={id}>
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>
-                <h2 className="countryTitle" >{ post.title.length > 24 ? post.title.slice(0, 24) + "..." : post.title} </h2>
+                <h3 className="countryTitle" >{ post.title.length > 24 ? post.title.slice(0, 24) + "..." : post.title} </h3>
                 <p className="countryDate" >{post.date}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>

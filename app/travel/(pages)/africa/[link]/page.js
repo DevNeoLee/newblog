@@ -33,8 +33,8 @@ export default function PostPage(props) {
  
 
   return (
-    <div className="detailContainer">
-      <div className="detailMain">
+    <div className="continentContainer">
+      <div className="continentMain">
         <div className="detailTitle"><h1>{post.data.title}</h1></div>
         <Markdown>{post.content}</Markdown>
       </div>

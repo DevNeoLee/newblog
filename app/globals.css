@@ -246,26 +246,22 @@ table {
 
 /*********************      country catalogue page    *********************/
 
-.countryContainer {
+.continentContainer {
     /* background-color: lightblue; */
     height: 100%;
     min-height: 100vh;
-    border-top: 1px solid rgba(0, 0, 0, 0.211);
+    /* border-top: 1px solid rgba(0, 0, 0, 0.211); */
 }
 
-.countryCategory h2{
+.continentCategory h2{
     color: var(--darkgray);
     margin: 20px auto;
-    /* min-width: 250px; */
     max-width: 650px;
-    /* width: 100%; */
-    /* background-color: lightcoral; */
     letter-spacing: 3px;
-    text-decoration:underline;
-    /* : 3px solid var(--darkgray); */
+    /* text-decoration:underline; */
 }
 
-.countryBottom {
+.continentMain {
     /* border-top: 1px solid rgba(155, 155, 155, 0.168); */
     /* background-color: lightgreen; */
     height: 100%;
@@ -357,7 +353,7 @@ table {
 
 /*********************      detail page    *********************/
 
-.detailContainer {
+.continentContainer {
     /* background-color: lightblue; */
     min-width: 250px;
     max-width: 750px;
@@ -365,7 +361,7 @@ table {
     padding: 20px 0;
 }
 
-.detailMain {
+.continentMain {
 
 }
 

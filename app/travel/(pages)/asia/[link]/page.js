@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { getMetadata } from '@/app/travel/utils/getData';
 
 const getPostContent = (link) => {
-    const folder= 'travelData/asia';
+    const folder= 'travelData/아시아';
     const file = `${folder}/${link}.md`;
     const content = fs.readFileSync(file, 'utf8');
     const matterResult = matter(content);
@@ -12,8 +12,8 @@ const getPostContent = (link) => {
 }
 
 export const generateStaticParams = async () => {
-    const posts = getMetadata('asia');
-    console.log('asia: ', posts)
+    const posts = getMetadata('아시아');
+    console.log('아시아: ', posts)
     return posts.map(post => ({
         link: post.link,
     }))
@@ -24,8 +24,8 @@ export default function PostPage(props) {
     const post = getPostContent(link);
 
   return (
-    <div className="detailContainer">
-      <div className="detailMain">
+    <div className="continentContainer">
+      <div className="continentMain">
         <div className="detailTitle"><h1>{post.data.title}</h1></div>
         <Markdown>{post.content}</Markdown>
       </div>

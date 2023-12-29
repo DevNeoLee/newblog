@@ -7,14 +7,14 @@ export const metadata = {
   description: '아시아 배낭 여행 현지 여행 고수들의 꿀팁 및 주의 사항, 가이드 등, 최신자료를 엄선하여 소개합니다. 일본, 대만, 로컬',
 }
 
-export default function AsiaHome(props) {
-  const metadata = getMetadata('asia');
+export default function 아시아(props) {
+  const metadata = getMetadata('아시아');
   return (
-    <div className="countryContainer">
-      <div className="countryCategory">
+    <div className="continentContainer">
+      <div className="continentCategory">
         <h2>아시아 </h2>
       </div>
-      <div className="countryBottom">
+      <div className="continentMain">
           {metadata.map((post, id) => (
             <Link href={`asia/${post.link}`} key={id}>
 
