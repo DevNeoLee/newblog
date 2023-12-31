@@ -12,8 +12,8 @@ export default function RootLayout({ children }) {
         <Nav />
           {children}
         <footer className="footer">
-          <div>
-            <p>Copyright. 뭐여행 {new Date().getFullYear()}</p>
+          <div style={{ display: "flex", justifyContent: "space-between"}}>
+            <p>Copyright. 뭐여행 {new Date().getFullYear()}</p><p>Photo by Mesut Kaya from <a href="https://unsplash.com/">Unsplash</a></p>
           </div>
         </footer>
     </div>
