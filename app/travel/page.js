@@ -21,6 +21,8 @@ export default function Travel() {
     
         <div className="travelMain">
           <Image 
+            priority
+            alt="travel main image"
             src="/background-temp.jpg"
             layout="fill"
             objectFit="cover"

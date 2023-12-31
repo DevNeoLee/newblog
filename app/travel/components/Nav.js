@@ -12,6 +12,8 @@ export default function Nav() {
         </Link>
         <div className="menuButtonPlane">
           <Image 
+            priority
+            alt="main menu icon"
             src="/icon.png"
             width="45"
             height="45"
