@@ -1,4 +1,9 @@
 
+:root {
+    --darkblue: #191960;
+    --darkgray: #676767;
+    --gray:#999;
+}
 
 * {
     margin: 0;
@@ -9,10 +14,9 @@
     /* font-family: 'Noto Serif KR', serif; */
   }
 
-:root {
-    --darkblue: #191960;
-    --darkgray: #676767;
-    --gray:#999;
+
+body {
+    background-color: white;
 }
 
 h1 {
@@ -61,8 +65,8 @@ p {
     line-height: 2.5;
     margin: 4px 130px;
     font-weight: 100;
-    color: rgb(24, 24, 24);
-    color: var(--gray);
+    /* color: rgb(24, 24, 24);
+    color: var(--gray); */
     font-family: 'Noto Serif KR', serif;
 
 }
@@ -88,23 +92,42 @@ table {
 /*********************      home   *********************/
 
 .homeContainer {
-    /* background-color: lightcoral; */
+    /* background-color: lightgray; */
     padding: 2rem;
+    min-height: 100vh;
+    width: 1400px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
+/*********************      Main/Travel page   *********************/
+
+.mainContainer {
+    /* background-color: lightgray; */
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
 /*********************      header / nav       *********************/
 
 .nav {
     /* height: 100px; */
     width: 100%;
+    background-color: white;
+    position: sticky;
+    /* position: absolute; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
 }
 
 .navCenter {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 1rem 0 0 0;
+    /* margin: 1rem 0 0 0; */
     /* background-color: aqua; */
 }
 
@@ -112,59 +135,76 @@ table {
     margin-top: 0rem;
     padding-top: 0rem;
     text-align: center;
-    letter-spacing: 20px;
-    /* color: red; */
+    letter-spacing: 22px;
+    color: var(--darkgray);
     font-size: 1rem;
 }
 
 .logo {
-    /* width: 520px; */
+    width: 155px;
     display: flex;
     /* height: 75px; */
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    transition: 1000ms;
     /* background-color: lightcoral; */
 }
 
-.logoImage {
-    color: gray;
+.logo:hover {
+   transform:rotate(3deg)
 }
 
 .logoText {
-    /* background-color: bisque; */
-    /* height: 40px; */
-    /* width: 490px; */
+    background-color: bisque;
+    height: 40px;
+    width: 490px;
     color: var(--gray);
 }
 
 .logoKorean {
-    font-family: 'Noto Sans KR', sans-serif;
-    letter-spacing: 20px;
-    font-size: 55px;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Hahmlet', serif;
+    letter-spacing: 5px;
+    font-size: 2rem;
     /* line-height: 1; */
-    margin: 4px 0 0 20px;
+    margin: 0px 0 0 20px;
     color: var(--darkgray);
-    line-height: 1.6;
+    /* line-height: 1; */
+    /* background-color: lightgray; */
+    color: black;
     /* margin: 20px; */
 }
 
+.menuButtonPlane {
+    margin: 1.5rem 3rem 0;
+    cursor: pointer;
+    transition: 800ms;
+}
 
-/*********************      Travel Main Page      *********************/
+.menuButtonPlane:hover {
+    transform: rotate(14deg)
+}
+
+
+/*********************      Travel Page      *********************/
 
 .travelContainer {
-    color: var(--darkgray);
+    /* background-color: lightcoral; */
+    /* color: var(--darkgray); */
     font-size: 30px;
+    margin-top: 0rem;
 }
 
 .travelMenu {
     /* border-top: 1px solid rgba(155, 155, 155, 0.168); */
     /* border-bottom: 1px solid rgba(155, 155, 155, 0.168); */
-    padding: 3px;
+    padding: 23px;
     display: flex;
     text-align: center;
     justify-content: center;
     color: var(--darkgray);
+    /* background-color: lightgray; */
 }
 
 .countryLink {
@@ -176,10 +216,11 @@ table {
 .country {
     font-size: 1.5rem;
     letter-spacing: 15px;
-    padding: 8px 10px 5px 25px;
+    padding: 5px 25px 2px 40px;
     border-radius: 35px;
-    /* border-bottom: 2px solid gray; */
-    transition: box-shadow 300ms;
+    transition: 500ms;
+    color: white;
+    /* box-shadow:  rgb(255, 156, 85) 0px 0px 0px 0px */
     /* text-decoration: underline; */
     /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
     /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
@@ -192,18 +233,18 @@ table {
 .country:hover {
     font-size: 1.5rem;
     letter-spacing: 15px;
-    padding: 8px 10px 5px 25px;
-    border-radius: 35px;
-    box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 11px, rgb(255, 85, 85) 0px 0px 0px 13px;
-    font-weight: 600;
-    color: rgb(0, 6, 164);
+    padding: 5px 25px 2px 40px;
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 11px, rgb(255, 85, 85) 0px 0px 0px 13px; */
+    transform: rotate(-1deg);
 }
 
 .travelMain {
     /* background-color: lightseagreen; */
 }
 
-
+.mainContainer {
+    /* background-color: lightgreen; */
+}
 
 /* .catalogueMain {
     padding: 10px;
@@ -256,8 +297,10 @@ table {
 .continentCategory h2{
     color: var(--darkgray);
     margin: 20px auto;
-    max-width: 650px;
-    letter-spacing: 3px;
+    /* max-width: 650px; */
+    letter-spacing: 20px;
+    margin-left: 20rem;
+    font-weight: 600;
     /* text-decoration:underline; */
 }
 
@@ -266,55 +309,60 @@ table {
     /* background-color: lightgreen; */
     height: 100%;
     min-width: 250px;
-    max-width: 644px;
+    max-width: 1250px;
     margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    /* padding: 20px; */
     color: var(--darkgray);
+}
+
+.countryCardLink {
+    width: 850px;
+    max-width: 650px;
 }
 
 .countryCard {
-    /* background-color: rgb(243, 243, 243); */
-    height: 250px;
-    width: 250px;
+    padding: 1rem;
+    background-color: rgb(243, 243, 243);
+    /* height: 250px; */
+    width: 850px;
+    max-width: 850px;
     /* border: 1px solid rgba(0, 0, 0, 0.081); */
-    margin: 25px;
     color: var(--darkgray);
     /* padding: 15px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 5px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    /* position: relative; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5rem auto;
+    transition: 500ms;
+    border-radius: 3px;
+    /* background-color: white; */
 }
 
 .countryCard:hover {
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;    border-radius: 5px;
 }
 
 .countryImage {
-    width: 100%;
-    height: 100px;
+    /* width: 100%;
+    height: 100px; */
     /* border: 1px solid rgba(0, 0, 0, 0.081); */
     border-radius: 5px 5px 0 0;
 }
 
 .countryTitle {
     padding: 5px 10px;
-    color: var(--darkgray);
+    /* color: var(--darkgray); */
     height: 20px;
-    font-size: 20px;
-
-    letter-spacing: 1px;
-    font-size: 24px;
+    font-size: 1.7rem;
+    color: black;
+    letter-spacing: 2px;
     line-height: 1.0;
     margin: 18px;
     padding: 0px;
-    font-weight: 100;
+    font-weight: 600;
 }
-
 
 .countryDate {
     padding: 5px;
@@ -339,7 +387,6 @@ table {
 }
 
 .countrySubtitle {
-
     color: var(--darkgray);
     line-height: 1.2;
 
@@ -349,6 +396,7 @@ table {
     margin: 2px 5px 12px 5px;
     font-weight: 100;
     color: rgb(52, 52, 52);
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /*********************      detail page    *********************/
@@ -356,9 +404,9 @@ table {
 .continentContainer {
     /* background-color: lightblue; */
     min-width: 250px;
-    max-width: 750px;
+    /* max-width: 750px; */
     margin: 0 auto;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .continentMain {
@@ -368,4 +416,27 @@ table {
 .detailTitle h1 {
     color: var(--darkgray);
     padding: 15px;
+}
+
+/*********************      footer    *********************/
+
+.footer {
+    background-color: rgb(0, 38, 0);
+    /* min-height: 10rem; */
+    padding: 3rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+}
+
+.footer p {
+    letter-spacing: 5px;
+    font-family: 'Hahmlet', serif;
+    margin: 0 auto;
+    /* background-color: lightcoral; */
+    text-align: center;
+}
+
+#blur:hover{
+	filter: blur(1.1px);
 }

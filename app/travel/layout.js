@@ -8,12 +8,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <>
+    <div className='mainContainer'>
         <Nav />
-        {children}
-        <footer>
-          copyright
+          {children}
+        <footer className="footer">
+          <div>
+            <p>Copyright. 뭐여행 {new Date().getFullYear()}</p>
+          </div>
         </footer>
-    </>
+    </div>
   )
 }
