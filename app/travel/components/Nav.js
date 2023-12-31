@@ -15,8 +15,8 @@ export default function Nav() {
             priority
             alt="main menu icon"
             src="/icon.png"
-            width="45"
-            height="45"
+            width="47"
+            height="50"
           />
         </div>
       </div>

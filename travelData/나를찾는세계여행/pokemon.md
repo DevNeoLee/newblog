@@ -11,9 +11,6 @@ I recently gave it a go myself, making a small RPG combat game called "Wolfhunte
 
 I spent two weekends on the project, which—despite my prior experience in games development—still managed to surprise me with some interesting challenges.
 
-[Source (GitHib)](https://github.com/pixegami/wolfhunter) | [Play the Game! (Web, Mobile)](https://pixegami.github.io/wolfhunter/)
-
-![images/wolfhunter_title](/images/wolfhunter_title.png)
 
 ## Concept
 
@@ -21,19 +18,13 @@ Wolfhunter is an 8-bit RPG where you play as a hunter facing off against a werew
 
 You have magic spells and single-use items at your disposal, but the wolf is very powerful. The only way to kill it is to weaken it with your attacks, then finish it off with a silver-knife (which you only have one shot at).
 
-It is made with [PICO-8](https://www.lexaloffle.com/pico-8.php), and can be played directly in your browser [here](https://pixegami.github.io/wolfhunter/).
-
-> The motif and design of the game was based on the word "Moonshot", which was the theme of [GitHub's GameOff 2020 game jam](https://github.blog/2020-11-01-github-game-off-2020-theme-announcement/).
-
 ## Gameplay
 
-![images/wolfhunter_gameplay](/images/wolfhunter_gameplay.gif)
 
 I set out to make a game loop that felt similar to the combat in [Pokemon Red/Blue](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue), which was the most popular title on the [original Nintendo Gameboy](https://en.wikipedia.org/wiki/Game_Boy).
 
 The characters stand opposite each other, and take turns to fight. There's a bunch of other mechanics too, like strengths/weaknesses, status effects, and switching characters. Here's a scene from it:
 
-![images/pokemon_red_fight_scene](/images/pokemon_fight_scene.png)
 
 For Wolfhunter, I copied the scene layout, the turn based fighting, and the status effects. I didn't have a chance to implement other aspects of Pokemon — so instead I doubled down on the mechanics I did implement.
 
@@ -98,8 +89,6 @@ I define an "event" as **something atomic that happens in the game**. It usually
 This is pretty much the back-bone of a turn-based system. Everything in the game—from the menu selection, to mana consumption, to damage/block resolution—can be modelled with events.
 
 And in this game, events are always sequential and happening in order. But new events can be added in the middle of the sequence—for example if an attack is blocked, we need a "block" event to resolve.
-
-![images/linked_list](/images/linked_list.jpg)
 
 This is pretty much a [linked list](https://en.wikipedia.org/wiki/Linked_list), and that's how I implemented it. The events are the nodes. Additionally, when each event resolves, it can modify the nodes directly ahead of it, or at the tail of the list.
 
@@ -294,4 +283,3 @@ With a bit of work, I think it'd be possible to implement a more Pokemon-like RP
 
 At some point though, dealing with over 1,000 lines of code in a single `lua` run-time becomes unwieldy. So whilst something like [Unity](https://unity.com/) is better suited for serious projects, PICO-8 is still a great way to learn and prototype ideas.
 
-> Wolfhunter's [source code](https://github.com/pixegami/wolfhunter) is public, and you can play the game directly in the browser (both web and mobile) [here](https://pixegami.github.io/wolfhunter/).
