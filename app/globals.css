@@ -198,7 +198,7 @@ table {
 .travelMenu {
     /* border-top: 1px solid rgba(155, 155, 155, 0.168); */
     /* border-bottom: 1px solid rgba(155, 155, 155, 0.168); */
-    padding: 23px;
+    /* padding: 23px; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -446,19 +446,21 @@ table {
 }
 
 @media (max-width: 900px) {
-    
+    * {
+        /* background-color: lightgreen; */
+    }
     .countryCard {
         width: 97%;
         margin: 5rem 2rem 5rem 1rem;
     }
 
-    .travelMenu {
-        padding: 0px;
+    /* .travelMenu {
+        padding: 20px 0 0 0;
     }
     
     .countryLink {
-        margin: 0;
-    }
+        margin: 20px 0 0 0;
+    } */
     
     .country {
         font-size: 1.5rem;
@@ -479,6 +481,24 @@ table {
     .country:hover {
     /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 11px, rgb(255, 85, 85) 0px 0px 0px 13px; */
     transform: rotate(0deg);
+    font-size: 1.5rem;
+    /* letter-spacing: 3px;
+    padding: 5px 25px 2px 40px; */
+    border-radius: 0;
+    }
+
+    .countryLink {
+        margin: 1rem 0;
+    }
+    
+    .country {
+        letter-spacing: 3px;
+        padding: 0rem 2rem;
+    }
+
+    .country:hover {
+        letter-spacing: 3px;
+        padding: 0rem 2rem;
     }
 
     #blur:hover{
@@ -490,7 +510,7 @@ table {
     }
 
     h2 {
-        margin: 0 0.4rem;
+        margin: 0.5rem 0rem;
     }
 
     h3 {
@@ -517,12 +537,22 @@ table {
     }
     
     .countryLink {
-        margin: 0;
+        margin: 1rem;
     }
     
     .country {
-        font-size: 1.5rem;
-        letter-spacing: 15px;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        padding: 5px 25px 2px 40px;
+        padding: 0 0.5rem;
+        border-radius: 35px;
+        transition: 500ms;
+        color: white;
+    }
+
+    .country:hover {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
         padding: 5px 25px 2px 40px;
         padding: 0 0.5rem;
         border-radius: 35px;
