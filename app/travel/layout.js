@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
           {children}
         <footer className="footer">
           <div style={{ display: "flex", justifyContent: "space-between"}}>
-            <p>Copyright. 뭐여행 {new Date().getFullYear()}</p><p>Photo by Mesut Kaya from <a href="https://unsplash.com/">Unsplash</a></p>
+            <p>Copyright. 뭐 여 행 {new Date().getFullYear()}</p><p>Photo by Mesut Kaya from <a href="https://unsplash.com/">Unsplash</a></p>
           </div>
         </footer>
     </div>
