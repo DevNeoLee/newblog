@@ -174,6 +174,7 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: rotate(42deg);
 }
 
 .logo:hover {
@@ -181,7 +182,7 @@ table {
 }
 
 .logo:hover > .logoCompass {
-    transform: rotate(385deg);
+    transform: rotate(491deg);
     transition: 700ms;
 }
 
@@ -472,8 +473,14 @@ table {
     text-align: center;
 }
 
+#blur {
+	filter: blur(0px);
+    transition: 2000ms;
+}
+
 #blur:hover{
 	filter: blur(1.1px);
+    transition: 700ms;
 }
 
 @media (max-width: 900px) {
