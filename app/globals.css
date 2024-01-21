@@ -58,6 +58,17 @@ h4 {
     color: var(--gray);
 }
 
+
+h6 {
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 2.0;
+    margin: 4px 0 0 0px;
+    font-weight: 100;
+    color: red;
+    font-family: 'Noto Serif KR', serif;
+}
+
 p {
     letter-spacing: 2px;
     font-size: 1.2rem;
@@ -72,6 +83,13 @@ p {
 
 a {
     text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 2.0;
+    margin: 4px 0 0 0px;
+    font-weight: 100;
+    color: blue;
+    font-family: 'Noto Serif KR', serif;
 }
 
 ul {
@@ -140,7 +158,7 @@ table {
 }
 
 .logo {
-    width: 155px;
+    width: 255px;
     display: flex;
     /* height: 75px; */
     justify-content: center;
@@ -150,8 +168,21 @@ table {
     /* background-color: lightcoral; */
 }
 
+.logoCompass {
+    transition: 700ms;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo:hover {
    transform:rotate(3deg)
+}
+
+.logo:hover > .logoCompass {
+    transform: rotate(385deg);
+    transition: 700ms;
 }
 
 .logoText {

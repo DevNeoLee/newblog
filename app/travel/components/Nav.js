@@ -6,8 +6,17 @@ export default function Nav() {
     <div className="nav">
       <div className="navCenter">
         <Link href="/travel">
-          <div className="logo" id="blur">
-            <h1 className="logoKorean" >뭐여행</h1>
+          <div className="logo" >
+            <div className="logoCompass" >
+              <Image 
+                priority
+                alt="main menu icon"
+                src="/compass.png"
+                width="30"
+                height="34"
+              />
+            </div>
+            <h1 className="logoKorean" id="blur" >뭐여행</h1>
           </div>
         </Link>
         <div className="menuButtonPlane">
