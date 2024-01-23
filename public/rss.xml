@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[생활의 지혜, 현명한 블로그 매거진은 여행, 수필, 경험담, 썰, 주식, 투자  | RSS Feed Title]]></title>
+        <description><![CDATA[생활의 지혜, 현명한 블로그 매거진은 여행, 수필, 경험담, 썰, 주식, 투자 | RSS FEED Description!]]></description>
+        <link>http://localhost:3000</link>
+        <image>
+            <url>http://localhost:3000/icon.png</url>
+            <title>생활의 지혜, 현명한 블로그 매거진은 여행, 수필, 경험담, 썰, 주식, 투자  | RSS Feed Title</title>
+            <link>http://localhost:3000</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 23 Jan 2024 03:24:47 GMT</lastBuildDate>
+        <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 23 Jan 2024 03:24:47 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024]]></copyright>
+    </channel>
+</rss>

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const Sitemap = require('sitemap.js');
+const Sitemap = require('sitemap');
 
 const generateSitemap = () => {
   const articles = fs.readdirSync('./travelData').map(foldername => 

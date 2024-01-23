@@ -11,7 +11,6 @@ export const getMetadata = (path) => {
   const markdownPosts = files.filter(file => file.endsWith('.md'))
 
   const posts = markdownPosts.map(fileName => {
-    console.log('fileName: ', fileName)
     const fileContents = fs.readFileSync(`travelData/${path}/${fileName}`, 'utf8');
     const matterResult = matter(fileContents);
     return {
