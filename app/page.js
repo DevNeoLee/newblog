@@ -30,7 +30,7 @@ const generateRSSFeed = async () => {
       posts.push(listObject)
   })
   // console.log("posts: ", posts)
-  // await generateRssFeed(posts)
+  await generateRssFeed(posts)
 }
 
 

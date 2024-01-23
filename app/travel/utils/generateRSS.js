@@ -20,17 +20,20 @@ export default async function generateRssFeed(allPosts) {
   const feed = new RSS(feedOptions);
 
   // Add each individual post to the feed.
-//   allPosts.map(catalogue => {
-//     console.log('catalogue: ', catalogue)
-//     catalogue.posts.forEach(post => {
-//         feed.item({
-//         title: post.title,
-//         description: post.excerpt,
-//         url: `${site_url}/travel/${catalogue.name}/${post.slug}`,
-//         date: post.date,
-//         });
-//     });
+  allPosts.map(catalogue => {
+    console.log('catalogue: ', catalogue)
+    catalogue.posts.forEach(post => {
+        console.log('post: ', post)
+        feed.item({
+        title: post.title,
+        description: post.excerpt,
+        url: `${site_url}/travel/${catalogue.name}/${post.content}`,
+        date: post.date,
+        });
+    });
 
   // Write the RSS feed to a file as XML.
-//   fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }));
+  fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }));
+})
+
 }
