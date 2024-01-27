@@ -24,11 +24,10 @@ export default function Travel() {
         <Image 
           priority
           alt="travel main image"
-          src="/background-temp.jpg"
-          layout="fill"
-          objectFit="cover"
+          src="/background_image.jpeg"
+          fill={true}
           quality={100}
-          style={{ marginTop: "4rem", zIndex: "-1",   position: "absolute",}}
+          style={{ objectFit: "cover", zIndex: "-1", width: "100%", position: "absolute"}}
         />
         <div className="continentMain">
           {metadata.map((post, id) => (

@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Jan 2024 04:50:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jan 2024 06:20:03 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 23 Jan 2024 04:50:58 GMT</pubDate>
+        <pubDate>Sat, 27 Jan 2024 06:20:03 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <item>
             <title><![CDATA[No title]]></title>
@@ -3218,6 +3218,13 @@ My top three takeaways are:
 - You&apos;ll probably rebuild the project at least once or twice, so design things to be flexible.
 - Having integration tests really paid off.
 </guid>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>http://localhost:3000/travel/나를찾는세계여행/
+**성공 일까요?**</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/나를찾는세계여행/
+**성공 일까요?**</guid>
         </item>
         <item>
             <title><![CDATA[No title]]></title>
