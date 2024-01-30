@@ -1,7 +1,7 @@
 import fs from "fs";
 import RSS from "rss";
 
-export default async function generateRssFeed(allPosts) {
+export default async function generateRss(allPosts) {
   const site_url =
     process.env.NODE_ENV === "production"
       ? "https://newblog-beta.vercel.app/"

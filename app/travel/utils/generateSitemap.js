@@ -1,23 +1,19 @@
-const fs = require('fs');
-const Sitemap = require('sitemap');
+import { createSitemap } from 'sitemap';
 
-const generateSitemap = () => {
-  const articles = fs.readdirSync('./travelData').map(foldername => 
-    foldername.map(filename => ({
-    url: `/travel/${foldername}/${filename.replace('.md', '')}`,  // Adjust the path as needed
-    changefreq: 'daily',  // Modify as per your content update frequency
-    priority: 0.7,        // Adjust priority based on importance
-  })));
+export default async function makeSitemap(allPosts) {
+  const site_url =
+    process.env.NODE_ENV === "production"
+      ? "https://newblog-beta.vercel.app/"
+      : "http://localhost:3000";
 
-  const sitemap = Sitemap.createSitemap({
-    hostname: 'https://newblog-beta.vercel.app/',
-    urls: [
-      { url: '/', changefreq: 'daily', priority: 1.0 },
-      ...articles,
-    ],
-  });
+  const mapOptions = {
+    hostname: site_url,
+    cacheTime: 600000,
+    urls: allPosts
+  };
 
-  fs.writeFileSync('public/sitemap.xml', sitemap.toString());
-};
+  const sitemap = await createSitemap(mapOptions).toString();
 
-module.exports = generateSitemap;
+  return {'Content-Type': 'application/xml', sitemap}
+
+}
