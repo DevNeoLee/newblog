@@ -40,3 +40,9 @@ color: "lightgreen"
 <h2 style="text-align: justify;" data-ke-size="size26"><b>사우스비치</b></h2>
 <p style="text-align: justify;" data-ke-size="size16">플로리다주의 마이애미에 위치한 사우스비치는 아름다운 해변과 활기찬 나이트라이프로 유명합니다. 햇볕에 즐기는 해변에서 수영하거나 서핑을 즐기며, 사우스비치 아트 디스트릭트와 콜린스 애비뉴를 돌아다니며 여유로운 시간을 보낼 수 있습니다.</p>
 <br/>
+
+ <video width="320" height="240" controls>
+    <source src="/videosample.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
