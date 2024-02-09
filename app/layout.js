@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" />
 
         <meta content='width=device-width, initial-scale=1'></meta>
-        <link rel="icon" href="/icon.png"></link>
+        <link rel="icon" href="/icon1.png"></link>
       </head>
       <body>
         {children}
