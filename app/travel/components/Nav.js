@@ -23,7 +23,7 @@ export default function Nav() {
           <Image 
             priority
             alt="main menu icon"
-            src="/icon.png"
+            src="/icon1.png"
             width="47"
             height="50"
           />

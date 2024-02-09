@@ -200,9 +200,8 @@ table {
 }
 
 .logoKorean {
-    /* font-family: 'Noto Sans KR', sans-serif; */
-    font-family: 'Hahmlet', serif;
-    letter-spacing: 5px;
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 16px;
     font-size: 2rem;
     /* line-height: 1; */
     margin: 0px 0 0 20px;
@@ -472,8 +471,8 @@ table {
 }
 
 .footer p {
-    letter-spacing: 5px;
-    font-family: 'Hahmlet', serif;
+    letter-spacing: 7px;
+    font-family: 'Nanum Myeongjo', serif;
     margin: 0 auto;
     /* background-color: lightcoral; */
     text-align: center;
