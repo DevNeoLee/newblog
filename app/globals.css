@@ -239,7 +239,6 @@ table {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    color: var(--darkgray);
     /* background-color: lightgray; */
 }
 
@@ -247,15 +246,18 @@ table {
     margin: 5px 30px;
     color: var(--darkgray);
     transition: 300ms;
+    /* background-color: red; */
 }
 
 .country {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     letter-spacing: 15px;
     padding: 5px 25px 2px 40px;
+    font-weight: 500;
     border-radius: 35px;
     transition: 500ms;
     color: white;
+    color: rgb(62, 62, 62);
     /* box-shadow:  rgb(255, 156, 85) 0px 0px 0px 0px */
     /* text-decoration: underline; */
     /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */

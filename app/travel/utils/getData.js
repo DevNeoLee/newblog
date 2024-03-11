@@ -3,7 +3,8 @@ import fs from 'fs'
 
 export const getCatalogue = () => {
   const files = fs.readdirSync(`app/travel/(pages)`)
-  return files
+  const filesFiltered = files.filter(ele => ele != "sitemap")
+  return filesFiltered
 }
 
 export const getMetadata = (path) => {

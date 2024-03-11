@@ -10,7 +10,7 @@ export default function Travel() {
   const metadata = getMetadata("나를찾는세계여행");
   
   return (
-    <div className="travelContainer">
+    <>
       <div className="travelMenu">
         {catalogues.map((ele, eleIdx)=> (
           <Link href={`travel/${ele}`} key={`travel/${eleIdx}`} className="countryLink" > 
@@ -21,14 +21,14 @@ export default function Travel() {
     
   
       <div className="travelMain">
-        <Image 
+        {/* <Image 
           priority
           alt="travel main image"
           src="/background_image.jpeg"
           fill={true}
           quality={100}
           style={{ objectFit: "cover", zIndex: "-1", width: "100%", position: "absolute"}}
-        />
+        /> */}
         <div className="continentMain">
           {metadata.map((post, id) => (
             <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
@@ -44,6 +44,6 @@ export default function Travel() {
           ))}
         </div>
       </div>
-    </div>
+    </>
   )
 }
