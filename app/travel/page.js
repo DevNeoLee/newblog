@@ -11,6 +11,7 @@ export default function Travel() {
   
   return (
     <>
+  
       <div className="travelMenu">
         {catalogues.map((ele, eleIdx)=> (
           <Link href={`travel/${ele}`} key={`travel/${eleIdx}`} className="countryLink" > 
@@ -18,8 +19,9 @@ export default function Travel() {
           </Link>
         ))}
       </div>
-    
-  
+      <div className="homepageTitle">
+        <h1>나를 만날 세계 여행, 언제 어디서 어떻게 시작 할까 ?</h1>
+      </div>
       <div className="travelMain">
         {/* <Image 
           priority

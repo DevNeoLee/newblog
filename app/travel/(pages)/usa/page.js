@@ -12,7 +12,7 @@ export default function USAHome(props) {
   return (
     <div className="continentContainer">
       <div className="continentCategory">
-        <h2>미국 </h2>
+        <h1>미국 </h1>
       </div>
       <div className="continentMain">
           {metadata.map((post, id) => (

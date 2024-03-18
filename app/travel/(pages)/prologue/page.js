@@ -16,7 +16,7 @@ export default function PrologueHome(props) {
   return (
     <div className="continentContainer">
       <div className="continentCategory">
-        <h2>나를 찾는 세계여행 </h2>
+        <h1>나를 찾는 세계여행 </h1>
       </div>
       <div className="continentMain">
           {metadata.map((post, id) => (

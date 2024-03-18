@@ -12,7 +12,7 @@ export default function EuropeHome(props) {
   return (
     <div className="continentContainer">
       <div className="continentCategory">
-        <h2>유럽 </h2>
+        <h1>유럽 </h1>
       </div>
       <div className="continentMain">
           {metadata.map((post, id) => (

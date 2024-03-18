@@ -12,7 +12,7 @@ export default function 아프리카(props) {
   return (
     <div className="continentContainer">
       <div className="continentCategory">
-        <h2>아프리카 </h2>
+        <h1>아프리카 </h1>
       </div>
       <div className="continentMain">
           {metadata.map((post, id) => (
