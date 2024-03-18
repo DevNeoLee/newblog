@@ -11,7 +11,6 @@ export default function Travel() {
   
   return (
     <>
-  
       <div className="travelMenu">
         {catalogues.map((ele, eleIdx)=> (
           <Link href={`travel/${ele}`} key={`travel/${eleIdx}`} className="countryLink" > 
@@ -20,7 +19,7 @@ export default function Travel() {
         ))}
       </div>
       <div className="homepageTitle">
-        <h1>나를 만날 세계 여행, 언제 어디서 어떻게 시작 할까 ?</h1>
+        <h1>나를 만날 세계 여행 언제 어디서 어떻게 시작 할까 </h1>
       </div>
       <div className="travelMain">
         {/* <Image 
@@ -36,7 +35,7 @@ export default function Travel() {
             <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
               <div className="countryCard" key={id}>
                 {/* <div className="countryImage" style={{ backgroundColor: post.color}}></div> */}
-                <h2 className="countryTitle" >{ post.title.length > 24 ? post.title.slice(0, 24) + "..." : post.title} </h2>
+                <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>
                 <p className="countryDate" >{post.date}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>
