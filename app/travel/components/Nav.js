@@ -16,7 +16,7 @@ export default function Nav() {
                 height="34"
               />
             </div>
-            <h1 className="logoKorean" id="blur" >뭐여행</h1>
+            <div className="logoKorean" id="blur" >뭐여행</div>
           </div>
         </Link>
         <div className="menuButtonPlane">
