@@ -387,7 +387,7 @@ table {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 5rem auto;
     transition: 500ms;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: white;
     min-height: 17rem;
 }
