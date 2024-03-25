@@ -19,7 +19,7 @@ export default function Travel() {
         ))}
       </div>
       <div className="homepageTitle">
-        <h1>나를 만날 세계 여행 언제 어디서 어떻게 시작 할까 </h1>
+        <h1> 언제 어디로.. </h1>
       </div>
       <div className="travelMain">
         {/* <Image 

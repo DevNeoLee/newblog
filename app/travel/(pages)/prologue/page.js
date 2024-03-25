@@ -28,7 +28,6 @@ export default function PrologueHome(props) {
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>
                 </div>
-                <div>{post.link}</div>
               </div>
             </Link>
           ))}
