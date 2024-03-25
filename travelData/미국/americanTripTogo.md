@@ -1,0 +1,55 @@
+---
+title: "[FINAL] 미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳"
+subtitle: "시애틀 관광지 5곳"
+date: "2023-03-24"
+color: "lightgreen"
+---
+
+
+
+<p style="text-align: justify;" data-ke-size="size16">이번글에서는 미국 서북부 최대의 도시인 시애틀로의 여행을 계획하는 분들을 위해 한번쯤은 가볼 만한 시애틀 관광지 5곳에 대해서 소개해 보겠습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(1) 스페이스 니들 (Space Needle)</h2>
+<p style="text-align: justify;" data-ke-size="size16">스페이스 니들은 시애틀을 상징하는 랜드마크로, 1962년 월드페어 때 건설되어 미래적인 디자인으로 여전히 많은 사람들이 방문하는 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">184미터 높이의 타워는 시애틀의 아름다운 도시 경관을 조망할 수 있는 최고의 장소 중 하나입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">특히 일몰 시간대에 방문하여 황금빛으로 물든 시애틀을 감상하는 것은 좋은 선택이 될 것입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">스페이스 니들은 시애틀 중심가에 위치하고 있기 때문에 다운타운 관광을 할 때 함께 방문하면 보다 효율적인 여행이 될 수 있을 것입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(2) 파이크 플레이스 시장 (Pike Place Market)</h2>
+<p style="text-align: justify;" data-ke-size="size16">파이크 플레이스 시장은 시애틀에서 역사적 의미가 크고 가장 유명한 시장으로, 신선한 해산물, 과일, 야채, 공예품, 고급 식재료, 예술 작품 등을 판매하는 다양한 상점과 가게가 모여 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이곳은 어떻게 보면 시애틀 시내에 있는 재래시장 정도의 느낌이지만 스타벅스 1호점과 다양한 맛집들이 많아서 서울의 광장시장 같은 느낌이 많이 드는 곳입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">특히 스타벅스 1호점을 방문했다면 머그컵을 1개 정도는 구매하는 것을 추천합니다. 스타벅스 머그컵은 도시별, 연도별로 다른 디자인으로 판매가 되기 때문에 시애틀 머그컵은 시간이 지나면 의미 있는 소장품이 될 수도 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(3) 퓨제트 사운드 (Puget Sound)</h2>
+<p style="text-align: justify;" data-ke-size="size16">퓨제트사운드는 시애틀 주변에 위치한 큰 해안 지역으로, 아름다운 해변과 섬들로 가득한 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이곳에서는 해양 생태계를 탐험하거나 조류 관찰, 해안가 하이킹 등 다양한 야외 활동을 즐길 수 있습니다. 쉽게 말하면 퓨제트 사운드는 시애틀 앞에 있는 바다 전체 지역이라고 생각하면 됩니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">퓨제트 사운드를 관광한다는 말은 조금 이상하지만 시애틀 다운타운에서 전망이 좋은 곳에서 바다를 바라보는 것만으로도 충분히 퓨제트 사운드 해협을 구경할 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">특히 시애틀은 언덕이 많은 도시이므로 바다가에서 조금만 내륙 쪽으로 이동을 해도 정말로 멋진 석양을 구경할 수 있는 도시입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(4) 차이나타운 (Chinatown)</h2>
+<p style="text-align: justify;" data-ke-size="size16">시애틀의 차이나타운은 아시아 문화와 요리를 경험하기에 좋은 장소입니다. 다양한 중국, 일본, 베트남 음식점과 상점들이 있으며, 중국 문화와 역사에 대한 흥미로운 투어도 가능합니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">미국의 대도시를 방문하면 대부분 차이나타운이 있는데 시애틀도 다운타운 주변에 차이나타운이 있습니다. 차이나타운을 방문하는 이유는 여러 가지가 있지만 여러 사람이 함께 나누어 먹을 수 있는 풍성한 중국음식을 맛보기 위해서 일 것입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">요즘은 미국도 물가가 많이 올라서 중국음식이 싸다는 느낌을 받기는 어렵지만 그래도 중국음식은 아직도 적당한 가격에 배불리 먹을 수 있는 몇 안 되는 음식 중 하나입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(5) 시애틀 아쿠아리움 (Seattle Aquarium)</h2>
+<p style="text-align: justify;" data-ke-size="size16">시애틀 아쿠아리움은 해양 생태계와 동물을 탐험하기에 좋은 장소입니다. 해양 생물들을 관찰하고, 수중 터널을 통해 상상초월의 수준에서 해양 생태계를 경험할 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">우리나라의 코에스 아쿠아리움을 가본 사람이라면 크기에 조금 실망할 수도 있지만 시애틀 아쿠아리움은 바닷가 옆에 위치하고 있어 그 느낌이 조금은 다른 곳입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">아쿠아리움은 관람은 실내와 실외에서 모두 가능한데 날이 좋은 날에서는 아쿠아리움의 구경뿐만 아니라 멋진 시애틀 앞바다도 함께 구경할 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
