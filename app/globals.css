@@ -263,6 +263,61 @@ table {
     right: 1.8rem;
     top: 5rem;
     z-index: -30;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.homepageTitle h4{
+    margin-left: 3rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+    letter-spacing: 1.3rem;
+    /* justify-content: space-between; */
+    color: rgba(27, 27, 27, 0.202);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    right: 2.7rem;
+    top: 10rem;
+    z-index: -30;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.homepageTitle h2{
+    margin-left: 3rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 2.1rem;
+    letter-spacing: 1.3rem;
+    /* justify-content: space-between; */
+    color: rgba(93, 93, 93, 0.202);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    right: 2.3rem;
+    top: 16rem;
+    z-index: -30;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.homepageTitle h3{
+    margin-left: 3rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 3.1rem;
+    letter-spacing: 1.3rem;
+    /* justify-content: space-between; */
+    color: rgba(59, 59, 59, 0.202);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    right: 1.1rem;
+    top: 28rem;
+    z-index: -30;
+    font-family: 'Noto Serif KR', serif;
 }
 
 .countryLink {
@@ -557,7 +612,10 @@ table {
 
 
 @media (max-width: 950px) { 
-    .homepageTitle h1{
+    .homepageTitle h1,
+    .homepageTitle h2,
+    .homepageTitle h3,
+    .homepageTitle h4 {
         visibility: hidden;
     }
 
