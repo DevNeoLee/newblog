@@ -28,7 +28,7 @@ export default function Travel() {
           src="/background_image.jpeg"
           fill
           quality={60}
-          style={{ objectFit: "cover", zIndex: "-1", position: "absolute"}}
+          style={{ objectFit: "cover", zIndex: "-12", position: "absolute"}}
         />
         <div className="continentMain">
           {metaInfo.map((post, id) => (

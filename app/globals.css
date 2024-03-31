@@ -263,7 +263,7 @@ table {
     position: absolute;
     right: 1.8rem;
     top: 6rem;
-    z-index: 30;
+   z-index: -10;
     font-family: 'Noto Serif KR', serif;
 }
 
@@ -282,7 +282,7 @@ table {
     position: absolute;
     right: 2.7rem;
     top: 12rem;
-    z-index: 30;
+   z-index: -10;
     font-family: 'Noto Serif KR', serif;
 }
 
@@ -301,7 +301,7 @@ table {
     position: absolute;
     right: 2.3rem;
     top: 18rem;
-    z-index: 30;
+   z-index: -10;
     font-family: 'Noto Serif KR', serif;
 }
 
@@ -320,7 +320,7 @@ table {
     position: absolute;
     right: 1.1rem;
     top: 30rem;
-    z-index: 30;
+   z-index: -10;
     font-family: 'Noto Serif KR', serif;
 }
 
@@ -437,6 +437,7 @@ table {
 .countryCardLink {
     width: 850px;
     max-width: 850px;
+    background-color: lightgreen;
 }
 
 .countryCard {
