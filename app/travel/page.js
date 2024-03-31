@@ -27,7 +27,7 @@ export default function Travel() {
           alt="travel main image"
           src="/background_image.jpeg"
           fill
-          quality={80}
+          quality={60}
           style={{ objectFit: "cover", zIndex: "-1", position: "absolute"}}
         />
         <div className="continentMain">
