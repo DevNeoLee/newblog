@@ -8,7 +8,7 @@ export const metadata = {
 }
 
 export default function CanadaHome() {
-  const metadata = getMetadata('캐나다');
+  const metaInfo = getMetadata('캐나다');
   console.log("metadata: ", metadata)
   return (
     <div className="continentContainer">
@@ -16,7 +16,7 @@ export default function CanadaHome() {
         <h1>캐나다 </h1>
       </div>
       <div className="continentMain">
-          {metadata.map((post, id) => (
+          {metaInfo.map((post, id) => (
             <Link href={`canada/${post.link}`} key={id}>
 
               <div className="countryCard" key={id}>

@@ -8,14 +8,14 @@ export const metadata = {
 }
 
 export default function EuropeHome(props) {
-  const metadata = getMetadata('유럽');
+  const metaInfo = getMetadata('유럽');
   return (
     <div className="continentContainer">
       <div className="continentCategory">
         <h1>유럽 </h1>
       </div>
       <div className="continentMain">
-          {metadata.map((post, id) => (
+          {metaInfo.map((post, id) => (
             <Link href={`europe/${post.link}`} key={id}>
 
               <div className="countryCard" key={id}>

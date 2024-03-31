@@ -8,14 +8,14 @@ export const metadata = {
 }
 
 export default function USAHome(props) {
-  const metadata = getMetadata('미국');
+  const metaInfo = getMetadata('미국');
   return (
     <div className="continentContainer">
       <div className="continentCategory">
         <h1>미국 </h1>
       </div>
       <div className="continentMain">
-          {metadata.map((post, id) => (
+          {metaInfo.map((post, id) => (
             <Link href={`usa/${post.link}`} key={id}>
 
               <div className="countryCard" key={id}>

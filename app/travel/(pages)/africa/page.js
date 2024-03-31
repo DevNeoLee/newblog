@@ -8,14 +8,14 @@ export const metadata = {
 }
 
 export default function 아프리카(props) {
-  const metadata = getMetadata('아프리카');
+  const metaInfo = getMetadata('아프리카');
   return (
     <div className="continentContainer">
       <div className="continentCategory">
         <h1>아프리카 </h1>
       </div>
       <div className="continentMain">
-          {metadata.map((post, id) => (
+          {metaInfo.map((post, id) => (
             <Link href={`africa/${post.link}`} key={id}>
               <div className="countryCard" key={id}>
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>

@@ -11,7 +11,7 @@ export default function PrologueHome(props) {
   const catalogues = getCatalogue();  
   console.log('catalogues: ', catalogues)
 
-  const metadata = getMetadata('나를찾는세계여행');
+  const metaInfo = getMetadata('나를찾는세계여행');
 
   return (
     <div className="continentContainer">
@@ -19,7 +19,7 @@ export default function PrologueHome(props) {
         <h1>나를 찾는 세계여행 </h1>
       </div>
       <div className="continentMain">
-          {metadata.map((post, id) => (
+          {metaInfo.map((post, id) => (
             <Link href={`prologue/${post.link}`} key={id}> 
               <div className="countryCard">
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>

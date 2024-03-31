@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Travel() {
   const catalogues = getCatalogue();
 
-  const metadata = getMetadata("나를찾는세계여행");
+  const metaInfo = getMetadata("나를찾는세계여행");
   
   return (
     <>
@@ -31,7 +31,7 @@ export default function Travel() {
           style={{ objectFit: "cover", zIndex: "-1", width: "100%", position: "absolute"}}
         /> */}
         <div className="continentMain">
-          {metadata.map((post, id) => (
+          {metaInfo.map((post, id) => (
             <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
               <div className="countryCard" key={id}>
                 {/* <div className="countryImage" style={{ backgroundColor: post.color}}></div> */}

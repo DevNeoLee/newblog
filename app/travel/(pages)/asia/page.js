@@ -8,14 +8,14 @@ export const metadata = {
 }
 
 export default function 아시아(props) {
-  const metadata = getMetadata('아시아');
+  const metaInfo = getMetadata('아시아');
   return (
     <div className="continentContainer">
       <div className="continentCategory">
         <h1>아시아 </h1>
       </div>
       <div className="continentMain">
-          {metadata.map((post, id) => (
+          {metaInfo.map((post, id) => (
             <Link href={`asia/${post.link}`} key={id}>
 
               <div className="countryCard" key={id}>
