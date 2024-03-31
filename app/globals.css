@@ -257,12 +257,13 @@ table {
     letter-spacing: 1.3rem;
     /* justify-content: space-between; */
     color: rgba(93, 93, 93, 0.202);
+    color: rgb(242, 242, 242);
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
     right: 1.8rem;
-    top: 5rem;
-    z-index: -30;
+    top: 6rem;
+    z-index: 30;
     font-family: 'Noto Serif KR', serif;
 }
 
@@ -275,12 +276,13 @@ table {
     letter-spacing: 1.3rem;
     /* justify-content: space-between; */
     color: rgba(27, 27, 27, 0.202);
+    color: rgb(234, 234, 234);
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
     right: 2.7rem;
-    top: 10rem;
-    z-index: -30;
+    top: 12rem;
+    z-index: 30;
     font-family: 'Noto Serif KR', serif;
 }
 
@@ -293,12 +295,13 @@ table {
     letter-spacing: 1.3rem;
     /* justify-content: space-between; */
     color: rgba(93, 93, 93, 0.202);
+    color: rgb(225, 225, 225);
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
     right: 2.3rem;
-    top: 16rem;
-    z-index: -30;
+    top: 18rem;
+    z-index: 30;
     font-family: 'Noto Serif KR', serif;
 }
 
@@ -311,18 +314,20 @@ table {
     letter-spacing: 1.7rem;
     /* justify-content: space-between; */
     color: rgba(59, 59, 59, 0.202);
+    color: rgb(255, 255, 255);
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
     right: 1.1rem;
-    top: 28rem;
-    z-index: -30;
+    top: 30rem;
+    z-index: 30;
     font-family: 'Noto Serif KR', serif;
 }
 
 .countryLink {
     margin: 5px 30px;
     color: var(--darkgray);
+    color: white;
     transition: 300ms;
     /* background-color: red; */
 }
@@ -335,7 +340,7 @@ table {
     border-radius: 35px;
     transition: 500ms;
     color: white;
-    color: rgb(62, 62, 62);
+    /* color: rgb(62, 62, 62); */
     /* box-shadow:  rgb(255, 156, 85) 0px 0px 0px 0px */
     /* text-decoration: underline; */
     /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
