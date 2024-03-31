@@ -257,7 +257,7 @@ table {
     letter-spacing: 1.3rem;
     /* justify-content: space-between; */
     color: rgba(93, 93, 93, 0.202);
-    color: rgb(242, 242, 242);
+    color: white;
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
@@ -314,7 +314,7 @@ table {
     letter-spacing: 1.7rem;
     /* justify-content: space-between; */
     color: rgba(59, 59, 59, 0.202);
-    color: rgb(255, 255, 255);
+    color: white;
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
