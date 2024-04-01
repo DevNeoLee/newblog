@@ -27,13 +27,27 @@ export default async function generateRss(allPosts) {
   allPosts.map(catalogue => {
     console.log('catalogue generate rss: ', catalogue)
     catalogue.posts.forEach(post => {
-        console.log('post: ', post)
+        console.log('post rss: ', post)
         feed.item({
         title: post.title,
         description: post.excerpt,
         url: `${site_url}/travel/${catalogue.name}/${post.content}`,
         date: post.date,
         });
+
+        // title: "My Website's RSS Feed",
+        // description: "Stay up to date with my latest content",
+        // id: "http://localhost:3000",
+        // link: "http://localhost:3000",
+        // language: "en",
+        // image: "http://localhost:3000/logo.png",
+        // favicon: "http://localhost:3000/favicon.png",
+        // author: {
+        //   name: "John Doe",
+        //   email: "john@example.com",
+        //   link: "http://localhost:3000/about",
+        // },
+
     });
 
   // Write the RSS feed to a file as XML.
