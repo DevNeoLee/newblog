@@ -4,7 +4,6 @@ import matter from 'gray-matter';
 
 import { getMetadata, getCatalogue, getKorean } from './travel/utils/getData';
 import generateRss from './travel/utils/generateRSS'
-import { makeSitemap } from './travel/utils/generateSitemap'
 
 const getPostContent = (catalogue, link) => {
   const folder= `travelData/${catalogue}`;
@@ -33,30 +32,11 @@ const generateRSSFeed = async () => {
   await generateRss(posts)
 }
 
-// const generateSitemap = async () => {
-//   const catalogues = getCatalogue();
-
-//   const posts = [];
-//   catalogues?.forEach(catalogue => {
-//       const catalogueEnglishName = getKorean(catalogue).replace(/ /g, '')
-//       const postList = getMetadata(catalogueEnglishName)
-//       console.log('data: ', postList);
-//       const listObject = {posts: [], name: catalogueEnglishName}
-//       postList.forEach(post => {
-//         const content = getPostContent(catalogueEnglishName, post.link)
-//         listObject.posts.push(content)
-//       })
-//       posts.push(listObject)
-//   })
-//   // console.log("posts: ", posts)
-//   await makeSitemap(posts)
-// }
-
 
 export default function page() {
 
   generateRSSFeed();
-  // generateSitemap();
+
   return (
     <div className="homeContainer">
       <h1>생활의 지혜, 현명한 블로그 웹진</h1>
