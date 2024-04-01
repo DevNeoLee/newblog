@@ -1,5 +1,6 @@
 // import './globals.css'
 import Nav from './components/Nav'
+import Footer from "./components/Footer"
 
 export const metadata = {
   title: '세계여행 고수들의 현지 노하우 팁 대방출~!',
@@ -13,11 +14,7 @@ export default function RootLayout({ children }) {
       <div className='mainContainer'>
           {children}
       </div>
-      <footer className="footer">
-        <div style={{ display: "flex", justifyContent: "space-between"}}>
-          <p>Copyright 뭐 여 행 {new Date().getFullYear()}</p>
-        </div>
-    </footer>
+      <Footer />
     </>
   )
 }

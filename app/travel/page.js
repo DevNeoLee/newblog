@@ -25,7 +25,7 @@ export default function Travel() {
         <Image 
           priority
           alt="travel main image"
-          src="/background_image.jpeg"
+          src="/background_image_mesut-kaya.jpg"
           fill
           quality={60}
           style={{ objectFit: "cover", zIndex: "-12", position: "absolute"}}
