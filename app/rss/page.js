@@ -1,9 +1,12 @@
-import fs from "fs";
+import fs from 'fs'
+import matter from 'gray-matter';
 import RSS from "rss";
+import { getMetadata, getCatalogue, getKorean } from '../travel/utils/getData';
+
 
 console.log('hello world from generateRss! ')
 
-export default async function generateRss(allPosts) {
+async function generateRss(allPosts) {
   const site_url =
     process.env.NODE_ENV === "production"
     ? 
@@ -41,3 +44,42 @@ export default async function generateRss(allPosts) {
 })
 
 }
+
+
+const getPostContent = (catalogue, link) => {
+  const folder= `travelData/${catalogue}`;
+  const file = `${folder}/${link}.md`;
+  const content = fs.readFileSync(file, 'utf8');
+  const matterResult = matter(content);
+  return matterResult;
+}
+
+console.log('hello world from genergenerateRSSFeedateRss! ')
+
+const generateRSSFeed = async () => {
+  const catalogues = getCatalogue();
+
+  console.log('rss catalogues rss: ', catalogues);
+
+  const posts = [];
+  catalogues?.forEach(catalogue => {
+    const catalogueEnglishName = getKorean(catalogue).replace(/ /g, '')
+    const postList = getMetadata(catalogueEnglishName)
+    console.log('rss postList rss: ', postList);
+
+    const listObject = {
+    posts: [], name: catalogueEnglishName
+    }
+      postList.forEach(post => {
+        const content = getPostContent(catalogueEnglishName, post.link)
+        listObject.posts.push(content)
+      })
+    posts.push(listObject)
+  })
+  // console.log("posts: ", posts)
+  await generateRss(posts)
+}
+
+generateRSSFeed();
+
+export default generateRSSFeed;

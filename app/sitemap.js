@@ -37,9 +37,9 @@ export default function getSitemap() {
   //add detail pages
   catalogue.forEach(continent => {
     const trimedKorean = getKorean(continent).split(" ").join("");
-    console.log('continent, trimedKorean: ',continent, trimedKorean)
+    // console.log('continent, trimedKorean: ',continent, trimedKorean)
     const posts = getMetadata(trimedKorean);
-    console.log('posts: ', posts)
+    // console.log('posts: ', posts)
     posts.forEach(post => {
       urlList.push({
         url: `${site_url}/travel/${continent}/${post.link}`,
