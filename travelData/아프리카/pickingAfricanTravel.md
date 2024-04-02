@@ -1,5 +1,5 @@
 ---
-title: "[FINAL] 아프리카 여행지 선택 및 준비할 것들"
+title: "아프리카 여행지 선택 및 준비할 것들"
 subtitle: "아프리카 여행 국가 선택 및 준비물"
 date: "2024년 3월 19일"
 color: "lightgreen"

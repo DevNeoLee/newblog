@@ -1,5 +1,5 @@
 ---
-title: "[FINAL] 뉴욕에서 LA까지 기차로 여행하기 - 암트랙"
+title: "뉴욕에서 LA까지 기차로 여행하기 - 암트랙"
 subtitle: "미국 횡단 기차 여행"
 date: "2024-02-18"
 color: "lightgreen"

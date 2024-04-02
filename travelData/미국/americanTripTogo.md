@@ -1,5 +1,5 @@
 ---
-title: "[FINAL] 미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳"
+title: "미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳"
 subtitle: "시애틀 관광지 5곳"
 date: "2023-03-24"
 color: "lightgreen"
