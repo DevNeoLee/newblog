@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moyahug.com/sitemap.xml
