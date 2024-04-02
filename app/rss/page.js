@@ -10,7 +10,7 @@ async function generateRss(allPosts) {
   const site_url =
     process.env.NODE_ENV === "production"
     ? 
-    "https://newblog-beta.vercel.app"
+    "https://moyahug.com"
     : 
     "http://localhost:3000";
 

@@ -1,7 +1,7 @@
 
 import { getCatalogue, getMetadata, getKorean } from './travel/utils/getData';
 
-const site_url = process.env.NODE_ENV === "production" ? "https://newblog-beta.vercel.app" : "http://localhost:3000";
+const site_url = process.env.NODE_ENV === "production" ? "https://moyahug.com" : "http://localhost:3000";
 
 const catalogue = getCatalogue();
 

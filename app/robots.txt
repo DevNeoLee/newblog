@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://newblog-beta.vercel.app/sitemap.xml
+Sitemap: https://moyahug.com/sitemap.xml
