@@ -1,0 +1,52 @@
+---
+title: "역사를 알고 가면 좋은 프랑스 관광지 3곳 - 베르사유 궁전, 아비뇽, 바스티유 감옥"
+subtitle: "역사를 알고 가면 좋은 프랑스 관광지"
+date: "2023-04-03"
+color: "lightblue"
+---
+
+
+<p style="text-align: justify;" data-ke-size="size16">프랑스로 여행 갈 때 추천할 만한 역사적인 여행지 3곳을 소개해 보도록 하겠습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">특히 역사에 관심이 있거나 아이들과 함께 여행을 한다면 의미가 더욱 큰 프랑스의 중요한 역사적 사건이 있었던 여행지 3곳을 정리해 보도록 하겠습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(1) 베르사유 궁전 (Chateau de Versailles)</h2>
+<p style="text-align: justify;" data-ke-size="size16">베르사유 궁전은 프랑스의 대표적인 궁전으로, 파리 남서쪽에 위치한 베르사유시에 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">베르사유 궁전은 파리 근교에서 있어서 파리를 방문하는 여행객들은 대부분 방문하는 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이 궁전은 프랑스 국왕 루이 14세에 의해 건설되었으며, 프랑스의 유럽 전역에서의 영토 확장과 왕권의 강화, 과시를 상징하기 위해 만들어졌습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">베르사유 궁전은 프랑스 궁전 중에서도 가장 유명한 것 중 하나이며, 호화로운 바로크 양식의 건물과 아름다운 정원으로 유명하며 지금도 많은 여행객들이 찾는 관광지 중 하나입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">거울의 방은 베르사유 궁전 중에서도 가장 유명한 공간 중 하나입니다. 이 방은 거울 벽으로 가득 차 있으며, 길이 73m로 매우 큰 공간입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이 방에서는 1919년 6월 28일에 제1차 세계대전을 종식시키는 베르사유 조약이 서명되어 프랑스 역사뿐만 아니라 세계 역사에서 중요한 사건이 일어난 장소가 바로 베르사유 궁전입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(2) 아비뇽(Avignon)</h2>
+<p style="text-align: justify;" data-ke-size="size16">아비뇽은 프랑스 남동부에 위치한 도시로 지중해와 가까운 곳으로 프랑스 남부를 여행하는 관광객에게 방문을 추천하는 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">아비뇽은 그로네 강의 왼쪽에 자리하고 있으며, 중세시대에는 로마 가톨릭 교회의 중심지로서 유명했습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이곳에서 일어난 가장 유명한 역사적인 사건인 아비뇽 유수는 1309년부터 1377년까지 이탈리아 로마로부터 교황청을 아비뇽으로 이전한 것을 지칭하는 용어입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이 기간 동안 서방 교회의 교황은 아비뇽에 머무르게 되었으며, 이 사건은 서방 교회 역사에서 중요한 사건 중 하나로 여겨집니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">아비뇽 유수는 정확한 이유에 대한 논란이 있지만, 주로 교황이 다양한 정치적 간섭과 영향을 피하고자 프랑스의 교황청으로 옮겨간 것으로 알려져 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(3) 바스티유(Bastille)</h2>
+<p style="text-align: justify;" data-ke-size="size16"><span style="color: #333333; text-align: justify;">바스티유</span>는 아마 역사시간에 바스티유 감옥이라는 곳으로 한 번쯤은 들어 보았을 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">바스티유 감옥은 프랑스 파리에 위치한 감옥으로, 프랑스혁명의 상징적인 장소로 파리를 여행하는 사람들이라면 어렵지 않게 방문할 수 있는 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">바스티유 감옥은 1370년부터 1383년에 건설되었으며, 동부 파리의 4구에 위치했습니다. 초기에는 간수소 및 왕의 무기고로 사용되었으며, 17세기에는 교도소로 변화되었습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">프랑스혁명 전에는 방치되었으나, 혁명이 발생하면서 다시 중요한 역할을 하게 되었습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">1789년 7월 14일, 프랑스혁명의 시작으로 인해 바스티유 감옥은 프랑스 혁명군에 의해 공격당하였습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이 날은 프랑스의 국경일로서, 프랑스혁명의 상징이 되었습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
