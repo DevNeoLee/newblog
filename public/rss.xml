@@ -9,73 +9,80 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 01 Apr 2024 14:37:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Apr 2024 11:43:17 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 01 Apr 2024 14:37:19 GMT</pubDate>
+        <pubDate>Sat, 13 Apr 2024 11:43:17 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <language><![CDATA[ko]]></language>
         <item>
-            <title><![CDATA[[FINAL] 아프리카 여행지 선택 및 준비할 것들]]></title>
+            <title><![CDATA[아프리카 여행지 선택 및 준비할 것들]]></title>
             <description><![CDATA[아프리카 여행 국가 선택 및 준비물]]></description>
             <link>http://localhost:3000/travel/africa/pickingAfricanTravel</link>
             <guid isPermaLink="true">http://localhost:3000/travel/africa/pickingAfricanTravel</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 19 Mar 2024 00:45:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 일본여행이 편리하고 좋은 점 5가지]]></title>
+            <title><![CDATA[일본여행이 편리하고 좋은 점 5가지]]></title>
             <description><![CDATA[일본여행 좋은 점]]></description>
             <link>http://localhost:3000/travel/asia/goodThingAboutJapan</link>
             <guid isPermaLink="true">http://localhost:3000/travel/asia/goodThingAboutJapan</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 02 Mar 2024 19:24:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 일본여행 준비물 9가지 - 일본 여행 시 챙겨가야 할 것들]]></title>
+            <title><![CDATA[일본여행 준비물 9가지 - 일본 여행 시 챙겨가야 할 것들]]></title>
             <description><![CDATA[일본 여행 시 챙겨가야 할 준비물]]></description>
             <link>http://localhost:3000/travel/asia/whatToBringToJapan</link>
             <guid isPermaLink="true">http://localhost:3000/travel/asia/whatToBringToJapan</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 12 Feb 2024 02:11:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 캐나다 여행 - 동부와 서부 중 한곳을 선택한다면 어디?]]></title>
+            <title><![CDATA[캐나다 여행 - 동부와 서부 중 한곳을 선택한다면 어디?]]></title>
             <description><![CDATA[캐나다 동부여행, 서부여행]]></description>
             <link>http://localhost:3000/travel/canada/westVsEast</link>
             <guid isPermaLink="true">http://localhost:3000/travel/canada/westVsEast</guid>
-            <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 14 Mar 2023 16:01:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 유럽여행 국가별 주의사항 - 이탈리아, 프랑스, 스위스, 네덜란드]]></title>
+            <title><![CDATA[역사를 알고 가면 좋은 프랑스 관광지 3곳 - 베르사유 궁전, 아비뇽, 바스티유 감옥]]></title>
+            <description><![CDATA[역사를 알고 가면 좋은 프랑스 관광지]]></description>
+            <link>http://localhost:3000/travel/europe/threePlacestoVisitFrance</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/europe/threePlacestoVisitFrance</guid>
+            <pubDate>Sun, 02 Apr 2023 20:04:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[유럽여행 국가별 주의사항 - 이탈리아, 프랑스, 스위스, 네덜란드]]></title>
             <description><![CDATA[서유럽여행 국가별 주의사항]]></description>
             <link>http://localhost:3000/travel/europe/whatToWatchInEurope</link>
             <guid isPermaLink="true">http://localhost:3000/travel/europe/whatToWatchInEurope</guid>
-            <pubDate>Sun, 26 Feb 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sat, 25 Feb 2023 17:56:01 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 여행을 통해서 역사를 이해하고 철학을 느끼고 예술을 즐기자!]]></title>
+            <title><![CDATA[여행을 통해서 역사를 이해하고 철학을 느끼고 예술을 즐기자!]]></title>
             <description><![CDATA[여행 역사 철학 예술]]></description>
             <link>http://localhost:3000/travel/prologue/embraceNewCulture</link>
             <guid isPermaLink="true">http://localhost:3000/travel/prologue/embraceNewCulture</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sun, 17 Mar 2024 03:34:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳]]></title>
+            <title><![CDATA[미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳]]></title>
             <description><![CDATA[시애틀 관광지 5곳]]></description>
             <link>http://localhost:3000/travel/usa/americanTripTogo</link>
             <guid isPermaLink="true">http://localhost:3000/travel/usa/americanTripTogo</guid>
-            <pubDate>Fri, 24 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 23 Mar 2023 22:23:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 뉴욕에서 LA까지 기차로 여행하기 - 암트랙]]></title>
+            <title><![CDATA[뉴욕에서 LA까지 기차로 여행하기 - 암트랙]]></title>
             <description><![CDATA[미국 횡단 기차 여행]]></description>
             <link>http://localhost:3000/travel/usa/trainTravelToLAFromNY</link>
             <guid isPermaLink="true">http://localhost:3000/travel/usa/trainTravelToLAFromNY</guid>
-            <pubDate>Sun, 18 Feb 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sat, 17 Feb 2024 16:03:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[[FINAL] 미국에서 여행하기 위험한 도시 & 안전한 도시]]></title>
+            <title><![CDATA[미국에서 여행하기 위험한 도시 & 안전한 도시]]></title>
             <description><![CDATA[미국 여행 위험한 도시 & 안전한 도시]]></description>
             <link>http://localhost:3000/travel/usa/travelAmericaSafe</link>
             <guid isPermaLink="true">http://localhost:3000/travel/usa/travelAmericaSafe</guid>
-            <pubDate>Thu, 09 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 09 Mar 2023 01:22:34 GMT</pubDate>
         </item>
     </channel>
 </rss>
