@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 Apr 2024 11:43:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Apr 2024 12:36:22 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Apr 2024 11:43:17 GMT</pubDate>
+        <pubDate>Sat, 13 Apr 2024 12:36:22 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <language><![CDATA[ko]]></language>
         <item>
