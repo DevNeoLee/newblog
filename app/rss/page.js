@@ -78,8 +78,7 @@ const generateRSSFeed = async () => {
     let postList = getMetadata(catalogueKoreanName)
     console.log('rss postList rss catalogue: ', catalogueKoreanName, catalogue);
 
-    const postContent = getPostContent(catalogueKoreanName, catalogue.link)
-    const updatedPostList = postList.map(list => ({...list, category: catalogue, content: postContent}));
+    const updatedPostList = postList.map(list => ({...list, category: catalogue}));
 
     updatedPostList.forEach(list => posts.push(list))
   })

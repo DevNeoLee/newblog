@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 Apr 2024 12:36:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Apr 2024 00:21:44 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Apr 2024 12:36:22 GMT</pubDate>
+        <pubDate>Sun, 14 Apr 2024 00:21:44 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <language><![CDATA[ko]]></language>
         <item>
@@ -34,6 +34,13 @@
             <link>http://localhost:3000/travel/asia/whatToBringToJapan</link>
             <guid isPermaLink="true">http://localhost:3000/travel/asia/whatToBringToJapan</guid>
             <pubDate>Mon, 12 Feb 2024 02:11:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[캐나다 나이아가라 폭포에 여행가면 꼭 가봐야 할 주변 관광지 3곳]]></title>
+            <description><![CDATA[나이아가라 폭포 주변 관광지 3곳 캐나다 관광지하면 가장 먼저 떠오른 곳 중 하나가 나이아가라 폭포입니다. 나이아가라 폭포는 미국에서도 볼 수 있지만 캐나다에서 보는 것이 경치가 더 좋아서 캐나다 쪽에서 구경을 하는 경우가 많습니다. 나이아가라 폭포에 대한 소개보다는 캐나다 나이아가라 폭포 주변에 꼭 가봐야 할 관광지에 대해서 소개하는 글입니다.]]></description>
+            <link>http://localhost:3000/travel/canada/niagaraFalls</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/canada/niagaraFalls</guid>
+            <pubDate>Fri, 12 Apr 2024 22:07:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[캐나다 여행 - 동부와 서부 중 한곳을 선택한다면 어디?]]></title>
