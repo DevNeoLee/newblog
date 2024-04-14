@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Apr 2024 00:21:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Apr 2024 11:14:55 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 14 Apr 2024 00:21:44 GMT</pubDate>
+        <pubDate>Sun, 14 Apr 2024 11:14:55 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <language><![CDATA[ko]]></language>
         <item>
@@ -72,7 +72,7 @@
         </item>
         <item>
             <title><![CDATA[미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳]]></title>
-            <description><![CDATA[시애틀 관광지 5곳]]></description>
+            <description><![CDATA[미국 서북부 최대의 도시인 시애틀로의 여행을 계획하는 분들을 위해 한번쯤은 가볼 만한 시애틀 관광지 5곳에 대해서 소개하는 글입니다.]]></description>
             <link>http://localhost:3000/travel/usa/americanTripTogo</link>
             <guid isPermaLink="true">http://localhost:3000/travel/usa/americanTripTogo</guid>
             <pubDate>Thu, 23 Mar 2023 22:23:23 GMT</pubDate>
