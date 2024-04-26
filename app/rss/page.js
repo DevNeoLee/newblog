@@ -47,10 +47,7 @@ async function generateRss(allPosts) {
     date: post.date,
     });
   });
-
-
-
-
+  
   // Write the RSS feed to a file as XML.
   fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }));
 }
