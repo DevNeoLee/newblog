@@ -39,11 +39,12 @@ export default function getSitemap() {
     const trimedKorean = getKorean(continent).split(" ").join("");
     // console.log('continent, trimedKorean: ',continent, trimedKorean)
     const posts = getMetadata(trimedKorean);
-    // console.log('posts: ', posts)
+    console.log('posts sitemap: ', posts)
     posts.forEach(post => {
       urlList.push({
         url: `${site_url}/travel/${continent}/${post.link}`,
-        lastModified: new Date(),
+        // lastModified: new Date(),
+        lastModified: post.date,
         changeFrequency: 'daily',
         priority: 0.8,
       })
