@@ -5,8 +5,6 @@ date: "2024-05-03 10:11:12"
 color: "lightpink"
 ---
 
-
-
 <p style="text-align: justify;" data-ke-size="size16">일본을 여행할 경우에 일본은 왠지 아이들과 함께 가서 여행하기 좋은 곳이 많이 없다고 생각하지만 우리가 생각하는 것 이상으로 일본에도 아이들과 함께 여행하면 좋은 장소들이 많이 있습니다.</p>
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 <p style="text-align: justify;" data-ke-size="size16">물론 아이들의 연령대에서 따라서 장소는 달라질 수 있지만 일반적으로 아이들이 좋아하는 일본의 대표적인 관광지 5곳을 정리해 보도록 하겠습니다.</p>

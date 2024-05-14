@@ -79,9 +79,9 @@ const generateRSSFeed = async () => {
 
     updatedPostList.forEach(list => posts.push(list))
   })
-  console.log("posts rssFeed posts: ", posts)
 
-  await generateRss(posts)
+  await generateRss(posts.sort(function(a,b){
+    return new Date(b.date) - new Date(a.date)}))
 }
 
 generateRSSFeed();

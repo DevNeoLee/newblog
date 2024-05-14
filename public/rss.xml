@@ -9,31 +9,38 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Apr 2024 11:14:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 May 2024 13:23:26 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 14 Apr 2024 11:14:55 GMT</pubDate>
+        <pubDate>Tue, 14 May 2024 13:23:26 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <language><![CDATA[ko]]></language>
         <item>
-            <title><![CDATA[아프리카 여행지 선택 및 준비할 것들]]></title>
-            <description><![CDATA[아프리카 여행 국가 선택 및 준비물]]></description>
-            <link>http://localhost:3000/travel/africa/pickingAfricanTravel</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/africa/pickingAfricanTravel</guid>
-            <pubDate>Tue, 19 Mar 2024 00:45:56 GMT</pubDate>
+            <title><![CDATA[아이들과 함께 가면 좋은 일본 관광지 5곳]]></title>
+            <description><![CDATA[일본을 여행할 경우에 일본은 왠지 아이들과 함께 가서 여행하기 좋은 곳이 많이 없다고 생각하지만 우리가 생각하는 것 이상으로 일본에도 아이들과 함께 여행하면 좋은 장소들이 많이 있습니다. 아이들의 연령대에서 따라서 장소는 달라질 수 있지만 일반적으로 아이들이 좋아하는 일본의 대표적인 관광지 5곳을 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/asia/fiveJapaneseTravelWithKids</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/asia/fiveJapaneseTravelWithKids</guid>
+            <pubDate>Fri, 03 May 2024 01:11:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[일본여행이 편리하고 좋은 점 5가지]]></title>
-            <description><![CDATA[일본여행 좋은 점]]></description>
-            <link>http://localhost:3000/travel/asia/goodThingAboutJapan</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/asia/goodThingAboutJapan</guid>
-            <pubDate>Sat, 02 Mar 2024 19:24:34 GMT</pubDate>
+            <title><![CDATA[세계 최고의 럭셔리 여행지에서 맛보는 10가지 인기 메뉴]]></title>
+            <description><![CDATA[세계 각지에는 럭셔리한 리조트와 레스토랑이 있습니다. 이곳에서는 높은 가격을 지불할 수 밖에 없지만, 분명 특별한 경험을 할 수 있을 것입니다. 세계에서 가장 비싼 여행지 중 10곳의 인기 있는 레스토랑과 그들의 대표적인 메뉴를 소개하는 글입니다.]]></description>
+            <link>http://localhost:3000/travel/prologue/mostExpensiveRestaurantMenus</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/prologue/mostExpensiveRestaurantMenus</guid>
+            <pubDate>Mon, 29 Apr 2024 01:11:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[일본여행 준비물 9가지 - 일본 여행 시 챙겨가야 할 것들]]></title>
-            <description><![CDATA[일본 여행 시 챙겨가야 할 준비물]]></description>
-            <link>http://localhost:3000/travel/asia/whatToBringToJapan</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/asia/whatToBringToJapan</guid>
-            <pubDate>Mon, 12 Feb 2024 02:11:12 GMT</pubDate>
+            <title><![CDATA[캐나다로 여행한다면 꼭 가봐야 할 장소 5곳 (토피노, 엘로우나이프, 로키, 나이아가라 폭포, 올드퀘벡)]]></title>
+            <description><![CDATA[캐나다는 러시아 다음으로 넓은 영토를 가지고 있는 국가이며 또한 정말로 많은 관광지들이 있는 곳입니다. 캐나다는 땅이 넓어서 그런지 여행할 곳도 많습니다. 캐나다로 여행을 떠난다면 꼭 가봐야 할 여행 장소 5곳을 정리해서 소개하는 글입니다.]]></description>
+            <link>http://localhost:3000/travel/canada/mustGoCanada</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/canada/mustGoCanada</guid>
+            <pubDate>Sun, 21 Apr 2024 17:04:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[어디로 여행갈지 모를 때 저렴하고 좋은 해외 여행지 찾는 방법]]></title>
+            <description><![CDATA[해외여행은 가고 싶은 곳이 있어도 비용이 많이 들거나 호텔 등을 예약을 할 수 없어서 다른 장소를 고려하는 경우도 많이 있습니다. 해외여행을 가려고 할 때 어디로 갈지 쉽게 결정하지 못할 경우가 있는데 이럴 때 여행지를 검색하고 찾는 방법에 대해서 소개하는 글입니다.]]></description>
+            <link>http://localhost:3000/travel/prologue/whenYouNotSureWhere</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/prologue/whenYouNotSureWhere</guid>
+            <pubDate>Tue, 16 Apr 2024 23:09:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[캐나다 나이아가라 폭포에 여행가면 꼭 가봐야 할 주변 관광지 3곳]]></title>
@@ -43,32 +50,46 @@
             <pubDate>Fri, 12 Apr 2024 22:07:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[캐나다 여행 - 동부와 서부 중 한곳을 선택한다면 어디?]]></title>
-            <description><![CDATA[캐나다 동부여행, 서부여행]]></description>
-            <link>http://localhost:3000/travel/canada/westVsEast</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/canada/westVsEast</guid>
-            <pubDate>Tue, 14 Mar 2023 16:01:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[역사를 알고 가면 좋은 프랑스 관광지 3곳 - 베르사유 궁전, 아비뇽, 바스티유 감옥]]></title>
-            <description><![CDATA[역사를 알고 가면 좋은 프랑스 관광지]]></description>
-            <link>http://localhost:3000/travel/europe/threePlacestoVisitFrance</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/europe/threePlacestoVisitFrance</guid>
-            <pubDate>Sun, 02 Apr 2023 20:04:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[유럽여행 국가별 주의사항 - 이탈리아, 프랑스, 스위스, 네덜란드]]></title>
-            <description><![CDATA[서유럽여행 국가별 주의사항]]></description>
-            <link>http://localhost:3000/travel/europe/whatToWatchInEurope</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/europe/whatToWatchInEurope</guid>
-            <pubDate>Sat, 25 Feb 2023 17:56:01 GMT</pubDate>
+            <title><![CDATA[아프리카 여행지 선택 및 준비할 것들]]></title>
+            <description><![CDATA[아프리카는 아직 여행지로는 우리나라에 많이 알려지지 않은 곳입니다. 물론 최근에는 TV와 유튜브 등을 통해서 간접 체험을 하고 있지만 아프리카를 직접 여행을 다녀온 사람들은 많이 없습니다. 아프리카 여행지 선택 방법과 아프리카 여행을 하기 전에 꼭 확인하고 준비해야 할 것들에 대해서 소개하는 글입니다.]]></description>
+            <link>http://localhost:3000/travel/africa/pickingAfricanTravel</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/africa/pickingAfricanTravel</guid>
+            <pubDate>Tue, 19 Mar 2024 00:45:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[여행을 통해서 역사를 이해하고 철학을 느끼고 예술을 즐기자!]]></title>
-            <description><![CDATA[여행 역사 철학 예술]]></description>
+            <description><![CDATA[국내로 여행을 가던 해외로 여행을 가던 우리는 모두 분명히 개인마다 목적을 가지고 여행을 떠납니다. 즐기기 위한 여행, 휴식을 위한 여행, 배움을 위한 여행 등 여행의 목적은 개인의 성향, 여행시기, 같이 여행하는 사람들에 따라서 너무나 다양한 것 같습니다. 여행을 통해서 얻을 수 있는 것들을 정리한 글입니다.]]></description>
             <link>http://localhost:3000/travel/prologue/embraceNewCulture</link>
             <guid isPermaLink="true">http://localhost:3000/travel/prologue/embraceNewCulture</guid>
             <pubDate>Sun, 17 Mar 2024 03:34:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[일본여행이 편리하고 좋은 점 5가지]]></title>
+            <description><![CDATA[일본이라는 나라는 가장 가까운 이웃국가이자 많은 사람들이 방문하는 국가 중 하나이며 전 세계 30개 이상의 국가로 여행을 다녀 본 경험에 비추어 보았을 때여행하기 편리한 국가 중 하나입니다. 물론 정치적, 역사적인 문제로 가장 많이 대립하는 국가 중 하나가 일본이기도 하지만 라이벌 즉 함께 경쟁하는 국가라는 인식도 강한 국가가 일본이라는 나라입니다. 일본을 여행하면서 느꼈던 편리하고 좋은 점 5가지를 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/asia/goodThingAboutJapan</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/asia/goodThingAboutJapan</guid>
+            <pubDate>Sat, 02 Mar 2024 19:24:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[뉴욕에서 LA까지 기차로 여행하기 - 암트랙]]></title>
+            <description><![CDATA[뉴욕에서 로스앤젤레스(LA)로의 기차 여행은 정말로 특이한 경험으로 미국 여행을 한다면 한번쯤은 고려해 볼만한 여행 코스입니다. 뉴욕에서 로스앤젤레스(LA)로의 여행은 암트랙 홈페이지에서 여행 스케줄 확인과 예약을 진행할 수 있습니다. 암트랙을 이용한 뉴욕에서 LA까지의 미국 횡단 기차 여행에 대한 자세한 정보를 아래에 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/usa/trainTravelToLAFromNY</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/usa/trainTravelToLAFromNY</guid>
+            <pubDate>Sat, 17 Feb 2024 16:03:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[일본여행 준비물 9가지 - 일본 여행 시 챙겨가야 할 것들]]></title>
+            <description><![CDATA[일본은 지리적, 문화적으로 가까운 나라여서 많은 사람들이 여행지로도 선호하는 국가이고 실제로 해마다 많은 사람들이 방문하는 국가 중 하나입니다. 일본이 가장 가까운 이웃국가라도 하더라도 엄연히 해외 국가이므로 일본 여행도 철저한 준비와 꼭 챙겨가야 할 준비믈들이 있습니다.일본 여행 시 꼭 준비해야 할 준비물 9가지를 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/asia/whatToBringToJapan</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/asia/whatToBringToJapan</guid>
+            <pubDate>Mon, 12 Feb 2024 02:11:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[역사를 알고 가면 좋은 프랑스 관광지 3곳 - 베르사유 궁전, 아비뇽, 바스티유 감옥]]></title>
+            <description><![CDATA[프랑스로 여행 갈 때 추천할 만한 역사적인 여행지 3곳을 소개해 보도록 하겠습니다. 역사에 관심이 있거나 아이들과 함께 여행을 한다면 의미가 더욱 큰 프랑스의 중요한 역사적 사건이 있었던 여행지 3곳을 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/europe/threePlacestoVisitFrance</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/europe/threePlacestoVisitFrance</guid>
+            <pubDate>Sun, 02 Apr 2023 20:04:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳]]></title>
@@ -78,18 +99,25 @@
             <pubDate>Thu, 23 Mar 2023 22:23:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[뉴욕에서 LA까지 기차로 여행하기 - 암트랙]]></title>
-            <description><![CDATA[미국 횡단 기차 여행]]></description>
-            <link>http://localhost:3000/travel/usa/trainTravelToLAFromNY</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/usa/trainTravelToLAFromNY</guid>
-            <pubDate>Sat, 17 Feb 2024 16:03:44 GMT</pubDate>
+            <title><![CDATA[캐나다 여행 - 동부와 서부 중 한곳을 선택한다면 어디?]]></title>
+            <description><![CDATA[캐나다는 워낙 광활한 영토를 가진 국가이기 때문에 볼 것도 많고 캐나다 내에서도 이동거리가 길어서 여행을 할 때는 선택과 집중을 하는 것이 중요합니다. 여행지로서의 캐나다 동부와 서부의 특징을 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/canada/westVsEast</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/canada/westVsEast</guid>
+            <pubDate>Tue, 14 Mar 2023 16:01:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[미국에서 여행하기 위험한 도시 & 안전한 도시]]></title>
-            <description><![CDATA[미국 여행 위험한 도시 & 안전한 도시]]></description>
+            <description><![CDATA[전 세계적으로 보았을 때 미국은 치안이 나쁜 국가는 아니지만 미국 내에서도 미국인들조차도 여행을 꺼리는 도시가 있고 안전하다고 생각하는 도시가 있습니다. 미국에서 위험하고 안전한 도시를 판단할 때 대부분 범죄율을 기준으로 판단합니다. 특히 혼자 자유여행을 하는 사람들은 범죄율이 높은 지역 또는 도시를 피하는 것이 좋습니다.]]></description>
             <link>http://localhost:3000/travel/usa/travelAmericaSafe</link>
             <guid isPermaLink="true">http://localhost:3000/travel/usa/travelAmericaSafe</guid>
             <pubDate>Thu, 09 Mar 2023 01:22:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[유럽여행 국가별 주의사항 - 이탈리아, 프랑스, 스위스, 네덜란드]]></title>
+            <description><![CDATA[유럽 여행 특히 서유럽은 안전한 곳이기는 하지만 서유럽을 여행할 때도 주의사항을 잘 알고 여행하는 것이 중요합니다. 국가별 여행 주의사항을 숙지하지 않고 여행을 할 경우 개인의 신변의 위협, 금전적 손실, 여행 일정 지연 등의 문제가 발생할 수 있습니다. 외교부 안전한여행 홈페이지에 소개되지 않은 이탈리아, 프랑스, 스위스, 네덜란드 등을 여행할 때 주의할 사항에 대해서 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/europe/whatToWatchInEurope</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/europe/whatToWatchInEurope</guid>
+            <pubDate>Sat, 25 Feb 2023 17:56:01 GMT</pubDate>
         </item>
     </channel>
 </rss>
