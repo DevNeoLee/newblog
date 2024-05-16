@@ -19,7 +19,7 @@ export default function getSitemap() {
   //add main travel page
   urlList.push({
     url: `${site_url}/travel`,
-    // lastModified: new Date(),
+    lastModified: new Date(),
     changeFrequency: 'daily',
     priority: 1,
   })
@@ -28,7 +28,7 @@ export default function getSitemap() {
   catalogue.forEach(continent => {
     urlList.push({
       url: `${site_url}/travel/${continent}`,
-      // lastModified: new Date(),
+      lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.9,
     })
@@ -44,16 +44,16 @@ export default function getSitemap() {
       urlList.push({
         url: `${site_url}/travel/${continent}/${post.link}`,
         // lastModified: new Date(),
-        lastModified: post.date,
+        lastModified: new Date(post.date),
         changeFrequency: 'daily',
         priority: 0.8,
       })
     })
   })
 
-  // console.log("urlList: ", urlList.sort(function(a,b){
-  //   return new Date(b.lastModified) - new Date(a.lastModified);
-  // }))
+  console.log("urlList: ", urlList.sort(function(a,b){
+    return new Date(b.lastModified) - new Date(a.lastModified);
+  }))
 
   return urlList
 }
