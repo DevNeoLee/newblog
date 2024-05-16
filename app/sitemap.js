@@ -51,9 +51,9 @@ export default function getSitemap() {
     })
   })
 
-  console.log("urlList: ", urlList.sort(function(a,b){
-    return new Date(b.lastModified) - new Date(a.lastModified);
-  }))
+  // console.log("urlList: ", urlList.sort(function(a,b){
+  //   return new Date(b.lastModified) - new Date(a.lastModified);
+  // }))
 
   return urlList
 }
