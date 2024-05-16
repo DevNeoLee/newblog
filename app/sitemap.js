@@ -19,7 +19,7 @@ export default function getSitemap() {
   //add main travel page
   urlList.push({
     url: `${site_url}/travel`,
-    lastModified: new Date(),
+    // lastModified: new Date(),
     changeFrequency: 'daily',
     priority: 1,
   })
@@ -28,7 +28,7 @@ export default function getSitemap() {
   catalogue.forEach(continent => {
     urlList.push({
       url: `${site_url}/travel/${continent}`,
-      lastModified: new Date(),
+      // lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.9,
     })
