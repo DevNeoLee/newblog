@@ -4,8 +4,6 @@ import RSS from "rss";
 import { getMetadata, getCatalogue, getKorean } from '../travel/utils/getData';
 
 
-console.log('hello world from generateRss! ')
-
 async function generateRss(allPosts) {
   const site_url =
     process.env.NODE_ENV === "production"

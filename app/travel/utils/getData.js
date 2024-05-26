@@ -1,5 +1,8 @@
+
 import matter from "gray-matter";
 import fs from 'fs'
+
+const site_url = process.env.NODE_ENV === "production" ? "https://moyahug.com" : "http://localhost:3000";
 
 export const getCatalogue = () => {
   const files = fs.readdirSync(`app/travel/(pages)`)
@@ -42,4 +45,26 @@ export const getKorean = (ele) => {
     default:
       return ''
   }
+}
+
+export const getPages = () => {
+    //add detail pages
+    const catalogue = getCatalogue();
+
+    const urlList =[];
+
+    catalogue.forEach(continent => {
+      const trimedKorean = getKorean(continent).split(" ").join("");
+      const posts = getMetadata(trimedKorean);
+      posts.forEach(post => {
+        urlList.push({
+          url: `${site_url}/travel/${continent}/${post.link}`,
+          lastModified: new Date(post.date),
+        })
+      })
+    })
+
+  return urlList.sort(function(a,b){
+    return new Date(b.lastModified) - new Date(a.lastModified);
+  });
 }

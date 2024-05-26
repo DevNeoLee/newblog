@@ -1,6 +1,7 @@
 
 import Nav from './components/Nav'
 import Footer from "./components/Footer"
+import { getPages } from './utils/getData';
 
 export const metadata = {
   title: '세계여행 고수들의 현지 노하우 팁 대방출~!',
@@ -10,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-      <Nav />
+      <Nav links={getPages()}/>
       <div className='mainContainer'>
           {children}
       </div>

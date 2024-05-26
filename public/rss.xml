@@ -9,11 +9,25 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 May 2024 13:23:26 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 May 2024 09:40:46 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 May 2024 13:23:26 GMT</pubDate>
+        <pubDate>Sun, 26 May 2024 09:40:46 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <language><![CDATA[ko]]></language>
+        <item>
+            <title><![CDATA[여자 혼자 여행해도 안전한 국가 5곳]]></title>
+            <description><![CDATA[최근에 영국의 방송사인 BBC에서 여자들이 혼자서 여행해도 안전한 국가 5곳을 선정해서 발표를 하였습니다. 요즘에는 해외로 혼자서 여행하는 여성분들도 많으니 이 순위를 참고하면 안전한 해외 여행지 선택에 도움을 받을 수 있을 것 같습니다. 여자들이 혼자서 여행 가도 안전한 국가 5곳을 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/prologue/five-safe-countries-to-travel-for-women</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/prologue/five-safe-countries-to-travel-for-women</guid>
+            <pubDate>Sun, 19 May 2024 18:06:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[프랑스 파리 - 관광객이 가장 많이 방문하는 장소 5곳]]></title>
+            <description><![CDATA[프랑스는 매년 전 세계에서 가장 많은 관광객이 방문하는 국가로 특히 파리는 관광객들로 항상 붐비는 도시 중 하나입니다. 프랑스 파리를 여행하는 관광객들이 가장 많이 방문하는 장소 5곳에 대해서 정리한 글입니다.]]></description>
+            <link>http://localhost:3000/travel/europe/five-most-popular-places-to-visit-in-paris</link>
+            <guid isPermaLink="true">http://localhost:3000/travel/europe/five-most-popular-places-to-visit-in-paris</guid>
+            <pubDate>Tue, 14 May 2024 18:44:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[아이들과 함께 가면 좋은 일본 관광지 5곳]]></title>
             <description><![CDATA[일본을 여행할 경우에 일본은 왠지 아이들과 함께 가서 여행하기 좋은 곳이 많이 없다고 생각하지만 우리가 생각하는 것 이상으로 일본에도 아이들과 함께 여행하면 좋은 장소들이 많이 있습니다. 아이들의 연령대에서 따라서 장소는 달라질 수 있지만 일반적으로 아이들이 좋아하는 일본의 대표적인 관광지 5곳을 정리한 글입니다.]]></description>

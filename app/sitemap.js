@@ -1,5 +1,5 @@
 
-import { getCatalogue, getMetadata, getKorean } from './travel/utils/getData';
+import { getCatalogue, getMetadata, getKorean, getPages } from './travel/utils/getData';
 
 const site_url = process.env.NODE_ENV === "production" ? "https://moyahug.com" : "http://localhost:3000";
 
@@ -35,6 +35,8 @@ export default function getSitemap() {
   })
 
   //add detail pages
+  const allPages = [...urlList, ...getPages()]
+
   catalogue.forEach(continent => {
     const trimedKorean = getKorean(continent).split(" ").join("");
     // console.log('continent, trimedKorean: ',continent, trimedKorean)
@@ -55,5 +57,6 @@ export default function getSitemap() {
     return new Date(b.lastModified) - new Date(a.lastModified);
   }))
 
-  return urlList
+  // return urlList
+  return allPages;
 }
