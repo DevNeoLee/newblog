@@ -17,9 +17,10 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&family=Noto+Serif+KR:wght@200;700&display=swap" />
         <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" />
-        <meta name="naver-site-verification" content="68f53be6eb08c4d8c8e212c7245fcadfd933fa7d" />
         <meta content='width=device-width, initial-scale=1'></meta>
         <link rel="icon" href="/icon1.png"></link>
+        <meta name="naver-site-verification" content="68f53be6eb08c4d8c8e212c7245fcadfd933fa7d" />
+        <meta name="google-site-verification" content="I_9zf4wYx3f6QQl-1h77XZ0EGppANsViDrLtNSvxvnA" />
       </head>
       <body>
         {children}
