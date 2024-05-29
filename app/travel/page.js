@@ -28,7 +28,7 @@ export default function Travel() {
           src="/background_image_mesut-kaya.jpg"
           fill
           quality={60}
-          style={{ objectFit: "cover", zIndex: "-12", position: "absolute"}}
+          style={{ zIndex: "-12", top: "0px", position: "absolute", objectFit: "cover"}}
         />
         <div className="continentMain">
           {metaInfo.map((post, id) => (
