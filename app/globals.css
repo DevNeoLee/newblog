@@ -70,7 +70,7 @@ h6 {
 }
 
 p {
-    letter-spacing: 2px;
+    letter-spacing: 1.1px;
     font-size: 1.2rem;
     line-height: 2;
     margin: 4px 0px;
@@ -730,9 +730,9 @@ footer {
 @media (max-width: 650px) {
 
     p {
-        letter-spacing: 1.5px;
+        letter-spacing: 1.1px;
         font-size: 1.1rem;
-        line-height: 2;
+        line-height: 1.7;
         margin: 4px 0px;
         font-weight: 200;
         /* color: rgb(24, 24, 24);
