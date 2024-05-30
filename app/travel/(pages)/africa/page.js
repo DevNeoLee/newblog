@@ -14,7 +14,7 @@ export default function 아프리카(props) {
       <div className="continentCategory">
         <h1>아프리카 </h1>
       </div>
-      <div className="continentMain">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`africa/${post.link}`} key={id}>
               <div className="countryCard" key={id}>

@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     letter-spacing: 2px;
-    font-size: 26px;
+    font-size: 1.7rem;
     line-height: 2.0;
     margin: 2rem 0 1.5rem 0.2rem;
     color: rgb(31, 31, 31);
@@ -72,7 +72,7 @@ h6 {
 p {
     letter-spacing: 2px;
     font-size: 1.2rem;
-    line-height: 2.5;
+    line-height: 2;
     margin: 4px 0px;
     font-weight: 100;
     /* color: rgb(24, 24, 24);
@@ -135,7 +135,7 @@ footer {
 /*********************      Main/Travel page   *********************/
 
 .mainContainer {
-    /* background-color: lightcoral; */
+    background-color: rgba(169, 169, 169, 0.141);
     /* max-width: 1400px; */
     margin: 0 auto;
     padding: 0;
@@ -461,11 +461,12 @@ footer {
 
 .continentMain {
     /* border-top: 1px solid rgba(155, 155, 155, 0.168); */
-    /* background-color: lightgreen; */
+    background-color: white;
     min-width: 250px;
     max-width: 850px;
     margin: 0 auto;
-    padding-bottom: 10rem;
+    padding: 0.5rem 7rem 10rem;
+    border-radius: 5px;
     /* padding: 20px; */
     color: var(--darkgray);
 }
@@ -579,6 +580,23 @@ footer {
     transition: 700ms;
 }
 
+.attribution {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+
+.attribution a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 1rem;
+    color: gray;
+}
+
+.copyright {
+    text-align: center;
+}
+
 @media (max-width: 1723px) {
     .countryLink {
       margin: 5px 30px;
@@ -633,6 +651,10 @@ footer {
     .marketingCopyPhrase h3,
     .marketingCopyPhrase h4 {
         visibility: hidden;
+    }
+
+    .continentMain {
+        padding: 5rem 1rem 10rem;
     }
 
 }
@@ -707,6 +729,17 @@ footer {
 
 @media (max-width: 650px) {
 
+    p {
+        letter-spacing: 1.5px;
+        font-size: 1.1rem;
+        line-height: 2;
+        margin: 4px 0px;
+        font-weight: 200;
+        /* color: rgb(24, 24, 24);
+        color: var(--gray); */
+        font-family: 'Noto Serif KR', serif;
+    }
+
     .travelMenu {
         padding: 0px;
     }
@@ -728,21 +761,20 @@ footer {
         margin: 7rem 0.5rem;
     }
 
+    .copyright {
+        margin-top: 2rem;
+
+    }
+
+    .attribution {
+        margin-top: 5rem;
+    }
+
     footer {
-        padding: 3rem 0 8rem 0;
+        padding: 3rem 0 2rem 0;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
 }
 
-.imageLink {
-    display: flex;
-    justify-content: space-around;
-}
 
-.imageLink a {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    font-size: 1rem;
-    color: gray;
-}
 

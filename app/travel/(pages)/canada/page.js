@@ -15,7 +15,7 @@ export default function CanadaHome() {
       <div className="continentCategory">
         <h1>캐나다 </h1>
       </div>
-      <div className="continentMain">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`canada/${post.link}`} key={id}>
 

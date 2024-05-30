@@ -14,7 +14,7 @@ export default function EuropeHome(props) {
       <div className="continentCategory">
         <h1>유럽 </h1>
       </div>
-      <div className="continentMain">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`europe/${post.link}`} key={id}>
 
