@@ -18,7 +18,7 @@ export default function PrologueHome(props) {
       <div className="continentCategory">
         <h1>나를 찾는 세계여행 </h1>
       </div>
-      <div className="continentMain">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`prologue/${post.link}`} key={id}> 
               <div className="countryCard">

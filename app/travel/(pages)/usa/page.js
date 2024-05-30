@@ -14,7 +14,7 @@ export default function USAHome(props) {
       <div className="continentCategory">
         <h1>미국 </h1>
       </div>
-      <div className="continentMain">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`usa/${post.link}`} key={id}>
 

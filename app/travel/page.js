@@ -30,7 +30,7 @@ export default function Travel() {
           quality={60}
           style={{ zIndex: "-12", position: "absolute", objectFit: "cover"}}
         />
-        <div className="continentMain">
+        <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
               <div className="countryCard" key={id}>

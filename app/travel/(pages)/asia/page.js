@@ -14,7 +14,7 @@ export default function 아시아(props) {
       <div className="continentCategory">
         <h1>아시아 </h1>
       </div>
-      <div className="continentMain">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`asia/${post.link}`} key={id}>
 
