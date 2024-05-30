@@ -18,7 +18,7 @@ export default function Travel() {
           </Link>
         ))}
       </div>
-      <div className="homepageTitle">
+      <div className="marketingCopyPhrase">
         <div><h1> 꿈 </h1><h4>에서</h4> <h2>보았던</h2><h3>그곳</h3></div>
       </div>
       <div className="travelMain">
@@ -28,7 +28,7 @@ export default function Travel() {
           src="/background_image_mesut-kaya.jpg"
           fill
           quality={60}
-          style={{ zIndex: "-12", top: "0px", position: "absolute", objectFit: "cover"}}
+          style={{ zIndex: "-12", position: "absolute", objectFit: "cover"}}
         />
         <div className="continentMain">
           {metaInfo.map((post, id) => (
