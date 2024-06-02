@@ -27,12 +27,12 @@ export default async function PostPage(props) {
   const post = getPostContent(link);
 
   return (
-      // <div className="continentContainer">
+      <div className="continentContainer">
         <div className="continentMain">
           <div className="detailTitle"><h1>{post.data.title}</h1></div>
           <Markdown>{post.content}</Markdown>
         </div>
-      // </div>
+      </div>
   )
 }
 
