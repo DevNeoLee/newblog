@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" />
         <meta content='width=device-width, initial-scale=1'></meta>
         <link rel="icon" href="/icon1.png"></link>
+        <meta name="google-adsense-account" content="ca-pub-6056246968519257"></meta>
         <meta name="naver-site-verification" content="68f53be6eb08c4d8c8e212c7245fcadfd933fa7d" />
         <meta name="google-site-verification" content="I_9zf4wYx3f6QQl-1h77XZ0EGppANsViDrLtNSvxvnA" />
       </head>
