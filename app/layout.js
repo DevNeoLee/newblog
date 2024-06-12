@@ -24,8 +24,6 @@ export default function RootLayout({ children }) {
 
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="theme-color" content="#your-color" />
-    
-        <link rel="manifest" href="/path/to/manifest.json" />
   
         <meta name="google-adsense-account" content="ca-pub-6056246968519257"></meta>
         <meta name="naver-site-verification" content="68f53be6eb08c4d8c8e212c7245fcadfd933fa7d" />
