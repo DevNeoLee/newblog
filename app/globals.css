@@ -174,7 +174,7 @@ footer {
     margin: 0rem;
     padding: 0rem;
     text-align: center;
-    letter-spacing: 18px;
+    letter-spacing: 17px;
     color: var(--darkgray);
     font-size: 1rem;
 }
@@ -644,7 +644,7 @@ footer {
     }
 
     .navSubTitle {
-        letter-spacing: 14px;
+        letter-spacing: 13px;
     }
 }
 
@@ -784,7 +784,7 @@ footer {
     }
 
     .navSubTitle {
-        letter-spacing: 8px;
+        letter-spacing: 6px;
     }
 }
 
