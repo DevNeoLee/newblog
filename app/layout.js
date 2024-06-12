@@ -18,9 +18,14 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&family=Noto+Serif+KR:wght@200;700&display=swap" />
         <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" />
         <meta content='width=device-width, initial-scale=1'></meta>
-        <link rel="icon" href="/icon1.png" sizes="any"></link>
+        {/* <link rel="icon" href="/icon1.png" sizes="any"></link>
         <link rel="apple-touch-icon" href="/icon1.png" type="image/png" sizes="any"/>
-        <link rel="apple-touch-icon-precomposed" href="/icon1.png" type="image/png" sizes="any"/>
+        <link rel="apple-touch-icon-precomposed" href="/icon1.png" type="image/png" sizes="any"/> */}
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
 
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="theme-color" content="#your-color" />
