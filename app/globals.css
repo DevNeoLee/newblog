@@ -188,6 +188,7 @@ footer {
     align-items: center;
     margin-top: 1rem;
     transition: 1000ms;
+    background-color: coral;
 }
 
 .logoCompass {
@@ -216,7 +217,7 @@ footer {
 }
 
 .logoKorean {
-    letter-spacing: 16px;
+    letter-spacing: 12px;
     font-size: 2rem;
     /* line-height: 1; */
     margin: 0px 0 0 20px;
