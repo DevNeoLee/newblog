@@ -10,7 +10,7 @@ color: "lightpink"
 <p style="text-align: justify;" data-ke-size="size16">물론 아이들의 연령대에서 따라서 장소는 달라질 수 있지만 일반적으로 아이들이 좋아하는 일본의 대표적인 관광지 5곳을 정리해 보도록 하겠습니다.</p>
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h2 style="text-align: justify;" data-ke-size="size26"><b>1. 도쿄 디즈니랜드(Disneyland) 및 디즈니씨(DisneySea)</b></h2>
+<h2 style="text-align: justify;" data-ke-size="size26"><b>1. 도쿄 디즈니랜드(Disney Land) 및 디즈니씨(Disney Sea)</b></h2>
 <p style="text-align: justify;" data-ke-size="size16">디즈니랜드는 전통적인 디즈니 캐릭터들과 인기 놀이기구를 만날 수 있는 대형 테마파크입니다. 캐릭터들을 구경할 수 있고 다양한 쇼와 퍼레이드를 즐길 수 있는 곳입니다.</p>
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 <p style="text-align: justify;" data-ke-size="size16">디즈니씨는 세계에서 유일한 해양 테마의 디즈니 테마파크로, 해적들과 모험가들의 세계를 경험할 수 있습니다. 신비로운 분위기와 특별한 놀이기구들이 많이 있어 방문한 대부분의 아이들이 좋아하는 곳입니다.</p>

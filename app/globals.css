@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     letter-spacing: 2px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 2.0;
     margin: 2rem 0 1.5rem 0.2rem;
     color: rgb(31, 31, 31);
@@ -103,8 +103,9 @@ ul {
 }
 
 li {
-    padding: 5px;
+    padding: 2px;
     margin: 10px;
+    font-size: 1.4rem;
 }
 
 ol {
@@ -445,7 +446,7 @@ footer {
     /* background-color: lightblue; */
     /* height: 100%; */
     min-height: 100vh;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 12rem;
     /* border-top: 1px solid rgba(0, 0, 0, 0.211); */
 }
@@ -475,12 +476,14 @@ footer {
     width: 850px;
     max-width: 850px;
     background-color: lightgreen;
+    background-color: blue;
+    margin: 1px auto;
 }
 
 .countryCard {
     padding: 1rem;
-    width: 850px;
-    max-width: 850px;
+    /* width: 850px;
+    max-width: 850px; */
     color: var(--darkgray);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 5rem auto;
@@ -488,6 +491,7 @@ footer {
     border-radius: 8px;
     background-color: white;
     min-height: 17rem;
+    /* background-color: red; */
 }
 
 .countryCard:hover {
@@ -563,7 +567,7 @@ footer {
     font-family: 'Noto Sans KR', sans-serif;
     color: black;
     margin-top: 9rem;
-    padding: 45px 0;
+    padding: 2rem 0;
     font-weight: 600;
 }
 
@@ -787,6 +791,14 @@ footer {
         letter-spacing: 6px;
     }
 }
+
+.mainPagePrologues {
+    /* width: 850px; */
+    max-width: 850px;
+    /* background-color: lightyellow; */
+    margin: 0 auto;
+}
+
 
 
 

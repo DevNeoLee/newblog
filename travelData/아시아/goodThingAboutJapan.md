@@ -46,7 +46,7 @@ date: "2024-03-03 04:24:34"
 
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 
-<h4 style="text-align: justify;" data-ke-size="size20"><span style="color: #5733b1;"><b>(1) 다양한 교통수단으로 방문 가능</b></span></h4>
+<h2 style="text-align: justify;" data-ke-size="size20"><span style="color: #5733b1;"><b>(1) 다양한 교통수단으로 방문 가능</b></span></h2>
 <p style="text-align: justify;" data-ke-size="size16"><span style="color: #ee2323;">일본을 여행하기 위해서는 이용할 수 있는 교통수단은 다른 국가에 비해서 상당히 다양</span>한 편입니다. 또한 <span style="color: #ee2323;">일본으로 출발하는 항공편, 배편 등도 여러 지역에서 출발하기 때문에 다른 국가들 보다는 공항, 항구 등으로 가는 시간을 절약</span>할 수 있습니다.</p>
 
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
@@ -61,7 +61,7 @@ date: "2024-03-03 04:24:34"
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 
 
-<h4 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #f89009;">(2) 먹거리 걱정 없는 여행</span></b></h4>
+<h2 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #f89009;">(2) 먹거리 걱정 없는 여행</span></b></h2>
 <p style="text-align: justify;" data-ke-size="size16"><span style="color: #ee2323;"><span style="color: #000000;">일본의 음식은 분명 우리의 음식과는 다르지만</span> 일본에서 초밥, 회, 도시락, 볶음밥, 생선, 고기구이 등을 먹어보면 우리나라에서 먹는 음식의 맛과 큰 차이를 보이지 않습니다.</span></p>
 
 
@@ -75,7 +75,7 @@ date: "2024-03-03 04:24:34"
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 
 
-<h4 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #409d00;">(3) 언어의 불편함이 적은 여행 가능</span></b></h4>
+<h2 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #409d00;">(3) 언어의 불편함이 적은 여행 가능</span></b></h2>
 <p style="text-align: justify;" data-ke-size="size16">일본어는 분명 외국어이고 일본을 여행하다 보면 영어를 잘하는 사람들도 많이 없다는 것을 느낄 수 있습니다. 요즘에는 외국어를 번역 또는 통역해 주는 어플이 많아서 크게 불편함은 없지만 외국을 여행할 때 어려움 중의 하나가 언어입니다.</p>
 
 
@@ -94,7 +94,7 @@ date: "2024-03-03 04:24:34"
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 
 
-<h4 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #781b33;">(4) 비슷한 날씨와 환경</span></b></h4>
+<h2 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #781b33;">(4) 비슷한 날씨와 환경</span></b></h2>
 <p style="text-align: justify;" data-ke-size="size16">일본은 우리나라보다는 남북 쪽으로 길게 펼쳐진 국가이지만 <span style="color: #ee2323;">대부분의 지역에서 우리나라와 비슷한 날씨는 보이는 곳이 많습니다.</span></p>
 
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
@@ -107,7 +107,7 @@ date: "2024-03-03 04:24:34"
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
 
 
-<h4 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #009a87;">(5) 편리한 대중교통 시설</span></b></h4>
+<h2 style="text-align: justify;" data-ke-size="size20"><b><span style="color: #009a87;">(5) 편리한 대중교통 시설</span></b></h2>
 <p style="text-align: justify;" data-ke-size="size16"><span style="color: #ee2323;">일본도 우리나라처럼 대중교통이 정말로 많이 발달된 나라로 렌트카 없이도 충분히 편리하게 여행할 수 있는 국가 중 하나</span>입니다.</p>
 
 <p style="text-align: justify;" data-ke-size="size16"><br></p>
