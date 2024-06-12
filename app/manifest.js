@@ -17,7 +17,20 @@ export default function manifest() {
         "src": "/icon1.png",
         "sizes": "512x512",
         "type": "image/png"
-      }
+      },
+      {
+        "src": "/icon1.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "icon1.png",
+        "sizes": "72x72"
+      }, 
+      {
+        "src": "icon1.png",
+        "sizes": "96x96"
+      }, 
     ]
   }
 }
