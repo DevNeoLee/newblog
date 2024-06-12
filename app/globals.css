@@ -174,7 +174,7 @@ footer {
     margin: 0rem;
     padding: 0rem;
     text-align: center;
-    letter-spacing: 22px;
+    letter-spacing: 18px;
     color: var(--darkgray);
     font-size: 1rem;
 }
@@ -188,7 +188,6 @@ footer {
     align-items: center;
     margin-top: 1rem;
     transition: 1000ms;
-    background-color: coral;
 }
 
 .logoCompass {
@@ -643,6 +642,10 @@ footer {
         letter-spacing: 6px;
         padding: 5px 2px 2px 2px;
     }
+
+    .navSubTitle {
+        letter-spacing: 14px;
+    }
 }
 
 
@@ -656,6 +659,10 @@ footer {
 
     .continentMain {
         padding: 5rem 1rem 10rem;
+    }
+
+    .navSubTitle {
+        letter-spacing: 10px;
     }
 
 }
@@ -774,6 +781,10 @@ footer {
     footer {
         padding: 3rem 0 2rem 0;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .navSubTitle {
+        letter-spacing: 8px;
     }
 }
 

@@ -55,7 +55,7 @@ export default function Nav({ links }) {
           </div>
         </div>
       </div>
-      <h2 className="navSubTitle">즐겁고 뜻깊은 세계여행을 위한 소소한 노하우와 꿀팁을 모은 매거진 입니다.</h2>
+      <h2 className="navSubTitle">즐겁고 뜻깊은 세계여행을 위한 소소한 노하우와 꿀팁을 모은 매거진 입니다</h2>
     </div>
 
   )
