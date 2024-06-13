@@ -515,6 +515,13 @@ footer {
     margin: 18px;
     padding: 0px;
     font-weight: 600;
+    text-decoration: none;
+}
+
+.countryCard:hover > .countryTitle {
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 255, 224);
+    text-decoration-thickness: 0.6rem;
 }
 
 .countryDate {
