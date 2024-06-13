@@ -86,14 +86,14 @@ u, span, b {
 }
 
 a {
-    text-decoration: none;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 2.0;
     margin: 4px 0 0 0px;
-    font-weight: 100;
-    color: blue;
+    font-weight: 700;
+    /* color: blue; */
     font-family: 'Noto Serif KR', serif;
+    text-decoration: none;
 }
 
 ul {
@@ -189,6 +189,7 @@ footer {
     align-items: center;
     margin-top: 1rem;
     transition: 1000ms;
+    text-decoration: none;
 }
 
 .logoCompass {
@@ -797,6 +798,11 @@ footer {
     max-width: 850px;
     /* background-color: lightyellow; */
     margin: 0 auto;
+}
+
+.linkBold {
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 

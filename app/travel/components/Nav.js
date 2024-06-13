@@ -25,7 +25,7 @@ export default function Nav({ links }) {
   return (
     <div className="nav">
       <div className="navCenter">
-        <Link href="/travel">
+        <Link href="/travel" style={{ textDecoration: "none"}}>
           <div className="logo" >
             <div className="logoCompass" >
               <Image 
