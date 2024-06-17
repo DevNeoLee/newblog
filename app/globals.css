@@ -809,6 +809,9 @@ footer {
 .linkBold {
     font-weight: 900;
     text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 255, 224);
+    text-decoration-thickness: 0.6rem;
 }
 
 
