@@ -28,14 +28,14 @@ color: "lightpink"
 <p style="text-align: center;" data-ke-size="size18"><b>
 
 
-<a class="linkBold" style="color:#006dd7" href="https://moyahug.com/travel/canada/westVsEast">[관련글] 캐나다 여행 동부와 서부 어디가 더 좋을까?</a></b></p>
+<a className="linkBold" style="color:#006dd7" href="https://moyahug.com/travel/canada/westVsEast">[관련글] 캐나다 여행 동부와 서부 어디가 더 좋을까?</a></b></p>
 
 
 <p style="text-align: center;" data-ke-size="size16">&nbsp;</p>
 <p style="text-align: center;" data-ke-size="size18"><span style="color: #006dd7;"><b>
 
 
-<a class="linkBold" style="color:#006dd7" href="https://moyahug.com/travel/canada/mustGoCanada">[관련글] 캐나다 여행가면 꼭 가봐야 할 곳들</a>
+<a className="linkBold" style="color:#006dd7" href="https://moyahug.com/travel/canada/mustGoCanada">[관련글] 캐나다 여행가면 꼭 가봐야 할 곳들</a>
 
 
 
@@ -54,18 +54,18 @@ color: "lightpink"
 <p style="text-align: justify;" data-ke-size="size16"><span style="color: #ee2323;"><b>
 
 
-<a class="linkBold" style="color:#006dd7" href="https://www.koreanair.com/?NaPm=ct%3Dlxfdyvwj%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3Dnull%7Chk%3Dc984edcaab09c38c471d177b67e7b34d33965437" rel="noopener"><span style="color: #006dd7;">대한항공(Korean Air)</span></a>
+<a className="linkBold" style="color:#006dd7" href="https://www.koreanair.com/?NaPm=ct%3Dlxfdyvwj%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3Dnull%7Chk%3Dc984edcaab09c38c471d177b67e7b34d33965437" rel="noopener"><span style="color: #006dd7;">대한항공(Korean Air)</span></a>
 
 </b>의 경우는 토론토와 밴쿠버 노선을 운행</span>하고 <span style="color: #ee2323;"><span style="color: #006dd7;"><b>
 
 
-<a class="linkBold" style="color:#006dd7" href="https://www.aircanada.com/kr/ko/aco/home.html">에어캐나다(Air Canada)</a>
+<a className="linkBold" style="color:#006dd7" href="https://www.aircanada.com/kr/ko/aco/home.html">에어캐나다(Air Canada)</a>
 
 
 </b></span>의 경우도 토론토와 밴쿠버 노선을 운행</span>하고 있으며 <span style="color: #ee2323;"><span style="color: #006dd7;"><b>
 
 
-<a class="linkBold" style="color:#006dd7" href="https://www.westjet.com/en-ca">웨스트젯(WestJet)</a>
+<a className="linkBold" style="color:#006dd7" href="https://www.westjet.com/en-ca">웨스트젯(WestJet)</a>
 
 
 
@@ -79,7 +79,7 @@ color: "lightpink"
 <p style="text-align: center;" data-ke-size="size16"><span style="color: #006dd7;"><b>
 
 
-<a class="linkBold" style="color:#006dd7" href="https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets.md">[관련글] 저렴한 항공원 예매를 위해서 꼭 알아두어야 할 정보</a>
+<a className="linkBold" style="color:#006dd7" href="https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets.md">[관련글] 저렴한 항공원 예매를 위해서 꼭 알아두어야 할 정보</a>
 
 
 </b></span></p>

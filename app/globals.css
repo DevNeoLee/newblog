@@ -90,8 +90,7 @@ a {
     font-size: 1.2rem;
     line-height: 2.0;
     margin: 4px 0 0 0px;
-    font-weight: 700;
-    /* color: blue; */
+    font-weight: 900;
     font-family: 'Noto Serif KR', serif;
     text-decoration: none;
 }
@@ -477,7 +476,7 @@ footer {
     width: 850px;
     max-width: 850px;
     background-color: lightgreen;
-    background-color: blue;
+    /* background-color: blue; */
     margin: 1px auto;
 }
 
@@ -808,7 +807,7 @@ footer {
 }
 
 .linkBold {
-    font-weight: 700;
+    font-weight: 900;
     text-decoration: underline;
 }
 

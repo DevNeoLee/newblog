@@ -19,7 +19,7 @@ color: "lightpink"
 <p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
 <p style="text-align: justify;" data-ke-size="size16">항공권을 예매하기에 앞서 각 예매 사이트들의 특징을 잘 파악하고 있으면 조금이라도 저렴하게 항공권을 구매할 수 있습니다.</p>
 <p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
-<p style="text-align: justify;" data-ke-size="size16"><span style="color: #006dd7;"><b><a className="linkBold" style="color: #006dd7;" href="https://flight.naver.com/">네이버항공권</a></b></span>의 경우는 주로 국내외 항공사, 국내 여행사에 판매하는 항공권의 가격을 비교해 주는 경우가 많습니다. <span style="color: #ee2323;">네이버항공권에서 저렴하게 항공권을 구매하기 위해서는 제휴카드로 할인받을 수 있는지 확인하는 것이 가장 중요</span>합니다. 제휴카드가 있고 전월실적이 좋은 경우는 네이버항공권에서 가장 저렴하게 항공권을 구매할 수 있는 경우가 많습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><span style="color: #006dd7;"><b><a class="linkBold" style="color: #006dd7;" href="https://flight.naver.com/">네이버항공권</a></b></span>의 경우는 주로 국내외 항공사, 국내 여행사에 판매하는 항공권의 가격을 비교해 주는 경우가 많습니다. <span style="color: #ee2323;">네이버항공권에서 저렴하게 항공권을 구매하기 위해서는 제휴카드로 할인받을 수 있는지 확인하는 것이 가장 중요</span>합니다. 제휴카드가 있고 전월실적이 좋은 경우는 네이버항공권에서 가장 저렴하게 항공권을 구매할 수 있는 경우가 많습니다.</p>
 <p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
 <p style="text-align: justify;" data-ke-size="size16"><span style="color: #006dd7;"><b><a className="linkBold" style="color: #006dd7;" href="https://www.google.com/travel/flights/">구글항공권</a></b></span>의 경우는 국내외 항공사뿐만 아니라 국내외 여행사에서 판매하고 있는 항공권 가격을 비교해 줍니다. 구글항공권에서 판매하는 저렴한 항공권은 대부분 해외여행사에서 판매하는 항공권이 많습니다. 다시 말하면 <span style="color: #ee2323;">구글에서 항공권을 예매할 때는 해외여행사에서 판매하는 항공권의 가격을 잘 살펴보면 저렴한 항공권을 구매할 확률이 높습니다.</span></p>
 <p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
