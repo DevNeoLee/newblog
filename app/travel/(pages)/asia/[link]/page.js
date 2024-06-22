@@ -38,6 +38,9 @@ export function generateMetadata({ params, searchParams }) {
 
   return { 
     title: details.data.title,
-    description: details.content.slice(1, 175)
+    description: details.content.slice(1, 175),   
+    alternates: {
+        canonical: 'https://moyahug.com/travel/asia/' + params.link,
+    }
   };
 }

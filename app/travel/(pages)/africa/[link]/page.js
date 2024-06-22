@@ -30,6 +30,7 @@ export default async function PostPage(props) {
       <div className="continentContainer">
         <div className="continentMain">
           <div className="detailTitle"><h1>{post.data.title}</h1></div>
+        
           <Markdown>{post.content}</Markdown>
         </div>
       </div>
@@ -41,7 +42,10 @@ export function generateMetadata({ params, searchParams }) {
 
   return { 
     title: details.data.title,
-    description: details.content.slice(1, 175)
+    description: details.content.slice(1, 175),   
+    alternates: {
+      canonical: 'https://moyahug.com/travel/africa/' + params.link,
+    }
   };
 }
  
