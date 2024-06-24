@@ -7,7 +7,7 @@ export default async function generateRss(allPosts) {
   const site_url =
     process.env.NODE_ENV === "production"
     ? 
-    "https://moyahug.com"
+    "https://www.moyahug.com"
     : 
     "http://localhost:3000";
 
