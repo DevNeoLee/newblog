@@ -40,7 +40,7 @@ export function generateMetadata({ params, searchParams }) {
     title: details.data.title,
     description: details.content.slice(1, 175),   
     alternates: {
-        canonical: 'https://www.moyahug.com/travel/usa/' + params.link,
+        canonical: 'https://moyahug.com/travel/usa/' + params.link,
     }
   };
 }
