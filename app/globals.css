@@ -35,6 +35,7 @@ h2 {
     line-height: 2.0;
     margin: 2rem 0 1.5rem 0.2rem;
     color: rgb(31, 31, 31);
+    hyphens: auto;
     /* color:rgb(36, 36, 36) */
 }
 
@@ -457,6 +458,7 @@ footer {
     letter-spacing: 20px;
     margin-left: 10rem;
     font-weight: 600;
+    hyphens: auto;
     /* text-decoration:underline; */
 }
 
