@@ -15,7 +15,7 @@ color: "lightpink"
 <p style="text-align: justify;" data-ke-size="size16">아래에 해외에서 유심을 사용할 경우에 꼭 알아야 할 정보를 정리해 보았습니다.</p>
 <p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
 
-![image](/Information-You-Must-Know-When-Using-a-SIM-Card-Abroad.webp)
+![유심 사용에 유용한 정보](/Information-You-Must-Know-When-Using-a-SIM-Card-Abroad.webp)
 
 <p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
 <p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
