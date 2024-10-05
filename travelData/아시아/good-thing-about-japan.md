@@ -22,7 +22,7 @@ date: "2024-03-03 04:24:34"
 
 <br />
 
-<p><b><a href="https://www.japan.travel/ko/kr/">[바로가기] 일본여행 공식가이드 홈페이지(Travel Japan) </a></b></p>
+<p><a href="https://www.japan.travel/ko/kr/">[바로가기] 일본여행 공식가이드 홈페이지(Travel Japan) </a></p>
 
 
 <h2>일본여행이 편리하고 좋은 점</h2>
