@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { getMetadata, getCatalogue } from '../../utils/getData';
 
 export const metadata = {
-  title: '나를 찾는 배움의 여행, 고수들의 현지 가이드 꿀팁',
-  description: '배낭 여행 현지 여행 고수들의 꿀팁 및 주의 사항, 가이드 등, 최신자료를 엄선하여 소개합니다. 역사, 철학, 삶과 죽음, 사랑과 미움, 희노애락의 자아실현의 배낭여행, 로컬',
+  title: '나를 찾는 배움의 여행,  꿀팁',
+  description: '배낭 여행  꿀팁 및 주의 사항, 가이드 등, 최신자료를 엄선하여 소개합니다. 역사, 철학, 삶과 죽음, 사랑과 미움, 희노애락의 자아실현의 배낭여행, 로컬',
   alternates: {
     canonical: 'https://moyahug.com/travel/prologue/',
   }

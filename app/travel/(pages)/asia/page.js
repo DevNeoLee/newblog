@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { getMetadata } from '@/app/travel/utils/getData'; 
 
 export const metadata = {
-  title: '현지 여행 고수들의 현지 가이드 아시아 꿀팁',
-  description: '아시아 배낭 여행 현지 여행 고수들의 꿀팁 및 주의 사항, 가이드 등, 최신자료를 엄선하여 소개합니다. 일본, 대만, 로컬',
+  title: '  아시아 꿀팁',
+  description: '아시아 배낭 여행  꿀팁 및 주의 사항, 가이드 등, 최신자료를 엄선하여 소개합니다. 일본, 대만, 로컬',
   alternates: {
     canonical: 'https://moyahug.com/travel/asia/',
   }
