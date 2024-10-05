@@ -22,7 +22,7 @@ export default function Footer() {
        
       </div>
       <div className="copyright">
-        <p style={{ color: "gray"}}>© Copyright {new Date().getFullYear()} <strong style={{ color: "black", margin: "0 1rem"}}> 뭐 여 행 </strong> All rights reserved.</p> 
+        <p style={{ color: "gray"}}>© Copyright {new Date().getFullYear()} <strong className="logoKorean" style={{ fontSize: "18px", color: "black", margin: "0 1rem"}}> 뭐여행</strong>All rights reserved.</p> 
         {/* <p><strong>PCB</strong> is owned and operated by <strong>Pacific Customs Brokers Ltd., Pacific Customs Brokers Inc.</strong>, and <strong>PCB Freight Management Ltd.</strong></p> */}
       </div>
     </footer>    

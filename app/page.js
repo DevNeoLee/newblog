@@ -34,7 +34,7 @@ export default function Home() {
                 height="34"
               />
           </div>
-          <div className="logoKorean" id="blur" >MOYAHUG</div>
+          <div className="logoMoyahug" id="blur" >MoyaHug</div>
         </Link>
         <Link href={`travel/`} className="countryLink" > 
           <div id="blur" className="country">여행과 나</div>
