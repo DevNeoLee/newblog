@@ -146,14 +146,8 @@ footer {
     color: rgb(44, 44, 44);
     font-size: 40px;
     /* font-weight: 800; */
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     margin-left: 10px;
-
-    /* font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal; */
-
-    
 }
 
 .mainContainer {
