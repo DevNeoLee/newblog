@@ -5,37 +5,37 @@ date: "2024-05-03 10:11:12"
 color: "lightpink"
 ---
 
-<p style="text-align: justify;" data-ke-size="size16">일본을 여행할 경우에 일본은 왠지 아이들과 함께 가서 여행하기 좋은 곳이 많이 없다고 생각하지만 우리가 생각하는 것 이상으로 일본에도 아이들과 함께 여행하면 좋은 장소들이 많이 있습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">물론 아이들의 연령대에서 따라서 장소는 달라질 수 있지만 일반적으로 아이들이 좋아하는 일본의 대표적인 관광지 5곳을 정리해 보도록 하겠습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h2 style="text-align: justify;" data-ke-size="size26"><b>1. 도쿄 디즈니랜드(Disney Land) 및 디즈니씨(Disney Sea)</b></h2>
-<p style="text-align: justify;" data-ke-size="size16">디즈니랜드는 전통적인 디즈니 캐릭터들과 인기 놀이기구를 만날 수 있는 대형 테마파크입니다. 캐릭터들을 구경할 수 있고 다양한 쇼와 퍼레이드를 즐길 수 있는 곳입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">디즈니씨는 세계에서 유일한 해양 테마의 디즈니 테마파크로, 해적들과 모험가들의 세계를 경험할 수 있습니다. 신비로운 분위기와 특별한 놀이기구들이 많이 있어 방문한 대부분의 아이들이 좋아하는 곳입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h2 style="text-align: justify;" data-ke-size="size26"><b>2. 교토의 니조성(Nijo Castle)</b></h2>
-<p style="text-align: justify;" data-ke-size="size16">니조성은 일본의 역사와 문화를 체험할 수 있는 중요한 유적지 중 하나입니다. 아이들은 화려한 궁궐과 신비로운 정원을 탐험하면서, 일본의 옛 전통에 대해 배울 수 있습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">일본 문화를 배운다는 것이 우리의 정서와 맞지 않을 수는 있지만 아이들에게 세계의 다양한 문화를 체험할 수 있게 해주는 장소로는 나쁘지 않은 곳입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h2 style="text-align: justify;" data-ke-size="size26"><b>3. 오사카 유니버설 스튜디오 재팬(Universal Studios Japan)</b></h2>
-<p style="text-align: justify;" data-ke-size="size16">유니버설 스튜디오 재팬은 할리우드 영화와 인기 캐릭터들을 테마로 한 놀이공원입니다. 해리포터의 세계, 몬스터즈 인크 등 아이들이 사랑하는 캐릭터들을 만날 수 있으며, 다양한 놀이기구와 쇼를 즐길 수 있는 곳입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">굳이 미국까지 가지 않아도 일본에서 유니버설 스튜디오를 체험할 수 있는 곳이라 오사카를 여행한다면 아이들과 방문해 보면 좋은 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h2 style="text-align: justify;" data-ke-size="size26"><b>4. 오사카 수족관(Osaka Aquarium)</b></h2>
-<p style="text-align: justify;" data-ke-size="size16">오사카 수족관은 세계 최대급의 수족관으로, 다양한 해양 생물을 관찰할 수 있는 곳입니다. 특히 대형 유리 관찰창을 통해 상어와 돌고래 등을 볼 수 있어 아이들에게 큰 호기심을 자극하는 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">우리나라에도 수족관들이 많은데 오사카 수족관은 우리나라와는 다른 느낌이라서 반나절 정도 아이들과 함께 관람하기 좋은 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h2 style="text-align: justify;" data-ke-size="size26"><b>5. 하코네(Hakone)</b></h2>
-<p style="text-align: justify;" data-ke-size="size16">하코네는 온천으로 유명한 지역으로, 가족 모두가 즐길 수 있는 휴양지입니다. 아름다운 자연 풍경을 감상하며 온천을 즐길 수 있고, 로프웨이를 타고 올라가는 도중에는 환상적인 전망을 볼 수 있어 아이들에게도 만족도가 높습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">우리나라는 최근에 온천 관광지가 없어지고 있는 추세라서 일본에서라도 아이들과 함께 온천에서 즐거운 시간을 보내는 것도 나쁘지 않은 선택인 것 같습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p>일본을 여행할 경우에 일본은 왠지 아이들과 함께 가서 여행하기 좋은 곳이 많이 없다고 생각하지만 우리가 생각하는 것 이상으로 일본에도 아이들과 함께 여행하면 좋은 장소들이 많이 있습니다.</p>
+<p><br></p>
+<p>물론 아이들의 연령대에서 따라서 장소는 달라질 수 있지만 일반적으로 아이들이 좋아하는 일본의 대표적인 관광지 5곳을 정리해 보도록 하겠습니다.</p>
+<p><br></p>
+<p><br></p>
+<h2><b>1. 도쿄 디즈니랜드(Disney Land) 및 디즈니씨(Disney Sea)</b></h2>
+<p>디즈니랜드는 전통적인 디즈니 캐릭터들과 인기 놀이기구를 만날 수 있는 대형 테마파크입니다. 캐릭터들을 구경할 수 있고 다양한 쇼와 퍼레이드를 즐길 수 있는 곳입니다.</p>
+<p><br></p>
+<p>디즈니씨는 세계에서 유일한 해양 테마의 디즈니 테마파크로, 해적들과 모험가들의 세계를 경험할 수 있습니다. 신비로운 분위기와 특별한 놀이기구들이 많이 있어 방문한 대부분의 아이들이 좋아하는 곳입니다.</p>
+<p><br></p>
+<p><br></p>
+<h2><b>2. 교토의 니조성(Nijo Castle)</b></h2>
+<p>니조성은 일본의 역사와 문화를 체험할 수 있는 중요한 유적지 중 하나입니다. 아이들은 화려한 궁궐과 신비로운 정원을 탐험하면서, 일본의 옛 전통에 대해 배울 수 있습니다.</p>
+<p><br></p>
+<p>일본 문화를 배운다는 것이 우리의 정서와 맞지 않을 수는 있지만 아이들에게 세계의 다양한 문화를 체험할 수 있게 해주는 장소로는 나쁘지 않은 곳입니다.</p>
+<p><br></p>
+<p><br></p>
+<h2><b>3. 오사카 유니버설 스튜디오 재팬(Universal Studios Japan)</b></h2>
+<p>유니버설 스튜디오 재팬은 할리우드 영화와 인기 캐릭터들을 테마로 한 놀이공원입니다. 해리포터의 세계, 몬스터즈 인크 등 아이들이 사랑하는 캐릭터들을 만날 수 있으며, 다양한 놀이기구와 쇼를 즐길 수 있는 곳입니다.</p>
+<p><br></p>
+<p>굳이 미국까지 가지 않아도 일본에서 유니버설 스튜디오를 체험할 수 있는 곳이라 오사카를 여행한다면 아이들과 방문해 보면 좋은 장소입니다.</p>
+<p><br></p>
+<p><br></p>
+<h2><b>4. 오사카 수족관(Osaka Aquarium)</b></h2>
+<p>오사카 수족관은 세계 최대급의 수족관으로, 다양한 해양 생물을 관찰할 수 있는 곳입니다. 특히 대형 유리 관찰창을 통해 상어와 돌고래 등을 볼 수 있어 아이들에게 큰 호기심을 자극하는 장소입니다.</p>
+<p><br></p>
+<p>우리나라에도 수족관들이 많은데 오사카 수족관은 우리나라와는 다른 느낌이라서 반나절 정도 아이들과 함께 관람하기 좋은 장소입니다.</p>
+<p><br></p>
+<p><br></p>
+<h2><b>5. 하코네(Hakone)</b></h2>
+<p>하코네는 온천으로 유명한 지역으로, 가족 모두가 즐길 수 있는 휴양지입니다. 아름다운 자연 풍경을 감상하며 온천을 즐길 수 있고, 로프웨이를 타고 올라가는 도중에는 환상적인 전망을 볼 수 있어 아이들에게도 만족도가 높습니다.</p>
+<p><br></p>
+<p>우리나라는 최근에 온천 관광지가 없어지고 있는 추세라서 일본에서라도 아이들과 함께 온천에서 즐거운 시간을 보내는 것도 나쁘지 않은 선택인 것 같습니다.</p>
+<p><br></p>

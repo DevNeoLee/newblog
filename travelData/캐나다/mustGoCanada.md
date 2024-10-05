@@ -7,50 +7,50 @@ color: "lightpink"
 
 
 
-<p style="text-align: justify;" data-ke-size="size16">캐나다는 러시아 다음으로 넓은 영토를 가지고 있는 국가이며 또한 정말로 많은 관광지들이 있는 곳입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">땅이 넓어서 그런지 여행할 곳도 많지만 캐나다로 여행을 떠난다면 꼭 가봐야 할 여행 장소 5곳을 소개해 보겠습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">아래에 소개할 캐나다로 여행 가면 꼭 가봐야 할 관광지 5곳은 개인적으로 좋아하는 장소들이니 이점은 참고해서 읽어 주셨으면 합니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h2 style="text-align: justify;" data-ke-size="size26"><b>캐나다 꼭 가봐야 할 여행 장소 5곳</b></h2>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h3 style="text-align: justify;" data-ke-size="size23"><span style="color: #ee2323;">1. 토피노 (Tofino)</span></h3>
-<p style="text-align: justify;" data-ke-size="size16">토피노라는 곳은 아마도 대부분의 한국사람들에게 다소 생소한 장소일 것입니다. 토피노는 밴쿠버 바다 앞에 있는 밴쿠버 섬(Vacouver Island)의 서쪽에 있는 자그마한 해변에 있는 도시입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">이곳은 밴쿠버에서 배(페리)를 타고 밴쿠버섬으로 이동한 후 차량을 약 2시간 내외의 거리에 있는 조그마한 해변 마을입니다. 토피노는 바로 태평양에 접해있는 곳이고 넓은 백사장이 있어 서핑을 즐기는 사람들이 꼭 가고 싶어 하는 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">상상을 초월하는 넓은 백사장과 서핑을 즐기는 사람들을 볼 수 있는 곳이며 조개잡이, 낚시, 게낚시 등을 즐길 수 있는 캐나다 사람들도 한 번은 꼭 가고 싶은 장소가 토피노입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h3 style="text-align: justify;" data-ke-size="size23"><span style="color: #8a3db6;">2. 엘로우나이프 (Yellowknife)</span></h3>
-<p style="text-align: justify;" data-ke-size="size16">엘로우나이프는 북위 62도에 있는 캐나다 북쪽에 있는 규모가 크지 않는 도시입니다. 캐나다의 겨울은 혹독해서 스키, 스노우보드 등 겨울철 스포츠를 제외하고는 크게 여행을 즐길 수 있는 장소는 많지 않습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">하지만 엘로우나이프는 겨울에도 많은 관광객들이 찾는 장소로 이곳은 캐나다에서 오로라를 볼 수 있는 대표적인 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">엘로우나이프는 오로라 관광에 특화된 도시로 겨울철에 방문한다면 하늘에 펼쳐지는 오로라가 주는 감동을 확실히 느낄 수 있는 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h3 style="text-align: justify;" data-ke-size="size23"><span style="color: #f89009;">3. 캐나다 로키산맥 (Canadian Rockies)</span></h3>
-<p style="text-align: justify;" data-ke-size="size16">로키산맥은 캐나다와 미국에 걸쳐있는 산맥이지만 캐나다 로키산맥이 조금은 더 웅장하기 때문에 캐나다 로키산맥이 더 유명하다고 할 수 있습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">캐나다 로키산맥을 관광하는 이유는 아무래도 대자연을 느끼기 위함인데 잘 보존된 자연환경은 매년 수많은 전 세계 관광객들을 불러 모으고 있습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">캐나다 로키에서는 만년설이 있는 높은 산, 울창한 침엽수림, 에머럴드 빛 호수, 다양한 야생동물들을 쉽게 볼 수 있습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">여름철에는 관광객들이 많아서 호텔 등 숙박비가 비싸서 자유여행이 어려울 경우에는 밴쿠버, 캘거리에 있는 한인 여행사의 패키지 상품을 이용하는 것도 캐나다 로키를 방문하는 좋은 방법입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h3 style="text-align: justify;" data-ke-size="size23"><span style="color: #409d00;">4. 나이아가라 폭포 (Niagara Falls)</span></h3>
-<p style="text-align: justify;" data-ke-size="size16">캐나다 유명 관광지하면 떠오르는 곳 중 한 곳이 나이아가라 폭포입니다. 나이아가라 폭포는 캐나다와 미국의 국경에 있지만 보통 캐나다 나이아가라 폭포를 방문하는 사람들이 더 많습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">그 이유는 여러 가지가 있지만 폭포를 캐나다 쪽에서 바라보면 뷰가 더 좋고 그 웅장함을 보다 생생하게 느낄 수 있기 때문입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">캐나다 동부 여행을 갔다가 나이아가라 폭포를 여행하지 않는 사람은 거의 없을 정도로 유명한 관광지이며 개인적으로도 가보면 후회하지 않을 장소라고 생각됩니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<h3 style="text-align: justify;" data-ke-size="size23"><span style="color: #953b34;">5. 올드 퀘벡 (Old Quebec)</span></h3>
-<p style="text-align: justify;" data-ke-size="size16">올드 퀘벡은 캐나다 퀘벡주의 주도인 퀘벡시에 위치한 지역으로 고풍스러운 건물과 예쁜 상점들이 많은 곳입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">우리나라 드라마, 예능 프로그램 등에서 많이 소개가 되어 생소하지 않은 장소이지만 직접 여행해 본다면 TV에서 보는 감동과는 뭔가 다른 감동을 느낄 수 있는 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">올드 퀘벡은 여름에 관광객이 제일 많지만 다른 계절에 방문을 해도 충분히 훌륭한 관광을 할 수 있는 장소입니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
-<p style="text-align: justify;" data-ke-size="size16">가울에는 단풍의 나라답게 올드 퀘벡 주변의 단풍은 웅장함과 아름다움을 함께 간직하고 있으며 겨울에 눈 쌓인 거리는 또 다른 감동을 항상 여행자들에게 주는 것 같습니다.</p>
-<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p>캐나다는 러시아 다음으로 넓은 영토를 가지고 있는 국가이며 또한 정말로 많은 관광지들이 있는 곳입니다.</p>
+<p><br></p>
+<p>땅이 넓어서 그런지 여행할 곳도 많지만 캐나다로 여행을 떠난다면 꼭 가봐야 할 여행 장소 5곳을 소개해 보겠습니다.</p>
+<p><br></p>
+<p>아래에 소개할 캐나다로 여행 가면 꼭 가봐야 할 관광지 5곳은 개인적으로 좋아하는 장소들이니 이점은 참고해서 읽어 주셨으면 합니다.</p>
+<p><br></p>
+<h2><b>캐나다 꼭 가봐야 할 여행 장소 5곳</b></h2>
+<p><br></p>
+<h3><span style="color: #ee2323;">1. 토피노 (Tofino)</span></h3>
+<p>토피노라는 곳은 아마도 대부분의 한국사람들에게 다소 생소한 장소일 것입니다. 토피노는 밴쿠버 바다 앞에 있는 밴쿠버 섬(Vacouver Island)의 서쪽에 있는 자그마한 해변에 있는 도시입니다.</p>
+<p><br></p>
+<p>이곳은 밴쿠버에서 배(페리)를 타고 밴쿠버섬으로 이동한 후 차량을 약 2시간 내외의 거리에 있는 조그마한 해변 마을입니다. 토피노는 바로 태평양에 접해있는 곳이고 넓은 백사장이 있어 서핑을 즐기는 사람들이 꼭 가고 싶어 하는 장소입니다.</p>
+<p><br></p>
+<p>상상을 초월하는 넓은 백사장과 서핑을 즐기는 사람들을 볼 수 있는 곳이며 조개잡이, 낚시, 게낚시 등을 즐길 수 있는 캐나다 사람들도 한 번은 꼭 가고 싶은 장소가 토피노입니다.</p>
+<p><br></p>
+<h3><span style="color: #8a3db6;">2. 엘로우나이프 (Yellowknife)</span></h3>
+<p>엘로우나이프는 북위 62도에 있는 캐나다 북쪽에 있는 규모가 크지 않는 도시입니다. 캐나다의 겨울은 혹독해서 스키, 스노우보드 등 겨울철 스포츠를 제외하고는 크게 여행을 즐길 수 있는 장소는 많지 않습니다.</p>
+<p><br></p>
+<p>하지만 엘로우나이프는 겨울에도 많은 관광객들이 찾는 장소로 이곳은 캐나다에서 오로라를 볼 수 있는 대표적인 장소입니다.</p>
+<p><br></p>
+<p>엘로우나이프는 오로라 관광에 특화된 도시로 겨울철에 방문한다면 하늘에 펼쳐지는 오로라가 주는 감동을 확실히 느낄 수 있는 장소입니다.</p>
+<p><br></p>
+<h3><span style="color: #f89009;">3. 캐나다 로키산맥 (Canadian Rockies)</span></h3>
+<p>로키산맥은 캐나다와 미국에 걸쳐있는 산맥이지만 캐나다 로키산맥이 조금은 더 웅장하기 때문에 캐나다 로키산맥이 더 유명하다고 할 수 있습니다.</p>
+<p><br></p>
+<p>캐나다 로키산맥을 관광하는 이유는 아무래도 대자연을 느끼기 위함인데 잘 보존된 자연환경은 매년 수많은 전 세계 관광객들을 불러 모으고 있습니다.</p>
+<p><br></p>
+<p>캐나다 로키에서는 만년설이 있는 높은 산, 울창한 침엽수림, 에머럴드 빛 호수, 다양한 야생동물들을 쉽게 볼 수 있습니다.</p>
+<p><br></p>
+<p>여름철에는 관광객들이 많아서 호텔 등 숙박비가 비싸서 자유여행이 어려울 경우에는 밴쿠버, 캘거리에 있는 한인 여행사의 패키지 상품을 이용하는 것도 캐나다 로키를 방문하는 좋은 방법입니다.</p>
+<p><br></p>
+<h3><span style="color: #409d00;">4. 나이아가라 폭포 (Niagara Falls)</span></h3>
+<p>캐나다 유명 관광지하면 떠오르는 곳 중 한 곳이 나이아가라 폭포입니다. 나이아가라 폭포는 캐나다와 미국의 국경에 있지만 보통 캐나다 나이아가라 폭포를 방문하는 사람들이 더 많습니다.</p>
+<p><br></p>
+<p>그 이유는 여러 가지가 있지만 폭포를 캐나다 쪽에서 바라보면 뷰가 더 좋고 그 웅장함을 보다 생생하게 느낄 수 있기 때문입니다.</p>
+<p><br></p>
+<p>캐나다 동부 여행을 갔다가 나이아가라 폭포를 여행하지 않는 사람은 거의 없을 정도로 유명한 관광지이며 개인적으로도 가보면 후회하지 않을 장소라고 생각됩니다.</p>
+<p><br></p>
+<h3><span style="color: #953b34;">5. 올드 퀘벡 (Old Quebec)</span></h3>
+<p>올드 퀘벡은 캐나다 퀘벡주의 주도인 퀘벡시에 위치한 지역으로 고풍스러운 건물과 예쁜 상점들이 많은 곳입니다.</p>
+<p><br></p>
+<p>우리나라 드라마, 예능 프로그램 등에서 많이 소개가 되어 생소하지 않은 장소이지만 직접 여행해 본다면 TV에서 보는 감동과는 뭔가 다른 감동을 느낄 수 있는 장소입니다.</p>
+<p><br></p>
+<p>올드 퀘벡은 여름에 관광객이 제일 많지만 다른 계절에 방문을 해도 충분히 훌륭한 관광을 할 수 있는 장소입니다.</p>
+<p><br></p>
+<p>가울에는 단풍의 나라답게 올드 퀘벡 주변의 단풍은 웅장함과 아름다움을 함께 간직하고 있으며 겨울에 눈 쌓인 거리는 또 다른 감동을 항상 여행자들에게 주는 것 같습니다.</p>
+<p><br></p>
