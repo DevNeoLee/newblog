@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function FooterMain() {
   return (
     <footer>
-      <div className="row">
+      <div className="rowFooter">
         <Link href="/" className="logo" style={{ textDecoration: "none"}}>
             <div className="logoCompass" >
               <Image 

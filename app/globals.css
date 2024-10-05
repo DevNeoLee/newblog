@@ -120,9 +120,14 @@ table {
 footer {
     padding: 1rem;
     box-shadow: rgba(0, 0, 0) 0px 3px 6px, rgba(0, 0, 0, 0.7) 0px 3px 6px;
+    background-color: white;
 }
 
 /*********************      home   *********************/
+
+.main {
+    background-color: #fcfcfc;
+}
 
 .homeContainer {
     background-color: lightgray;
@@ -281,7 +286,7 @@ footer {
 }
 
 .travelMenu {
-    margin: 0;
+    margin-left: 100px;
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -814,6 +819,10 @@ footer {
     text-decoration: underline;
     text-decoration-color: rgb(197, 255, 224);
     text-decoration-thickness: 0.6rem;
+}
+
+.rowFooter {
+    margin-left: 100px;
 }
 
 

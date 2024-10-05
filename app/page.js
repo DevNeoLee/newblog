@@ -22,7 +22,7 @@ export default function Home() {
   const metaInfo = getMetadata("나를찾는세계여행");
   
   return (
-    <>
+    <div className="main">
       <div className="travelMenu">
         <Link href="/" className="logo" style={{ textDecoration: "none"}}>
           <div className="logoCompass" >
@@ -65,6 +65,6 @@ export default function Home() {
         </div>
       </div>
       <FooterMain />
-    </>
+    </div>
   )
 }
