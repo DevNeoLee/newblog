@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
              <div className="logoKorean" id="blur" >뭐여행</div>
         </Link>
-        <div className="attribution"><div></div><a style={{ textDecoration: "none"}} target="_blank" href="https://unsplash.com/photos/man-taking-photo-of-hot-air-balloons-eOcyhe5-9sQ">Photo by <strong>Mesut Kaya </strong>from Unsplash</a></div>
+        {/* <div className="attribution"><div></div><a style={{ textDecoration: "none"}} target="_blank" href="https://unsplash.com/photos/man-taking-photo-of-hot-air-balloons-eOcyhe5-9sQ">Photo by <strong>Mesut Kaya </strong>from Unsplash</a></div> */}
        
       </div>
       <div className="copyright">

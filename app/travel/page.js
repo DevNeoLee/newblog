@@ -22,14 +22,14 @@ export default function Travel() {
         <div><h1> 꿈 </h1><h4>에서</h4> <h2>보았던</h2><h3>그곳</h3></div>
       </div>
       <div className="travelMain">
-        <Image 
+        {/* <Image 
           priority
           alt="travel main image"
           src="/background_image_mesut-kaya.jpg"
           fill
           quality={60}
           style={{ zIndex: "-12", position: "absolute", objectFit: "cover"}}
-        />
+        /> */}
         <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
