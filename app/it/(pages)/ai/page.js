@@ -20,7 +20,6 @@ export default function ai(props) {
       <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`ai/${post.link}`} key={id}>
-
               <div className="countryCard" key={id}>
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>
                 <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>

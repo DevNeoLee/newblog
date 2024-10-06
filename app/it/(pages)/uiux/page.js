@@ -11,17 +11,13 @@ export const metadata = {
 }
 
 export default function codingHome(props) {
-  const catalogues = getCatalogue();  
-  console.log('catalogues: ', catalogues)
-
   const metaInfo = getMetadata('uiux');
-
   return (
     <div className="continentContainer">
       <div className="continentCategory">
         <h1>UI/UX </h1>
       </div>
-      <div className="mainPagecodings">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`uiux/${post.link}`} key={id}> 
               <div className="countryCard">

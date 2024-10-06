@@ -11,9 +11,6 @@ export const metadata = {
 }
 
 export default function codingHome(props) {
-  const catalogues = getCatalogue();  
-  console.log('catalogues: ', catalogues)
-
   const metaInfo = getMetadata('코딩');
 
   return (
@@ -21,7 +18,7 @@ export default function codingHome(props) {
       <div className="continentCategory">
         <h1>코딩 </h1>
       </div>
-      <div className="mainPagecodings">
+      <div className="mainPagePrologues">
           {metaInfo.map((post, id) => (
             <Link href={`coding/${post.link}`} key={id}> 
               <div className="countryCard">
