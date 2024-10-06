@@ -5,7 +5,7 @@ import { getMetadata } from '@/app/travel/utils/getData';
 import Head from 'next/head';
 
 const getPostContent = (link) => {
-    const folder= 'travelData/아프리카';
+    const folder= 'dataTravel/아프리카';
     const file = `${folder}/${link}.md`;
     const content = fs.readFileSync(file, 'utf8');
     const matterResult = matter(content);

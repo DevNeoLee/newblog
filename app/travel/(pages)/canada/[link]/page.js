@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { getMetadata } from '@/app/travel/utils/getData';
 
 const getPostContent = (link) => {
-    const folder= 'travelData/캐나다/';
+    const folder= 'dataTravel/캐나다/';
     const file = `${folder}${link}.md`;
     const content = fs.readFileSync(file, 'utf8');
     const matterResult = matter(content);

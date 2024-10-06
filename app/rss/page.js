@@ -52,7 +52,7 @@ async function generateRss(allPosts) {
 
 
 const getPostContent = (catalogue, link) => {
-  const folder= `travelData/${catalogue}`;
+  const folder= `dataTravel/${catalogue}`;
   const file = `${folder}/${link}.md`;
   const content = fs.readFileSync(file, 'utf8');
   const matterResult = matter(content);

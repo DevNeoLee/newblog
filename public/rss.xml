@@ -2,136 +2,318 @@
     <channel>
         <title><![CDATA[생활의 지혜, 현명한 블로그 매거진, 세계 여행 팁, 경험담, 여행 철학]]></title>
         <description><![CDATA[즐겁고 뜻깊은 세계여행을 위한 소소한 노하우와 꿀팁을 모은 매거진 입니다]]></description>
-        <link>http://localhost:3000</link>
+        <link>https://moyahug.com</link>
         <image>
-            <url>http://localhost:3000/icon1.png</url>
+            <url>https://moyahug.com/icon1.png</url>
             <title>생활의 지혜, 현명한 블로그 매거진, 세계 여행 팁, 경험담, 여행 철학</title>
-            <link>http://localhost:3000</link>
+            <link>https://moyahug.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 May 2024 09:40:46 GMT</lastBuildDate>
-        <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 May 2024 09:40:46 GMT</pubDate>
+        <lastBuildDate>Sun, 06 Oct 2024 05:23:32 GMT</lastBuildDate>
+        <atom:link href="https://moyahug.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 06 Oct 2024 05:23:32 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <language><![CDATA[ko]]></language>
         <item>
+            <title><![CDATA[크루즈 여행을 즐기는 사람들의 공통점]]></title>
+            <description><![CDATA[크루즈 여행은 그 자체로 독특한 매력을 지닌 여행 형태로, 많은 사람들이 이 특별한 경험을 선호합니다. 크루즈 여행을 즐기는 사람들의 공통점과 특징에 대해서 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/prologue/common-traits-of-people-who-enjoy-cruise-travel</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/common-traits-of-people-who-enjoy-cruise-travel</guid>
+            <pubDate>Fri, 04 Oct 2024 06:48:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[미국에서 렌트카 이용할 때 알아두면 좋은 연비 좋은 차량 정보]]></title>
+            <description><![CDATA[미국에서 렌트카를 빌릴 때 연비가 좋은 차량을 선택하는 것은 렌트카를 고를 떄 중요한 요소들 중 하나입니다. 특히 미국과 같은 경우는 대륙의 크기만큼이나 장거리 이동이 빈번하게 이루어지기 때문에 연료비 절감은 여행 경비를 아낄 수 있는 중요한 방법입니다. 연비가 좋은 차량을 렌트할 때 고려해야 할 요소들과 차종 추천, 장점 등을 정리한 글입니다.]]></description>
+            <link>https://moyahug.com/travel/usa/useful-information-about-fuel-efficient-cars-to-know-when-renting-a-car-in-the-US</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/useful-information-about-fuel-efficient-cars-to-know-when-renting-a-car-in-the-US</guid>
+            <pubDate>Tue, 01 Oct 2024 03:11:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[미국 여행갈 때 알아두면 좋은 팁 문화 이해하기]]></title>
+            <description><![CDATA[미국 여행을 계획하고 있다면, 팁에 대한 이해는 필수적입니다. 적절한 팁은 서비스에 대한 감사의 표시이자, 현지인과의 긍정적인 관계를 형성하는 데 도움이 됩니다. 이 글에서는 미국의 팁 문화, 일반적인 팁 기준, 다양한 상황에서의 팁 주는 방법 등을 상세히 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/usa/understanding-the-tipping-culture-when-traveling-to-the-us</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/understanding-the-tipping-culture-when-traveling-to-the-us</guid>
+            <pubDate>Sun, 22 Sep 2024 02:55:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[해외여행하면서 디지털 노마드로 사는 방법과 알아야 할 노하우]]></title>
+            <description><![CDATA[디지털 노마드로 살아가는 것은 단순한 트렌드를 넘어, 자유롭고 유연한 삶의 방식으로 자리 잡고 있습니다. 기술의 발달로 인해 어디서나 일할 수 있는 환경이 조성되면서, 많은 사람들이 업무와 여행을 병행하는 디지털 노마드의 삶을 선택하고 있습니다. 특히 해외여행을 하면서 일하는 디지털 노마드가 되고자 하는 사람들을 위한 실질적인 방법과 직업 선택, 필수적인 팁들을 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/prologue/how-to-live-as-a-digital-nomad-while-traveling-abroad-and-essential-tips-you-need-to-know</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/how-to-live-as-a-digital-nomad-while-traveling-abroad-and-essential-tips-you-need-to-know</guid>
+            <pubDate>Tue, 17 Sep 2024 04:13:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[일본여행을 좋아하는 사람들의 특징과 공통점]]></title>
+            <description><![CDATA[일본은 그 고유의 매력으로 전 세계 여행자들에게 사랑받는 여행지입니다. 일본 여행을 선호하는 사람들은 독특한 취향과 성향을 가지고 있으며, 그들이 일본을 좋아하는 이유는 여러 가지로 나눌 수 있습니다. 처음으로 일본 여행을 계획하고 있는 분들을 위해서 일본 여행을 즐기는 사람들의 특징과 공통점을 정리한 글입니다.]]></description>
+            <link>https://moyahug.com/travel/asia/characteristics-and-common-traits-of-people-who-enjoy-traveling-to-japan</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/asia/characteristics-and-common-traits-of-people-who-enjoy-traveling-to-japan</guid>
+            <pubDate>Thu, 05 Sep 2024 06:45:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[유럽 기차 여행 상세 정보 및 추천 노선]]></title>
+            <description><![CDATA[유럽은 그 자체로 여행자들에게 꿈의 여행지입니다. 아름다운 자연과 오랜된 역사, 그리고 다양한 문화가 어우러진 유럽은 많은 이들에게 꿈의 여행지입니다. 그중에서도 기차를 타고 즐기는 유럽 여행은 색다른 즐거움을 선사합니다. 기차의 창문 너머로 펼쳐지는 풍경을 바라보며 여유롭게 여행하는 시간은 마치 한 편의 드라마 속 주인공이 된 듯한 기분을 줍니다. 이번 글에서는 유럽 기차 여행의 상세 정보와 함께 추천 노선 등을 정리해 보도록 하겠습니다.]]></description>
+            <link>https://moyahug.com/travel/europe/detailed-information-and-recommended-routes-for-european-train-travel</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/europe/detailed-information-and-recommended-routes-for-european-train-travel</guid>
+            <pubDate>Tue, 27 Aug 2024 05:04:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[캐나다 단풍 여행, 언제 가면 좋을까?]]></title>
+            <description><![CDATA[캐나다는 가을이 되면 단풍으로 물드는 환상적인 풍경을 제공합니다. 북미의 광대한 자연이 색으로 물드는 이 시기에 방문하면 잊지 못할 자연의 아름다움을 경험할 수 있습니다. 하지만 최적의 단풍 시즌은 지역에 따라 다소 차이가 있으므로, 여행 시기와 지역을 고려하여 계획하는 것이 중요합니다.]]></description>
+            <link>https://moyahug.com/travel/canada/when-is-the-best-time-to-go-on-a-fall-foliage-trip-in-canada</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/when-is-the-best-time-to-go-on-a-fall-foliage-trip-in-canada</guid>
+            <pubDate>Sat, 17 Aug 2024 03:22:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[미국 여행을 저렴하게 즐기는 나만의 비법]]></title>
+            <description><![CDATA[미국 여행은 다양한 매력으로 가득하지만, 비용이 만만치 않아 고민하는 분들이 많습니다. 최근 미국 여행을 다녀온 경험을 바탕으로 저렴하게 여행할 수 있는 실전 팁을 공유하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/usa/my-secret-tips-for-enjoying-travel-in-the-US-on-a-budget</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/my-secret-tips-for-enjoying-travel-in-the-US-on-a-budget</guid>
+            <pubDate>Sun, 11 Aug 2024 03:31:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1인당 100만원 이하로 갈 수 있는 동남아시아 여행지 좋은 곳들]]></title>
+            <description><![CDATA[요즘은 전세계적으로 물가가 많이 오르고 항공권, 숙박비 등도 비싸서 100만원 이하로 갈 수 있는 해외 여행지도 많지 않는 것 같습니다. 그래도 잘 찾아보면 1인당 100만원 이하로 갈 수 있는 괜찮은 해외 여행지들이 동남아시아에는 아직도 꽤나 많이 있습니다. 100만원 이하로 해외여행을 즐길 수 있는 동남아시아 여행지 5곳을 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/asia/great-southeast-asian-travel-destinations-where-you-can-go-for-under-1-million-won-per-person</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/asia/great-southeast-asian-travel-destinations-where-you-can-go-for-under-1-million-won-per-person</guid>
+            <pubDate>Tue, 06 Aug 2024 06:50:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[캐나다 계절별 최고의 여행지는 어디일까?]]></title>
+            <description><![CDATA[캐나다를 여행하면서 느꼈던 것 중의 하나가 캐나다는 계절별 온도의 차이 많이 나기 때문에 계절별로 여행하면 좋은 지역이 뚜렷하게 구분된다는 것입니다. 캐나다는 여름에는 영상 30도를 넘는 지역이 있고 겨울에는 영하 30도 이하로 떨어지는 지역이 있어서 계절별로 여행지를 잘 선택해야 최적의 시기에 여행을 할 수 있는 것 같습니다. 개인적으로 추천하는 캐나다의 계절별 여행지를 1곳씩 정리한 포스팅입니다.]]></description>
+            <link>https://moyahug.com/travel/canada/best-travel-destinations-in-Canada-for-each-season</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/best-travel-destinations-in-Canada-for-each-season</guid>
+            <pubDate>Wed, 31 Jul 2024 22:37:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[해외에서 유심 사용할 때 꼭 알아야 할 정보]]></title>
+            <description><![CDATA[해외로 여행을 갈 경우에는 로밍을 사용하는 사람들도 있지만 유심칩을 구매해서 사용하는 경우도 있습니다. 일반적으로 해외 로밍을 하는 것보다는 유심칩을 구매해서 사용하면 좋은 경우가 많지만 유심의 경우는 본인의 여행 목적에 맞는 것을 구매해서 사용하는 것이 좋습니다. 해외에서 유심을 사용할 경우에 꼭 알아야 할 정보를 정리한 글입니다.]]></description>
+            <link>https://moyahug.com/travel/prologue/information-you-must-know-when-using-a-sim-card-abroad</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/information-you-must-know-when-using-a-sim-card-abroad</guid>
+            <pubDate>Thu, 25 Jul 2024 23:18:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[여행을 통해서 얻을 수 있는 것 - 여행의 목적 정하기]]></title>
+            <description><![CDATA[여행의 목적은 사람마다 다르기 때문에 딱 한 가지로 얘기하기는 어렵지만 대부분의 사람들은 무엇이던 여행을 통해서 얻고자 하는 것들이 있습니다. 혹시 여행을 자주 다니지만 왜 내가 여행을 가는지 잘 모르거나 무언가 여행을 통해서 얻고자 한다면 아래에 정리한 일반적인 여행의 목적들을 읽어보면 조금이라도 도움을 받을 수 있을 것입니다.]]></description>
+            <link>https://moyahug.com/travel/prologue/what-you-can-gain-through-travel-determining-the-purpose-of-travel</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/what-you-can-gain-through-travel-determining-the-purpose-of-travel</guid>
+            <pubDate>Sun, 21 Jul 2024 02:24:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[프랑스 보르도에 있는 유명한 관광지 핫플 정리]]></title>
+            <description><![CDATA[프랑스 보르도는 와인으로 유명한 프랑스의 대표적인 관광도시로 프랑스를 방문하는 사람들이라면 한 번쯤은 꼭 가보는 도시입니다. 프랑스 보르도 관광 명소 중에서 핫플로 알려진 장소들을 소개하는 포스팅입니다.]]></description>
+            <link>https://moyahug.com/travel/europe/summary-of-famous-tourist-hotspots-in-bordeaux-france</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/europe/summary-of-famous-tourist-hotspots-in-bordeaux-france</guid>
+            <pubDate>Wed, 17 Jul 2024 00:24:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[미국에서 유명한 해변(비치) 5곳 추천 및 소개]]></title>
+            <description><![CDATA[미국을 여행할 때 방문할 곳들이 많지만 바다를 좋아한다면 미국의 유명한 해변(비치)을 구경해 보는 것도 색다른 여행이 될 수 있습니다. 미국에는 세계적으로도 유명한 해변들이 많아서 이러한 비치들에서 해수욕, 산책, 해양스포츠 등을 즐기면 충분히 기억에 남을 여행을 할 수 있습니다. 추천할 만한 미국에서 유명한 해변 즉 비치 5곳을 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/usa/top-5-famous-beaches-to-visit-and-explore-in-the-united-states</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/top-5-famous-beaches-to-visit-and-explore-in-the-united-states</guid>
+            <pubDate>Sun, 14 Jul 2024 07:24:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[토론토 CN 타워와 주변 추천 유명한 관광지 소개]]></title>
+            <description><![CDATA[CN 타워(CN Tower)는 캐나다 토론토에 위치한 세계적인 랜드마크이자 토론토의 상징적인 건축물입니다. CN 타워는 우리나라 남산타워처럼 높은 곳에서 토론토 시내와 온타리오 호수를 한눈에 볼 수 있는 곳입니다. 캐나다 토론토 CN 타워의 소개와 주변에 있는 추천할 만한 유명한 관광지를 정리한 글입니다.]]></description>
+            <link>https://moyahug.com/travel/canada/introduction-to-famous-tourist-attractions-around-the-toronto-cn-tower</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/introduction-to-famous-tourist-attractions-around-the-toronto-cn-tower</guid>
+            <pubDate>Thu, 11 Jul 2024 12:11:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[아프리카에서 사막투어로 유명한 곳 - 남아프리카공화국, 나미비아, 이집트]]></title>
+            <description><![CDATA[아프리카의 사막 사파리 투어는 사막의 독특한 자연경관과 다양한 야생동물을 구경할 수 있는 아프리카만의 독특한 여행 프로그램입니다. 아프리카에는 다양한 국가의 사막 투어가 있지만 이번 글에서는 남아프리카공화국, 나미비아, 이집트에 있는 대표적인 사막 투어 프로그램을 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/africa/famous-african-desert-tours-South-Africa-Namibia-Egypt</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/africa/famous-african-desert-tours-South-Africa-Namibia-Egypt</guid>
+            <pubDate>Tue, 09 Jul 2024 22:08:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[홍콩으로 여행가는 사람들이 꼭 가보는 관광지는 어디일까?]]></title>
+            <description><![CDATA[요즘 홍콩의 관광지로서의 명성은 예전만 못하지만 아직도 홍콩은 매년 많은 관광객들이 방문하는 도시입니다. 그래도 홍콩은 전 세계에서 유명한 관광지 중 하나이며 홍콩을 여행하고 싶어하는 사람들은 정말로 많습니다. 홍콩을 여행한다면 꼭 가봐야 관광지가 어떤 곳들이 있는지 알아보도록 하곘습니다.]]></description>
+            <link>https://moyahug.com/travel/asia/where-do-people-traveling-to-Hong-Kong-must-visit</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/asia/where-do-people-traveling-to-Hong-Kong-must-visit</guid>
+            <pubDate>Mon, 08 Jul 2024 04:15:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[미국 LA에서 한번 쯤 가 볼만한 유명한 호텔들은 어디일까?]]></title>
+            <description><![CDATA[LA는 미국 서부의 중심지로서 문화적인 다양성과 엔터테인먼트 산업의 중심지로 유명합니다. 이 도시는 세계적으로 유명한 관광지로서 그만큼 다양한 매력적인 호텔들도 많이 있습니다. LA에서 한번 쯤 가 볼만한 유명한 호텔들을 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/usa/which-famous-hotels-in-LA-USA-are-worth-visiting-at-least-once</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/which-famous-hotels-in-LA-USA-are-worth-visiting-at-least-once</guid>
+            <pubDate>Sat, 06 Jul 2024 20:11:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[해외 렌트카 예약 시 주의사항 정리]]></title>
+            <description><![CDATA[요즘에 해외에서 렌트카를 이용하는 사람들이 많아지고 있는데 해외로 여행을 가서 렌트카를 이용할 경우에는 꼭 알아두어야 할 주의사항들이 있습니다. 해외 렌트카를 예약할 때 주의할 사항들을 모를 경우에는 렌트카를 빌릴 수 없거나 추가 요금을 내야 하는 경우가 있으므로 해외 렌트카를 예약하기 전에 꼭 주의사항을 확인해 봐야 합니다.]]></description>
+            <link>https://moyahug.com/travel/prologue/precautions-to-take-when-booking-rental-cars-overseas</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/precautions-to-take-when-booking-rental-cars-overseas</guid>
+            <pubDate>Mon, 01 Jul 2024 10:40:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[캐나다 횡단 열차 좌석(객실) 등급 및 가격 알아보기: 밴쿠버-토론토 구간]]></title>
+            <description><![CDATA[캐나다 횡단열차는 미국과 러시아(시베리아) 횡단열차와 함께 여행자들에게 인기가 있는 여행상품으로 많은 사람들이 한 번쯤 타 보고 싶어 하는 장거리 기차 노선입니다. 캐나다 횡단열차 중 가장 인기가 많은 밴쿠버-토론토 구간의 좌석(객실) 등급과 가격에 대해서 설명하는 글입니다..]]></description>
+            <link>https://moyahug.com/travel/canada/canadian-transcontinental-train-between-vancouver-and-toronto</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/canadian-transcontinental-train-between-vancouver-and-toronto</guid>
+            <pubDate>Wed, 26 Jun 2024 06:01:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[미국 여행가서 메이저리그(MLB) 야구 경기 예매 및 구경하는 방법]]></title>
+            <description><![CDATA[미국은 전 세계에서 손꼽히는 관광지로 미국으로 여행을 가면 구경할 것이 무척 많지만 메이저리그(MLB) 야구 경기를 예매해서 구경하는 것도 꽤나 의미 있는 경험이 될 수 있습니다. 메이저리그(MLB) 야구는 세계 최고의 프로야구 리그로 최고의 선수들이 플레이하는 경기를 구경하는 것은 나름 괜찮은 미국 여행의 구경거리 중 하나입니다.]]></description>
+            <link>https://moyahug.com/travel/usa/book-and-Watch-Major-League-Baseball-Games-While-Traveling-in-the-US</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/book-and-Watch-Major-League-Baseball-Games-While-Traveling-in-the-US</guid>
+            <pubDate>Sat, 22 Jun 2024 03:58:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[캐나다 여행 일정 잘 짜는 순서 및 방법 (토론토, 퀘벡, 밴쿠버, 로키)]]></title>
+            <description><![CDATA[캐나다로 여행을 계획하는 사람들은 캐나다 어디로 여행을 갈지 어떤 일정으로 여행을 가면 좋은지 고민하는 경우가 많이 있습니다. 캐나다는 땅도 넓고 구경할 곳도 많아서 캐나다 여행지의 선택과 일정에 대해서 고민하는 사람들이 많은 것 같습니다. 캐나다로 여행을 떠날 경우에 여행 일정을 잘 짜는 순서와 방법에 대해서 설명하는 포스팅입니다.]]></description>
+            <link>https://moyahug.com/travel/canada/steps-and-methods-for-planning-a-canadian-trip-itinerary</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/steps-and-methods-for-planning-a-canadian-trip-itinerary</guid>
+            <pubDate>Mon, 17 Jun 2024 08:00:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[해외여행 항공권 저렴하게 예매하기 위해서 꼭 알아두어야 할 정보 3가지]]></title>
+            <description><![CDATA[해외여행을 갈 때 전체 비용 중에서 큰 비중을 차지하는 것이 항공권 가격으로 항공권만 저렴하게 예매한다면 여행 비용을 많이 아낄 수 있습니다. 해외항공권의 경우는 싸게 구매하는 것이 좋지만 너무 저렴한 항공권은 그 내용을 잘 살펴보고 구매하지 않으면 오히려 더 큰 비용이 발생하는 경우도 있습니다. 해외여행 항공권을 예매할 때 저렴하게 구입하기 위해서 꼭 알아두면 좋은 정보 3가지에 대해서 설명하는 포스팅입니다.]]></description>
+            <link>https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets.md</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets.md</guid>
+            <pubDate>Wed, 12 Jun 2024 18:32:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[유럽 국가별 대표 음식 - 영국, 이탈리아, 독일]]></title>
+            <description><![CDATA[우리가 유럽으로 여행을 가면 유럽사람들은 모두 생긴 것도 비슷하고 문화도 비슷하고 먹는 음식도 비슷하다고 생각하지만 유럽은 국가별로 지역별로 생각보다 차이가 많이 있는 지역입니다.음식의 경우도 국가별로 많이 달라서 특정 국가, 특정 지역을 대표하는 음식들이 분명히 있습니다. 유럽으로 여행을 갔을 때 꼭 먹어봐야 할 유럽의 국가별 대표 음식에 대해서 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/europe/iconic-european-dishes</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/europe/iconic-european-dishes</guid>
+            <pubDate>Sat, 08 Jun 2024 10:11:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[아프리카 여행갈 때 가지고 가면 좋은 준비물 7가지]]></title>
+            <description><![CDATA[아프리카는 여행지로서 우리나라 사람들에게 많이 알려지지 않은 관광지역으로 여행을 떠나는 사람들이 아프리카 여행정보를 찾을 수 있는 곳이 많지 않습니다. 최근에는 젋은 유튜버들이 아프라카 오지 여행에 대한 콘텐츠도 많이 영상으로 제작해서 올리고 있지만 아프리카 여행을 갈 때 가지고 가면 좋은 준비물에 대한 정보는 찾기 쉽지 않은 것 같습니다. 아프리카 여행을 갈 때 꼭 필요하거나 가지고 가면 크게 도움이 되는 준비물에 대해서 정리한 글입니다.]]></description>
+            <link>https://moyahug.com/travel/africa/what-to-bring-for-travel-to-africa</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/africa/what-to-bring-for-travel-to-africa</guid>
+            <pubDate>Fri, 31 May 2024 08:03:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[우리나라 사람들이 가장 많이 여행하는 국가 1위 - 미국, 일본, 필리핀, 태국, 베트남?]]></title>
+            <description><![CDATA[우리나라 사람들이 가장 많이 방문하고 여행하는 국가도 요즘에는 다소 바뀌는 추세이지만 미국, 일본, 필리핀, 태국, 베트남은 항상 상위권에 있는 것 같습니다. 최근에 통계청에서 공개한 자료를 토대로 우리나라 사람들이 가장 많이 여행하는 국가 5곳의 순위를 소개하는 글입니다.]]></description>
+            <link>https://moyahug.com/travel/prologue/five-most-popular-countries-to-travel-for-korean</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/five-most-popular-countries-to-travel-for-korean</guid>
+            <pubDate>Sat, 25 May 2024 11:06:55 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[여자 혼자 여행해도 안전한 국가 5곳]]></title>
             <description><![CDATA[최근에 영국의 방송사인 BBC에서 여자들이 혼자서 여행해도 안전한 국가 5곳을 선정해서 발표를 하였습니다. 요즘에는 해외로 혼자서 여행하는 여성분들도 많으니 이 순위를 참고하면 안전한 해외 여행지 선택에 도움을 받을 수 있을 것 같습니다. 여자들이 혼자서 여행 가도 안전한 국가 5곳을 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/prologue/five-safe-countries-to-travel-for-women</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/prologue/five-safe-countries-to-travel-for-women</guid>
-            <pubDate>Sun, 19 May 2024 18:06:09 GMT</pubDate>
+            <link>https://moyahug.com/travel/prologue/five-safe-countries-to-travel-for-women</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/five-safe-countries-to-travel-for-women</guid>
+            <pubDate>Mon, 20 May 2024 10:06:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[프랑스 파리 - 관광객이 가장 많이 방문하는 장소 5곳]]></title>
             <description><![CDATA[프랑스는 매년 전 세계에서 가장 많은 관광객이 방문하는 국가로 특히 파리는 관광객들로 항상 붐비는 도시 중 하나입니다. 프랑스 파리를 여행하는 관광객들이 가장 많이 방문하는 장소 5곳에 대해서 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/europe/five-most-popular-places-to-visit-in-paris</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/europe/five-most-popular-places-to-visit-in-paris</guid>
-            <pubDate>Tue, 14 May 2024 18:44:55 GMT</pubDate>
+            <link>https://moyahug.com/travel/europe/five-most-popular-places-to-visit-in-paris</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/europe/five-most-popular-places-to-visit-in-paris</guid>
+            <pubDate>Wed, 15 May 2024 10:44:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[아이들과 함께 가면 좋은 일본 관광지 5곳]]></title>
             <description><![CDATA[일본을 여행할 경우에 일본은 왠지 아이들과 함께 가서 여행하기 좋은 곳이 많이 없다고 생각하지만 우리가 생각하는 것 이상으로 일본에도 아이들과 함께 여행하면 좋은 장소들이 많이 있습니다. 아이들의 연령대에서 따라서 장소는 달라질 수 있지만 일반적으로 아이들이 좋아하는 일본의 대표적인 관광지 5곳을 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/asia/fiveJapaneseTravelWithKids</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/asia/fiveJapaneseTravelWithKids</guid>
-            <pubDate>Fri, 03 May 2024 01:11:12 GMT</pubDate>
+            <link>https://moyahug.com/travel/asia/five-japanese-travel-with-kids</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/asia/five-japanese-travel-with-kids</guid>
+            <pubDate>Fri, 03 May 2024 17:11:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[세계 최고의 럭셔리 여행지에서 맛보는 10가지 인기 메뉴]]></title>
             <description><![CDATA[세계 각지에는 럭셔리한 리조트와 레스토랑이 있습니다. 이곳에서는 높은 가격을 지불할 수 밖에 없지만, 분명 특별한 경험을 할 수 있을 것입니다. 세계에서 가장 비싼 여행지 중 10곳의 인기 있는 레스토랑과 그들의 대표적인 메뉴를 소개하는 글입니다.]]></description>
-            <link>http://localhost:3000/travel/prologue/mostExpensiveRestaurantMenus</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/prologue/mostExpensiveRestaurantMenus</guid>
-            <pubDate>Mon, 29 Apr 2024 01:11:12 GMT</pubDate>
+            <link>https://moyahug.com/travel/prologue/most-expensive-restaurant-menus</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/most-expensive-restaurant-menus</guid>
+            <pubDate>Mon, 29 Apr 2024 17:11:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[캐나다로 여행한다면 꼭 가봐야 할 장소 5곳 (토피노, 엘로우나이프, 로키, 나이아가라 폭포, 올드퀘벡)]]></title>
             <description><![CDATA[캐나다는 러시아 다음으로 넓은 영토를 가지고 있는 국가이며 또한 정말로 많은 관광지들이 있는 곳입니다. 캐나다는 땅이 넓어서 그런지 여행할 곳도 많습니다. 캐나다로 여행을 떠난다면 꼭 가봐야 할 여행 장소 5곳을 정리해서 소개하는 글입니다.]]></description>
-            <link>http://localhost:3000/travel/canada/mustGoCanada</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/canada/mustGoCanada</guid>
-            <pubDate>Sun, 21 Apr 2024 17:04:06 GMT</pubDate>
+            <link>https://moyahug.com/travel/canada/must-go-canadian-cities</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/must-go-canadian-cities</guid>
+            <pubDate>Mon, 22 Apr 2024 09:04:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[어디로 여행갈지 모를 때 저렴하고 좋은 해외 여행지 찾는 방법]]></title>
             <description><![CDATA[해외여행은 가고 싶은 곳이 있어도 비용이 많이 들거나 호텔 등을 예약을 할 수 없어서 다른 장소를 고려하는 경우도 많이 있습니다. 해외여행을 가려고 할 때 어디로 갈지 쉽게 결정하지 못할 경우가 있는데 이럴 때 여행지를 검색하고 찾는 방법에 대해서 소개하는 글입니다.]]></description>
-            <link>http://localhost:3000/travel/prologue/whenYouNotSureWhere</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/prologue/whenYouNotSureWhere</guid>
-            <pubDate>Tue, 16 Apr 2024 23:09:10 GMT</pubDate>
+            <link>https://moyahug.com/travel/prologue/when-you-not-sure-where</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/when-you-not-sure-where</guid>
+            <pubDate>Wed, 17 Apr 2024 15:09:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[캐나다 나이아가라 폭포에 여행가면 꼭 가봐야 할 주변 관광지 3곳]]></title>
             <description><![CDATA[나이아가라 폭포 주변 관광지 3곳 캐나다 관광지하면 가장 먼저 떠오른 곳 중 하나가 나이아가라 폭포입니다. 나이아가라 폭포는 미국에서도 볼 수 있지만 캐나다에서 보는 것이 경치가 더 좋아서 캐나다 쪽에서 구경을 하는 경우가 많습니다. 나이아가라 폭포에 대한 소개보다는 캐나다 나이아가라 폭포 주변에 꼭 가봐야 할 관광지에 대해서 소개하는 글입니다.]]></description>
-            <link>http://localhost:3000/travel/canada/niagaraFalls</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/canada/niagaraFalls</guid>
-            <pubDate>Fri, 12 Apr 2024 22:07:07 GMT</pubDate>
+            <link>https://moyahug.com/travel/canada/niagarafalls</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/niagarafalls</guid>
+            <pubDate>Sat, 13 Apr 2024 14:07:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[아프리카 여행지 선택 및 준비할 것들]]></title>
             <description><![CDATA[아프리카는 아직 여행지로는 우리나라에 많이 알려지지 않은 곳입니다. 물론 최근에는 TV와 유튜브 등을 통해서 간접 체험을 하고 있지만 아프리카를 직접 여행을 다녀온 사람들은 많이 없습니다. 아프리카 여행지 선택 방법과 아프리카 여행을 하기 전에 꼭 확인하고 준비해야 할 것들에 대해서 소개하는 글입니다.]]></description>
-            <link>http://localhost:3000/travel/africa/pickingAfricanTravel</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/africa/pickingAfricanTravel</guid>
-            <pubDate>Tue, 19 Mar 2024 00:45:56 GMT</pubDate>
+            <link>https://moyahug.com/travel/africa/picking-african-travel</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/africa/picking-african-travel</guid>
+            <pubDate>Tue, 19 Mar 2024 16:45:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[여행을 통해서 역사를 이해하고 철학을 느끼고 예술을 즐기자!]]></title>
             <description><![CDATA[국내로 여행을 가던 해외로 여행을 가던 우리는 모두 분명히 개인마다 목적을 가지고 여행을 떠납니다. 즐기기 위한 여행, 휴식을 위한 여행, 배움을 위한 여행 등 여행의 목적은 개인의 성향, 여행시기, 같이 여행하는 사람들에 따라서 너무나 다양한 것 같습니다. 여행을 통해서 얻을 수 있는 것들을 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/prologue/embraceNewCulture</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/prologue/embraceNewCulture</guid>
-            <pubDate>Sun, 17 Mar 2024 03:34:33 GMT</pubDate>
+            <link>https://moyahug.com/travel/prologue/embraceNewCulture</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/embraceNewCulture</guid>
+            <pubDate>Sun, 17 Mar 2024 19:34:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[일본여행이 편리하고 좋은 점 5가지]]></title>
             <description><![CDATA[일본이라는 나라는 가장 가까운 이웃국가이자 많은 사람들이 방문하는 국가 중 하나이며 전 세계 30개 이상의 국가로 여행을 다녀 본 경험에 비추어 보았을 때여행하기 편리한 국가 중 하나입니다. 물론 정치적, 역사적인 문제로 가장 많이 대립하는 국가 중 하나가 일본이기도 하지만 라이벌 즉 함께 경쟁하는 국가라는 인식도 강한 국가가 일본이라는 나라입니다. 일본을 여행하면서 느꼈던 편리하고 좋은 점 5가지를 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/asia/goodThingAboutJapan</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/asia/goodThingAboutJapan</guid>
-            <pubDate>Sat, 02 Mar 2024 19:24:34 GMT</pubDate>
+            <link>https://moyahug.com/travel/asia/good-thing-about-japan</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/asia/good-thing-about-japan</guid>
+            <pubDate>Sun, 03 Mar 2024 12:24:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[뉴욕에서 LA까지 기차로 여행하기 - 암트랙]]></title>
             <description><![CDATA[뉴욕에서 로스앤젤레스(LA)로의 기차 여행은 정말로 특이한 경험으로 미국 여행을 한다면 한번쯤은 고려해 볼만한 여행 코스입니다. 뉴욕에서 로스앤젤레스(LA)로의 여행은 암트랙 홈페이지에서 여행 스케줄 확인과 예약을 진행할 수 있습니다. 암트랙을 이용한 뉴욕에서 LA까지의 미국 횡단 기차 여행에 대한 자세한 정보를 아래에 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/usa/trainTravelToLAFromNY</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/usa/trainTravelToLAFromNY</guid>
-            <pubDate>Sat, 17 Feb 2024 16:03:44 GMT</pubDate>
+            <link>https://moyahug.com/travel/usa/train-travel-to-la-from-nyc</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/train-travel-to-la-from-nyc</guid>
+            <pubDate>Sun, 18 Feb 2024 09:03:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[일본여행 준비물 9가지 - 일본 여행 시 챙겨가야 할 것들]]></title>
             <description><![CDATA[일본은 지리적, 문화적으로 가까운 나라여서 많은 사람들이 여행지로도 선호하는 국가이고 실제로 해마다 많은 사람들이 방문하는 국가 중 하나입니다. 일본이 가장 가까운 이웃국가라도 하더라도 엄연히 해외 국가이므로 일본 여행도 철저한 준비와 꼭 챙겨가야 할 준비믈들이 있습니다.일본 여행 시 꼭 준비해야 할 준비물 9가지를 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/asia/whatToBringToJapan</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/asia/whatToBringToJapan</guid>
-            <pubDate>Mon, 12 Feb 2024 02:11:12 GMT</pubDate>
+            <link>https://moyahug.com/travel/asia/what-to-bring-to-japan</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/asia/what-to-bring-to-japan</guid>
+            <pubDate>Mon, 12 Feb 2024 19:11:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[역사를 알고 가면 좋은 프랑스 관광지 3곳 - 베르사유 궁전, 아비뇽, 바스티유 감옥]]></title>
             <description><![CDATA[프랑스로 여행 갈 때 추천할 만한 역사적인 여행지 3곳을 소개해 보도록 하겠습니다. 역사에 관심이 있거나 아이들과 함께 여행을 한다면 의미가 더욱 큰 프랑스의 중요한 역사적 사건이 있었던 여행지 3곳을 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/europe/threePlacestoVisitFrance</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/europe/threePlacestoVisitFrance</guid>
-            <pubDate>Sun, 02 Apr 2023 20:04:34 GMT</pubDate>
+            <link>https://moyahug.com/travel/europe/three-placesto-visit-france</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/europe/three-placesto-visit-france</guid>
+            <pubDate>Mon, 03 Apr 2023 12:04:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[미국 여행 - 한번쯤은 가볼만 한 시애틀 관광지 5곳]]></title>
             <description><![CDATA[미국 서북부 최대의 도시인 시애틀로의 여행을 계획하는 분들을 위해 한번쯤은 가볼 만한 시애틀 관광지 5곳에 대해서 소개하는 글입니다.]]></description>
-            <link>http://localhost:3000/travel/usa/americanTripTogo</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/usa/americanTripTogo</guid>
-            <pubDate>Thu, 23 Mar 2023 22:23:23 GMT</pubDate>
+            <link>https://moyahug.com/travel/usa/american-trip-togo</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/american-trip-togo</guid>
+            <pubDate>Fri, 24 Mar 2023 14:23:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[캐나다 여행 - 동부와 서부 중 한곳을 선택한다면 어디?]]></title>
             <description><![CDATA[캐나다는 워낙 광활한 영토를 가진 국가이기 때문에 볼 것도 많고 캐나다 내에서도 이동거리가 길어서 여행을 할 때는 선택과 집중을 하는 것이 중요합니다. 여행지로서의 캐나다 동부와 서부의 특징을 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/canada/westVsEast</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/canada/westVsEast</guid>
-            <pubDate>Tue, 14 Mar 2023 16:01:02 GMT</pubDate>
+            <link>https://moyahug.com/travel/canada/west-vs-east</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/canada/west-vs-east</guid>
+            <pubDate>Wed, 15 Mar 2023 08:01:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[미국에서 여행하기 위험한 도시 & 안전한 도시]]></title>
             <description><![CDATA[전 세계적으로 보았을 때 미국은 치안이 나쁜 국가는 아니지만 미국 내에서도 미국인들조차도 여행을 꺼리는 도시가 있고 안전하다고 생각하는 도시가 있습니다. 미국에서 위험하고 안전한 도시를 판단할 때 대부분 범죄율을 기준으로 판단합니다. 특히 혼자 자유여행을 하는 사람들은 범죄율이 높은 지역 또는 도시를 피하는 것이 좋습니다.]]></description>
-            <link>http://localhost:3000/travel/usa/travelAmericaSafe</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/usa/travelAmericaSafe</guid>
-            <pubDate>Thu, 09 Mar 2023 01:22:34 GMT</pubDate>
+            <link>https://moyahug.com/travel/usa/travel-america-safe</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/usa/travel-america-safe</guid>
+            <pubDate>Thu, 09 Mar 2023 18:22:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[유럽여행 국가별 주의사항 - 이탈리아, 프랑스, 스위스, 네덜란드]]></title>
             <description><![CDATA[유럽 여행 특히 서유럽은 안전한 곳이기는 하지만 서유럽을 여행할 때도 주의사항을 잘 알고 여행하는 것이 중요합니다. 국가별 여행 주의사항을 숙지하지 않고 여행을 할 경우 개인의 신변의 위협, 금전적 손실, 여행 일정 지연 등의 문제가 발생할 수 있습니다. 외교부 안전한여행 홈페이지에 소개되지 않은 이탈리아, 프랑스, 스위스, 네덜란드 등을 여행할 때 주의할 사항에 대해서 정리한 글입니다.]]></description>
-            <link>http://localhost:3000/travel/europe/whatToWatchInEurope</link>
-            <guid isPermaLink="true">http://localhost:3000/travel/europe/whatToWatchInEurope</guid>
-            <pubDate>Sat, 25 Feb 2023 17:56:01 GMT</pubDate>
+            <link>https://moyahug.com/travel/europe/what-to-watchIn-europe</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/europe/what-to-watchIn-europe</guid>
+            <pubDate>Sun, 26 Feb 2023 10:56:01 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -5,7 +5,7 @@ import { getMetadata } from '@/app/it/utils/getData';
 import Head from 'next/head';
 
 const getPostContent = (link) => {
-    const folder= 'itData/IT철학';
+    const folder= 'dataIT/IT철학';
     const file = `${folder}/${link}.md`;
     const content = fs.readFileSync(file, 'utf8');
     const matterResult = matter(content);
