@@ -129,6 +129,23 @@ footer {
     background-color: #fcfcfc;
 }
 
+.mainMenu {
+    padding: 0px 50px 30px 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 2px, rgba(0, 0, 0, 0.073) 0px 3px 2px;
+
+}
+
+.mainMenuLink {
+    padding: 50px 10px 0px;
+    width: 80%;
+    display: flex;
+}
+
 .homeContainer {
     background-color: lightgray;
     padding: 2rem;
@@ -772,6 +789,22 @@ footer {
 
 
 @media (max-width: 900px) { 
+    .logo {
+        margin-left: 50px
+    }
+
+    .mainMenu {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .mainMenuLink {
+        width: 100%;
+        justify-content: space-around;
+        margin: 0px;
+    }
 
     .countryLink {
         margin: 1rem 0;

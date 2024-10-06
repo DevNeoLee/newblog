@@ -23,7 +23,7 @@ export default function Home() {
   
   return (
     <div className="main">
-      <div className="travelMenu">
+      <div className="mainMenu">
         <Link href="/" className="logo" style={{ textDecoration: "none"}}>
           <div className="logoCompass" >
               <Image 
@@ -36,9 +36,14 @@ export default function Home() {
           </div>
           <div className="logoMoyahug" id="blur" >MoyaHug</div>
         </Link>
-        <Link href={`travel/`} className="countryLink" > 
-          <div id="blur" className="country">여행과 나</div>
-        </Link>
+        <div className="mainMenuLink">
+          <Link href={`travel/`} className="countryLink" > 
+            <div id="blur" className="country">여행과 나</div>
+          </Link>
+          <Link href={`it/`} className="countryLink" > 
+            <div id="blur" className="country">쉽게 더쉽게 IT</div>
+          </Link>
+        </div>
       </div>
       <div className="travelMain">
         {/* <Image 
