@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { getMetadata } from '@/app/it/utils/getData';
 
 const getPostContent = (link) => {
-    const folder= 'dataIT/인공지능';
+    const folder= '/dataIT/인공지능';
     const file = `${folder}/${link}.md`;
     const content = fs.readFileSync(file, 'utf8');
     const matterResult = matter(content);
