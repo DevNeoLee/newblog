@@ -59,6 +59,16 @@ h4 {
     color: var(--gray);
 }
 
+h5 {
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    line-height: 2.0;
+    margin: 4px 0 0 0px;
+    font-weight: 100;
+    color: rgb(24, 24, 24);
+    color: var(--gray);
+}
+
 
 h6 {
     letter-spacing: 2px;
@@ -421,7 +431,7 @@ footer {
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
-    right: 37px;
+    right: 1.1rem;
     top: 600px;
     z-index: -10;
     font-family: 'Noto Serif KR', serif;
@@ -730,7 +740,8 @@ footer {
     .marketingCopyPhrase h1,
     .marketingCopyPhrase h2,
     .marketingCopyPhrase h3,
-    .marketingCopyPhrase h4 {
+    .marketingCopyPhrase h4,
+    .marketingCopyPhrase h5 {
         visibility: hidden;
     }
 
@@ -784,6 +795,11 @@ footer {
         margin-top: 4rem;
         padding:    2rem 0;
     } */
+
+    .travelMenu {
+        margin-left: 0px;
+    
+    }
 }
 
 
