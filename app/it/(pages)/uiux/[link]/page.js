@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { getMetadata } from '@/app/it/utils/getData';
 
 const getPostContent = (link) => {
-    const folder= 'dataIT/UIUX';
+    const folder= 'dataIT/uiux';
     const file = `${folder}/${link}.md`;
     const content = fs.readFileSync(file, 'utf8');
     const matterResult = matter(content);
@@ -12,8 +12,8 @@ const getPostContent = (link) => {
 }
 
 export const generateStaticParams = async () => {
-    const posts = getMetadata('UIUX');
-    console.log('UIUX: ', posts)
+    const posts = getMetadata('uiux');
+    console.log('uiux: ', posts)
     return posts.map(post => ({
         link: post.link,
     }))
@@ -40,7 +40,7 @@ export function generateMetadata({ params, searchParams }) {
     title: details.data.title,
     description: details.content.slice(1, 175),   
     alternates: {
-        canonical: 'https://moyahug.com/it/UIUX/' + params.link,
+        canonical: 'https://moyahug.com/it/uiux/' + params.link,
     }
   };
 }
