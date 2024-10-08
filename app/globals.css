@@ -32,7 +32,7 @@ h1 {
 h2 {
     letter-spacing: 2px;
     font-size: 1.6rem;
-    line-height: 2.0;
+    line-height: 1.7;
     margin: 2rem 0 1.5rem 0.2rem;
     color: rgb(31, 31, 31);
     hyphens: auto;
@@ -42,7 +42,7 @@ h2 {
 h3 {
     letter-spacing: 2px;
     font-size: 1.6rem;
-    line-height: 2.0;
+    line-height: 1.7;
     margin: 2rem 0 1.5rem 0.2rem;
     font-weight: 400;
     color: rgb(20, 20, 20);
@@ -82,9 +82,9 @@ h6 {
 
 p {
     letter-spacing: 1.1px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 2;
-    margin: 4px 0px;
+    margin: 0.5rem 0px;
     font-weight: 100;
     /* color: rgb(24, 24, 24);
     color: var(--gray); */
@@ -137,6 +137,7 @@ footer {
 
 .main {
     background-color: #fcfcfc;
+    /* background-color: lightgreen; */
 }
 
 .mainMenu {
@@ -147,7 +148,7 @@ footer {
     background-color: white;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 2px, rgba(0, 0, 0, 0.073) 0px 3px 2px;
-
+    background-color: lightcoral;
 }
 
 .mainMenuLink {
@@ -289,10 +290,11 @@ footer {
 
 .menuButtonPlaneContainer {
     position: relative;
+    padding: 0px;
 }
 
 .menuButtonPlane {
-    margin: 1.5rem 3rem 0;
+    margin: 1.5rem 1rem 0 3rem;
     cursor: pointer;
     transition: 800ms;
     position: relative;
@@ -552,7 +554,7 @@ footer {
     width: 850px;
     max-width: 850px;
     background-color: lightgreen;
-    /* background-color: blue; */
+    background-color: blue;
     margin: 1px auto;
 }
 
@@ -684,6 +686,10 @@ footer {
     text-align: center;
 }
 
+.rowFooter {
+    margin-left: 100px;
+}
+
 @media (max-width: 1723px) {
     .countryLink {
       margin: 5px 30px;
@@ -753,6 +759,10 @@ footer {
         letter-spacing: 10px;
     }
 
+    .rowFooter {
+        margin-left: 0px;
+    }
+
 }
 
 @media (max-width: 1078px) { 
@@ -786,9 +796,9 @@ footer {
     }
 
     .countryCard {
-        width: 97%;
-        /* width: 100%; */
-        margin: 5rem 1rem 5rem 1rem;
+        /* width: 97%; */
+        width: 100%;
+        /* margin: 5rem 1rem 5rem 1rem; */
     }
 
     /* .detailTitle h1 {
@@ -823,7 +833,7 @@ footer {
     }
 
     .countryLink {
-        margin: 1rem 0;
+        margin: 1rem;
     }
 
 
@@ -832,15 +842,15 @@ footer {
     }
 
     h2 {
-        margin: 0.5rem 0rem;
+        margin: 0.5rem 0.5rem;
     }
 
     h3 {
-        margin: 0 0.4rem;
+        margin: 0 0.5rem;
     }
 
     p {
-        margin: 0 1rem;
+        margin: 0 0.6rem;
     }
 }
 
@@ -848,10 +858,10 @@ footer {
 
     p {
         letter-spacing: 1.1px;
-        font-size: 1.1rem;
-        line-height: 1.7;
-        margin: 4px 0px;
-        font-weight: 200;
+        font-size: 1.3rem;
+        line-height: 2;
+        margin: 2rem 0.4rem;
+        font-weight: 400;
         /* color: rgb(24, 24, 24);
         color: var(--gray); */
         font-family: 'Noto Serif KR', serif;
@@ -873,9 +883,13 @@ footer {
     }
 
     .countryCard {
-        width: 97%;
+        /* width: 97%; */
         /* width: 100%; */
-        margin: 7rem 0.5rem;
+        /* margin: 7rem 0.5rem; */
+        /* width: 100%;
+        height: 100%;
+        margin: 1rem; */
+        margin: 5rem 0;
     }
 
     .copyright {
@@ -912,9 +926,7 @@ footer {
     text-decoration-thickness: 0.6rem;
 }
 
-.rowFooter {
-    margin-left: 100px;
-}
+
 
 
 
