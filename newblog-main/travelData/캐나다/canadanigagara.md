@@ -1,0 +1,48 @@
+---
+title: "캐나다 나이아가라 폭포에 여행가면 꼭 가봐야 할 주변 관광지 3곳"
+subtitle: "나이아가라 폭포 주변 관광지 3곳 캐나다 관광지하면 가장 먼저 떠오른 곳 중 하나가 나이아가라 폭포입니다. 나이아가라 폭포는 미국에서도 볼 수 있지만 캐나다에서 보는 것이 경치가 더 좋아서 캐나다 쪽에서 구경을 하는 경우가 많습니다. 나이아가라 폭포에 대한 소개보다는 캐나다 나이아가라 폭포 주변에 꼭 가봐야 할 관광지에 대해서 소개하는 글입니다."
+date: "2024-04-13 07:07:07"
+color: "lightpink"
+---
+
+
+<p style="text-align: justify;" data-ke-size="size16">나이아가라 폭포 주변 관광지 3곳 캐나다 관광지하면 가장 먼저 떠오른 곳 중 하나가 나이아가라 폭포입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">나이아가라 폭포는 미국에서도 볼 수 있지만 캐나다에서 보는 것이 경치가 더 좋아서 캐나다 쪽에서 구경을 하는 경우가 많습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이 글은 나이아가라 폭포에 대한 소개보다는 캐나다 나이아가라 폭포 주변에 꼭 가봐야 할 관광지에 대해서 소개해 보도록 하겠습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">그럼 3곳을 하나하나 소개해 보도록 하겠습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(1) 아이스 와인 농장 &amp; 상점</h2>
+<p style="text-align: justify;" data-ke-size="size16">캐나다 나이아가라 폭포 주변은 포도주 즉 와인을 만드는 포도 농장이 정말로 많은 곳입니다. 여름에는 꽤나 건조한 기후를 나타내는 지역이라서 포도 농사에 적합한 기후를 가지고 있는 지역 중 하나입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이곳에서 생산된 포도로 만든 와인은 캐나다의 혹독한 겨울을 거치면서 더욱 맛이 깊어지고 특유한 달콤한 맛의 와인을 만들어 낸다고 합니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">캐나다 나이아가라 폭포 주변에는 이러한 이이스와인(Ice Wine)을 만드는 많은 양조장이 있으며 그 독특한 맛은 많은 사람들이 좋아하는 아이스와인 상품으로 판매되고 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">물론 공항 면세점 등에서도 구매가 가능하지만 나이아가라 폭포를 방문헀다면 1병 정도는 현지에서 구매를 하는 것을 추천합니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(2) 나이아가라 온 더 레이크</h2>
+<p style="text-align: justify;" data-ke-size="size16">나이아가라 온 더 레이크(Niagara-On-The-Lake)라는 곳은 도시라기보다는 조그마한 마을입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">나이아가라 폭포에서 차로 15분 ~ 20분 정도면 도착할 수 있는 거리에 있는 곳입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">나이아가라 온 더 레이크를 방문하는 이유는 여러 가지가 있지만 무엇보다도 마을 중심가의 고풍스러운 분위기와 건물입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">이곳은 비교적 역사가 짧은 캐나다에서 100년 이상의 역사를 지닌 동네로 도로 주변에 높지는 않지만 아담하고 운치 있는 건물들을 감상할 수 있는 곳입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">시간적인 여유가 있다면 이곳에서 오래된 상점도 방문하고 잠시 커피 한잔을 마시며 휴식을 취한다면 좋은 여행이 될 것입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<h2 style="text-align: justify;" data-ke-size="size26">(3) 아웃렛 콜렉션 앳 나이아가라</h2>
+<p style="text-align: justify;" data-ke-size="size16">아웃렛 콜렉션 앳 나이아가라(Outlet Collection At Niagara)는 나이아가라 폭포에서 토론토, 해밀턴 방향으로 불과 20분 거리에서 있는 아웃렛입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">주로 미국에서 오는 관광객과 나이아가라 폭포를 방문하는 관광객들을 대상으로 운영되는 아웃렛으로 꽤나 큰 규모의 아웃렛입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">주말에는 많은 사람들로 붐비지만 복잡한 토론토 시내에서 쇼핑을 하는 것보다는 한결 여유롭게 쇼핑을 할 수 있는 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>
+<p style="text-align: justify;" data-ke-size="size16">토론토에서 나이아가라 폭포로 가는 길 또는 오늘 길에 들러서 1-2시간 쇼핑을 한다면 보다 알찬 나이아가라 폭포 여행을 할 수 있을 것입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16"><br></p>

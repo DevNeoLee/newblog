@@ -1,0 +1,56 @@
+---
+title: "미국 여행가서 메이저리그(MLB) 야구 경기 예매 및 구경하는 방법"
+subtitle: "미국은 전 세계에서 손꼽히는 관광지로 미국으로 여행을 가면 구경할 것이 무척 많지만 메이저리그(MLB) 야구 경기를 예매해서 구경하는 것도 꽤나 의미 있는 경험이 될 수 있습니다. 메이저리그(MLB) 야구는 세계 최고의 프로야구 리그로 최고의 선수들이 플레이하는 경기를 구경하는 것은 나름 괜찮은 미국 여행의 구경거리 중 하나입니다."
+date: "2024-06-21 20:58:33"
+color: "lightpink"
+---
+
+<p style="text-align: justify;" data-ke-size="size16"><span style="color: #333333;">미국은 전 세계에서 손꼽히는 관광지로 미국으로 여행을 가면 구경할 것이 무척 많지만 <span style="color: #ee2323;">메이저리그(MLB) 야구 경기를 예매해서 구경하는 것도 꽤나 의미 있는 경험</span>이 될 수 있습니다.</span></p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">메이저리그(MLB) 야구는 세계 최고의 프로야구 리그로 최고의 선수들이 플레이하는 경기를 구경하는 것은 나름 괜찮은 미국 여행의 구경거리 중 하나입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<h2 style="text-align: justify;" data-ke-size="size26"><b>1. 메이저리그(MLB) 야구 경기 예매 방법</b></h2>
+<p style="text-align: justify;" data-ke-size="size16">메이저리그(MLB) 야구 경기를 보기 위해서는 미국에 도착해서 예매를 하는 방법도 있지만 국내에서 출발하기 전에 예매를 하는 것이 좋습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16"><span style="color: #ee2323;">메이저리그 야구 경기의 예매는 MLB 홈페이지의 티켓 메뉴에서 예매하면 되며 아래의 링크로 이동하면 <span style="text-align: justify;">MLB 야구 예매 페이지로 바로 이동할 수 있습니다.</span></span></p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: center;" data-ke-size="size18"><span style="color: #006dd7;"><b>
+
+
+<a class="linkBold" style="color:#006dd7" href="https://www.mlb.com/tickets"><span style="text-align: justify;">MLB 예매 페이지 바로가기</span></a></b></span></p>
+
+
+
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">MLB 야구 예매 페이지로 이동한 후에는 구단을 선택하여 예매를 진행하면 되는데 <span style="color: #ee2323;">실제 예매는 최종적으로는 <span style="color: #006dd7;"><b><a class="linkBold" style="color:#006dd7" href="https://www.ticketmaster.com/">티켓 마스터 홈페이지</a></b></span>에서 진행</span>이 됩니다.</p>
+
+
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16"><span style="color: #333333;"><span style="text-align: justify;"></span></span>메이저리그(MLB) 야구 경기 예매의 경우가 국내 프로야구의 예매 방식과 비슷하게 원하는 경기를 선택하고 좌석을 선택한 후 결제의 과정을 거치면 됩니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">일반적으로는 미국에서 사용하는 핸드폰이 없는 경우가 많으므로 홈페이지 또는 이메일로 받은 티켓을 출력해서 야구장에 입장할 때 사용하면 됩니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16"><span style="color: #ee2323;">메이저리그(MLB) 야구 경기는 인기구단의 경기, 주말 경기 등은 예약 경쟁이 치열하므로 미리 예약해야 좋은 좌석을 확보</span>할 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">특히, 뉴욕 양키스, LA 다저스, 보스턴 레스삭스, 샌프란시스코 자이언츠 등의 경기가 인기가 높아서 조기에 매진되는 경우가 많습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">참고로, <span style="color: #ee2323;">경기장이 우리나라 야구장 보다 크기 때문에 너무 먼 곳의 좌석을 예약할 경우는 경기를 보기가 힘든 경우도 있으니 이점은 참고해서 예매를 진행</span>하면 됩니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<h2 style="text-align: justify;" data-ke-size="size26"><b>2. 메이저리그(MLB) 야구 경기 관전하는 팁</b></h2>
+<p style="text-align: justify;" data-ke-size="size16">메이저리그(MLB) 야구 경기의 관람 문화는 우리나라와는 많이 달라서 일단은 야구장에 도착하면 분위기가 상당히 다른 것을 느낄 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">우리나라 프로야구와 같은 단체 응원 문화는 많지 않으며 <span style="color: #ee2323;">자기 자리에 앉아서 조용히 맥주, 스낵 등을 먹으며 관람하는 사람들이 대부분</span>입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16"><span style="color: #ee2323;">메이저리그(MLB) 야구 경기를 관람하면서 꼭 해봐야 할 것 중의 하나가 각 경기장별로 다른 독특한 음식들을 맛보는 것</span>입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">우리나라 야구장에서 파는 음식들과는 많이 다른 음식들이라서 한 번쯤은 맛보면&nbsp;괜찮은 음식들이 꽤나 많이 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">세인트루이스 카디널스의 치킨 와플 샌드위치, 시카고 화이트삭스의 바나나 스플릿 선데이 아이스크림, 피츠버그 파이어리스의 더 클로저 샌드위치, 애리조나 다이아몬드 백스의 추로스 핫도그, 뉴욕 메츠의 쉑쉑버거, 밀워키 브루어스의 BBQ 파르페, 필라델피아 필리스의 꽃게 감자튀김, 마이애미 말린스의 슈프림 헬멧 나쵸, 콜로라도 로키스의 로키 마운틴 오이스터, 애틀랜타 브레이브스의 버거피자, 텍사스 레인저스의 후라이드 치킨 옥수수, 보스턴 레드삭스의 튀김감자 핫도그, 샌디에고 파드리스의 아이스크림 샌드위치, 시카고 화이트 삭스의 베이컨 플라이트 등이 각 경기장 별로 유명한 음식들입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">이 밖에도 <span style="color: #ee2323;">각 경기장 별로 독특한 음식들이 많으므로 경기장을 가기 전에 유명한 음식을 미리 검색해 본다면 더 즐거운 야구 관람</span>이 될 수 있을 것입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">참고로, 미국에 도착한 후 호텔 프런트 등에서 야구 경기 티켓을 판매하는 경우도 있는데 호텔에서 판매하는 티켓은 가격이 비싼 경우가 있으니 온라인 가격과 잘 비교해 본 후 구매하는 것이 좋습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>

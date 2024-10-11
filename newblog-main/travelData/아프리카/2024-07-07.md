@@ -1,0 +1,37 @@
+---
+title: "아프리카에서 사막투어로 유명한 곳 - 남아프리카공화국, 나미비아, 이집트"
+subtitle: "아프리카의 사막 사파리 투어는 사막의 독특한 자연경관과 다양한 야생동물을 구경할 수 있는 아프리카만의 독특한 여행 프로그램입니다. 아프리카에는 다양한 국가의 사막 투어가 있지만 이번 글에서는 남아프리카공화국, 나미비아, 이집트에 있는 대표적인 사막 투어 프로그램을 소개하는 글입니다."
+date: "2024-07-09 15:08:58"
+color: "lightpink"
+---
+
+
+
+<p style="text-align: justify;" data-ke-size="size16">아프리카의 사막 사파리 투어는 사막의 독특한 자연경관과 다양한 야생동물을 구경할 수 있는 아프리카만의 독특한 여행 프로그램입니다. 아프리카에는 다양한 국가의 사막 투어가 있지만 이번 글에서는 남아프리카공화국, 나미비아, 이집트에 있는 대표적인 사막 투어 프로그램을 소개해 보도록 하겠습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<h2 style="text-align: justify;" data-ke-size="size26"><b>1. 남아프리카 공화국, 칼라하리 사막</b></h2>
+<p style="text-align: justify;" data-ke-size="size16">칼라하리 사막은 남아프리카의 중앙부터 북부에 걸쳐 있는 거대한 지역입니다. 칼라하리 사막은 건조하지만 다양한 야생동물들이 서식하는 곳입니다. 특히 사파리 동안에는 사자, 표범, 코끼리, 기린, 코끼리 등 다양한 대형 야생 동물을 직접 볼 수 있는 체험을 할 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">일부 투어는 현지 부족들과의 만남을 포함하며, 그들의 전통적인 생활 방식을 배우고 이해할 수 기회를 가질 수 있습니다. 또한 칼라하리 사막은 맑은 하늘로 유명하여, 밤에는 수많은 별을 관찰할 수 있는 좋은 장소입니다. 별 보기 투어는 이 지역에서 특히 인기가 있어서 별 보기 체험이 투어 프로그램에 포함되어 있는지 투어를 예약할 때 확인해 보는 것이 좋습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">몇몇 투어는 사막 속 캠핑을 포함하고 있어, 캠핑은 일몰과 일출을 경험하며 사막의 정적인 분위기를 즐길 수 있는 좋은 기회가 될 것입니다. 특히 불꽃놀이와 함께하는 야외 식사는 매우 로맨틱하고 특별한 경험이 될 수 있습니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<h2 style="text-align: justify;" data-ke-size="size26"><b>2. 나미비아, 소수스블레이 </b></h2>
+<p style="text-align: justify;" data-ke-size="size16">소수스블레이는 나미비아 남서부에 위치한 세계에서 가장 오래된 사막인 나미브 사막의 일부분에 속하며, 너클루프 국립공원 내에 위치해 있습니다. 여기는 오랜 세월 동안 강에서 대서양으로 이동된 모래들이 모여 형성된 곳으로, 세계에서 가장 높은 모래 언덕을 자랑합니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">소수스블레이의 가장 큰 매력 중 하나는 150m에 달하는 높은 모래 언덕에서 바라보는 일출과 일몰입니다. 특히 해가 뜨기 직전에 방문하면, 햇빛의 굴절로 인해 모래 언덕이 오렌지, 붉은색, 자주색 등 다양한 색조로 물드는 장관을 볼 수 있습니다. 사막 언덕의 한 면은 햇빛을 받아 붉은빛을 띠고, 다른 면은 음지에 있어 어둡게 보이는 자연의 신비를 경험할 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">물론 이곳은 개인적으로 가는 것은 어려우니 현지의 사막 투어 프로그램을 통해서 방문하면 보다 편리하게 구경할 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<h2 style="text-align: justify;" data-ke-size="size26"><b>3. 이집트, 바하리야 국립공원 </b></h2>
+<p style="text-align: justify;" data-ke-size="size16">바하리야 국립공원은 이집트 서부에 위치하며, 화산활동과 침식작용에 의해 형성된 흑사막과 백사막이 있는 곳입니다. 흑사막은 화산재가 굳어 형성된 검은 모래사막으로, 그 독특한 지형과 건조한 환경이 인상적입니다. 백사막은 하얀 석고 모래로 덮여 있어 기묘하고 아름다운 형상을 자아내는 장소입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">바하리야 지역은 오와시보 부족의 전통적인 생활 방식과 공예품을 경험할 수 있는 곳입니다. 사막 투어를 이용한다면 현지 가이드와 함께하는 문화 투어를 통해 그들의 생활과 문화를 조금 더 가까이서 체험할 수 있습니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p style="text-align: justify;" data-ke-size="size16">또한 바하리야 국립공원은 맑고 깨끗한 하늘로 유명합니다. 밤에는 수많은 별들을 관찰하고 천체 망원경을 이용하여 우주의 신비를 탐험할 수 있는 별 보기 투어가 인기가 있습니다. 아프리카의 밤하늘은 정말로 꼭 한 번은 봐야 할 아프리카 여행의 하이라이트입니다.</p>
+<p style="text-align: justify;" data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">&nbsp;</p>
