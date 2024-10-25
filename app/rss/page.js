@@ -1,10 +1,10 @@
 import fs from 'fs'
-import matter from 'gray-matter';
 import RSS from "rss";
-import { getMetadata, getCatalogue, getKorean } from '../travel/utils/getData';
+import { getMetadata as getTravelMetadata, getCatalogue as getTravelCatalogue, getKorean as getTravelKorean } from '../travel/utils/getData';
+import { getMetadata as getITMetadata, getCatalogue as getITCatalogue, getKorean as getITKorean } from '../it/utils/getData';
 
 
-async function generateRss(allPosts) {
+async function generateRss(allPostsTravel, allPostsIT) {
   const site_url =
     process.env.NODE_ENV === "production"
     ? 
@@ -31,12 +31,10 @@ async function generateRss(allPosts) {
     copyright: `All rights reserved ${new Date().getFullYear()}`,
   };
 
-
-
   const feed = new RSS(feedOptions);
 
-  // Add each individual post to the feed.
-  allPosts.forEach(post => {
+  // Add each travel individual post to the feed.
+  allPostsTravel.forEach(post => {
     console.log('post: ', post)
     feed.item({
     title: post.title,
@@ -45,37 +43,47 @@ async function generateRss(allPosts) {
     date: post.date,
     });
   });
+
+  // Add each it individual post to the feed.
+  allPostsIT.forEach(post => {
+    console.log('post: ', post)
+    feed.item({
+    title: post.title,
+    description: post.subtitle,
+    url: `${site_url}/it/${post.category}/${post.link}`,
+    date: post.date,
+    });
+  });
   
   // Write the RSS feed to a file as XML.
   fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }));
 }
 
-
-const getPostContent = (catalogue, link) => {
-  const folder= `dataTravel/${catalogue}`;
-  const file = `${folder}/${link}.md`;
-  const content = fs.readFileSync(file, 'utf8');
-  const matterResult = matter(content);
-  return matterResult;
-}
-
-console.log('hello world from genergenerateRSSFeedateRss! ')
-
 const generateRSSFeed = async () => {
-  const catalogues = getCatalogue();
-
-  console.log('rss catalogues rss: ', catalogues);
+  const cataloguesTravel = getTravelCatalogue();
+  const cataloguesIT = getITCatalogue();
+  console.log('rss catalogues rss: ', cataloguesTravel, cataloguesIT);
 
   const posts = [];
 
-  catalogues?.forEach(catalogue => {
-    const catalogueKoreanName = getKorean(catalogue).replace(/ /g, '')
-    let postList = getMetadata(catalogueKoreanName)
-    console.log('rss postList rss catalogue: ', catalogueKoreanName, catalogue);
+  cataloguesTravel?.forEach(catalogue => {
+    const catalogueTravelKoreanName = getTravelKorean(catalogue).replace(/ /g, '')
+    let postTravelList = getTravelMetadata(catalogueTravelKoreanName)
+    console.log('rss travel catalogue: ', catalogueTravelKoreanName, catalogue);
 
-    const updatedPostList = postList.map(list => ({...list, category: catalogue}));
+    const updatedTravelPostList = postTravelList.map(list => ({...list, category: catalogue}));
 
-    updatedPostList.forEach(list => posts.push(list))
+    updatedTravelPostList.forEach(list => posts.push(list))
+  })
+
+  cataloguesIT?.forEach(catalogue => {
+    const catalogueITKoreanName = getITKorean(catalogue).replace(/ /g, '')
+    let postITList = getITMetadata(catalogueITKoreanName)
+    console.log('rss IT catalogue: ', catalogueITKoreanName, catalogue);
+
+    const updatedITPostList = postITList.map(list => ({...list, category: catalogue}));
+
+    updatedITPostList.forEach(list => posts.push(list))
   })
 
   await generateRss(posts.sort(function(a,b){
