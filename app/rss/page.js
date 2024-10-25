@@ -35,7 +35,6 @@ async function generateRss(allPostsTravel, allPostsIT) {
 
   // Add each travel individual post to the feed.
   allPostsTravel.forEach(post => {
-    console.log('post: ', post)
     feed.item({
     title: post.title,
     description: post.subtitle,
@@ -46,7 +45,6 @@ async function generateRss(allPostsTravel, allPostsIT) {
 
   // Add each it individual post to the feed.
   allPostsIT.forEach(post => {
-    console.log('post: ', post)
     feed.item({
     title: post.title,
     description: post.subtitle,
@@ -64,7 +62,8 @@ const generateRSSFeed = async () => {
   const cataloguesIT = getITCatalogue();
   console.log('rss catalogues rss: ', cataloguesTravel, cataloguesIT);
 
-  const posts = [];
+  const postsTravel = [];
+  const postsIT = [];
 
   cataloguesTravel?.forEach(catalogue => {
     const catalogueTravelKoreanName = getTravelKorean(catalogue).replace(/ /g, '')
@@ -73,7 +72,8 @@ const generateRSSFeed = async () => {
 
     const updatedTravelPostList = postTravelList.map(list => ({...list, category: catalogue}));
 
-    updatedTravelPostList.forEach(list => posts.push(list))
+    updatedTravelPostList.forEach(list => postsTravel.push(list))
+
   })
 
   cataloguesIT?.forEach(catalogue => {
@@ -83,11 +83,16 @@ const generateRSSFeed = async () => {
 
     const updatedITPostList = postITList.map(list => ({...list, category: catalogue}));
 
-    updatedITPostList.forEach(list => posts.push(list))
+    updatedITPostList.forEach(list => postsIT.push(list))
   })
 
-  await generateRss(posts.sort(function(a,b){
-    return new Date(b.date) - new Date(a.date)}))
+  console.log('!!postsTravel: ', postsTravel)
+  console.log('!!postsIT: ', postsIT)
+
+
+  await generateRss(postsTravel.sort(function(a,b){
+    return new Date(b.date) - new Date(a.date)}), postsIT.sort(function(a,b){
+      return new Date(b.date) - new Date(a.date)}))
 }
 
 generateRSSFeed();
