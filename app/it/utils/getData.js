@@ -36,7 +36,7 @@ export const getKorean = (ele) => {
     case 'coding':
       return '코딩';
     case 'uiux':
-      return 'uiux';
+      return 'UIUX';
     case 'techcompany':
       return '테크회사들';
     case 'blockchain':
