@@ -4,7 +4,7 @@ import { getMetadata as getTravelMetadata, getCatalogue as getTravelCatalogue, g
 import { getMetadata as getITMetadata, getCatalogue as getITCatalogue, getKorean as getITKorean } from '../it/utils/getData';
 
 
-async function generateRss(allPostsTravel, allPostsIT) {
+async function generateRss(posts) {
   const site_url =
     process.env.NODE_ENV === "production"
     ? 
@@ -34,21 +34,11 @@ async function generateRss(allPostsTravel, allPostsIT) {
   const feed = new RSS(feedOptions);
 
   // Add each travel individual post to the feed.
-  allPostsTravel.forEach(post => {
+  posts.forEach(post => {
     feed.item({
     title: post.title,
     description: post.subtitle,
-    url: `${site_url}/travel/${post.category}/${post.link}`,
-    date: post.date,
-    });
-  });
-
-  // Add each it individual post to the feed.
-  allPostsIT.forEach(post => {
-    feed.item({
-    title: post.title,
-    description: post.subtitle,
-    url: `${site_url}/it/${post.category}/${post.link}`,
+    url: `${site_url}/${post.type}/${post.category}/${post.link}`,
     date: post.date,
     });
   });
@@ -60,39 +50,33 @@ async function generateRss(allPostsTravel, allPostsIT) {
 const generateRSSFeed = async () => {
   const cataloguesTravel = getTravelCatalogue();
   const cataloguesIT = getITCatalogue();
-  console.log('rss catalogues rss: ', cataloguesTravel, cataloguesIT);
+  // console.log('rss catalogues rss: ', cataloguesTravel, cataloguesIT);
 
-  const postsTravel = [];
-  const postsIT = [];
+  const posts= [];
 
   cataloguesTravel?.forEach(catalogue => {
     const catalogueTravelKoreanName = getTravelKorean(catalogue).replace(/ /g, '')
     let postTravelList = getTravelMetadata(catalogueTravelKoreanName)
-    console.log('rss travel catalogue: ', catalogueTravelKoreanName, catalogue);
+    // console.log('rss travel catalogue: ', catalogueTravelKoreanName, catalogue);
 
-    const updatedTravelPostList = postTravelList.map(list => ({...list, category: catalogue}));
+    const updatedTravelPostList = postTravelList.map(list => ({...list, category: catalogue, type: "travel"}));
 
-    updatedTravelPostList.forEach(list => postsTravel.push(list))
+    updatedTravelPostList.forEach(list => posts.push(list))
 
   })
 
   cataloguesIT?.forEach(catalogue => {
     const catalogueITKoreanName = getITKorean(catalogue).replace(/ /g, '')
     let postITList = getITMetadata(catalogueITKoreanName)
-    console.log('rss IT catalogue: ', catalogueITKoreanName, catalogue);
+    // console.log('rss IT catalogue: ', catalogueITKoreanName, catalogue);
 
-    const updatedITPostList = postITList.map(list => ({...list, category: catalogue}));
+    const updatedITPostList = postITList.map(list => ({...list, category: catalogue, type: "it"}));
 
-    updatedITPostList.forEach(list => postsIT.push(list))
+    updatedITPostList.forEach(list => posts.push(list))
   })
 
-  console.log('!!postsTravel: ', postsTravel)
-  console.log('!!postsIT: ', postsIT)
-
-
-  await generateRss(postsTravel.sort(function(a,b){
-    return new Date(b.date) - new Date(a.date)}), postsIT.sort(function(a,b){
-      return new Date(b.date) - new Date(a.date)}))
+  await generateRss(posts.sort(function(a,b){
+    return new Date(b.date) - new Date(a.date)}))
 }
 
 generateRSSFeed();
