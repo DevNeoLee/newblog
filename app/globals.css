@@ -981,6 +981,10 @@ footer {
 
 }
 
+.largeCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px, rgba(0, 0, 0, 0.3) 0px 4px 8px;
+}
+
 .smallCard {
     height: 200px;
     width: 200px;
