@@ -1,9 +1,13 @@
 
 import Link from 'next/link'
-import { getMetadata, getCatalogue, getKorean } from './travel/utils/getData';
+import { getMetadata as getTravelData, getCatalogue as getTravelCataglogue, getKorean as getTravelKorean  } from './travel/utils/getData';
+import { getMetadata as getITData, getCatalogue as getITCataglogue, getKorean as getITKorean  } from './it/utils/getData';
 import fs from 'fs'
 import Image from 'next/image';
 import FooterMain from './travel/components/FooterMain';
+import LargeCard
+ from './components/LargeCard';
+import SmallCard from './components/SmallCard';
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -17,10 +21,10 @@ function shuffleArray(array) {
 }
 
 export default function Home() {
-  const catalogues = getCatalogue();
 
-  const metaInfo = getMetadata("나를찾는세계여행");
-  
+  const dataTravel = getTravelData("나를찾는세계여행");
+  const dataIT = getITData("IT철학");
+  console.log('dataTravel: ', dataTravel)
   return (
     <div className="main">
       <div className="mainMenu">
@@ -54,11 +58,10 @@ export default function Home() {
           quality={60}
           style={{ zIndex: "-12", position: "absolute", objectFit: "cover"}}
         /> */}
-        <div className="mainPagePrologues">
+        {/* <div className="mainPagePrologues">
           {shuffleArray(metaInfo).map((post, id) => (
             <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
               <div className="countryCard" key={id}>
-                {/* <div className="countryImage" style={{ backgroundColor: post.color}}></div> */}
                 <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>
                 <p className="countryDate" >{post.date}</p>
                 <div className="countryParagraph" >
@@ -67,6 +70,34 @@ export default function Home() {
               </div>
             </Link>
           ))}
+        </div> */}
+        <div className="mainHomePage">
+          <div className="categoryHomeSection">
+            <div className="homeSectionTitle">
+              <h2>여행과 나</h2>
+            </div>
+            <div className="homeSectionMain">
+              {dataTravel.map((post, id) => (
+                <div key={id}>
+                  <LargeCard title={post.title} date={post.date} content={post.subtitle} link={`travel/prologue/${post.link}`}/>
+                </div>
+              ))}
+            </div>
+            <div className='buttonContainer'><Link className='button' href="/travel">뭐 여행 Go </Link></div>
+          </div>
+          <div className="categoryHomeSection">
+            <div className="homeSectionTitle">
+              <h2>쉽게 더쉽게 IT</h2>
+            </div>
+            <div className="homeSectionMain">
+              {dataIT.map((post, id) => (
+                <div key={id}>
+                  <LargeCard title={post.title} date={post.date} content={post.subtitle} link={`it/thought/${post.link}`}/>
+                </div>
+              ))}
+            </div>
+            <div className='buttonContainer'><Link className='button' href="/it">IT 글목록 Go </Link></div>
+          </div>
         </div>
       </div>
       <FooterMain />
