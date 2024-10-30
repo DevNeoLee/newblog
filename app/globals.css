@@ -549,13 +549,12 @@ footer {
     text-decoration: underline;
     text-align: balance;
     /* text-decoration-line: darkblue; */
-    text-underline-offset: 10px;
+    text-underline-offset: 15px;
     color: rgb(53, 52, 52);
     /* text-decoration-color: rgb(213, 213, 213); */
     /* text-decoration-color: rgb(255, 69, 69); */
-    text-decoration-color: rgb(253, 0, 190);
-
-    text-decoration-thickness: 0.7rem;
+    text-decoration-color: white;
+    text-decoration-thickness: 1.3rem;
 }
 
 .homeSectionMain {
@@ -702,7 +701,7 @@ footer {
     font-weight: 900;
     text-decoration: underline;
     text-decoration: underline;
-    text-decoration-color: rgb(197, 255, 224);
+    text-decoration-color: rgb(0, 254, 212);
     text-decoration-thickness: 0.6rem;
 }
 
@@ -729,7 +728,7 @@ footer {
 .largeCard:hover > .countryTitle h2 {
     text-decoration: underline;
     text-underline-offset: 5px;
-    text-decoration-color: rgb(197, 255, 224);
+    text-decoration-color: rgb(0, 254, 212);
     text-decoration-thickness: 0.6rem;
 }
 
@@ -1097,5 +1096,5 @@ footer {
 }
 
 .dreamLetter {
-    color: rgb(195, 0, 255);
+    color: rgb(0, 254, 212);
 }

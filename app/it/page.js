@@ -19,7 +19,7 @@ export default function it() {
         ))}
       </div>
       <div className="marketingCopyPhrase">
-        <div><h1 style={{ color: "rgb(51, 0, 255)"}}>노하우</h1> <h2>를</h2><h5>더 쉽게</h5></div>
+        <div><h1>노하우</h1> <h2>를</h2><h5>더 쉽게</h5></div>
       </div>
       <div className="travelMain">
         {/* <Image 
