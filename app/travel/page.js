@@ -19,7 +19,7 @@ export default function Travel() {
         ))}
       </div>
       <div className="marketingCopyPhrase">
-        <div><h1> 꿈 </h1><h4>에서</h4> <h2>보았던</h2><h3>그곳</h3></div>
+        <div><h1 style={{ color: "rgb(253, 0, 190)"}}> 꿈 </h1><h4>에서</h4> <h2>보았던</h2><h3>그곳</h3></div>
       </div>
       <div className="travelMain">
         {/* <Image 

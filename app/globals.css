@@ -137,7 +137,7 @@ footer {
 /*********************      home   *********************/
 
 .main {
-    background-color: #fcfcfc;
+    background-color: #eeeeee;
     /* background-color: lightgreen; */
 }
 
@@ -520,6 +520,119 @@ footer {
     border-bottom: 1px solid rgba(155, 155, 155, 0.168);
 } */
 
+
+
+/*********************      Homepage    *********************/
+.mainHomePage {
+    min-height: 80vh;
+    max-width: 1535px;
+    margin: 0 auto;
+    /* background-color: lightcoral; */
+}
+
+.categoryHomeSection {
+    padding: 0rem 0rem 1rem;
+    min-height: 50vh;
+    margin-bottom: 5rem;
+    margin: 0 auto;
+}
+
+.homeSectionTitle {
+    padding: 0.3rem 5rem ;
+    /* border: 1px solid rgb(241, 241, 241); */
+    /* border-radius: 10px; */
+}
+
+.homeSectionTitle h2 {
+    margin-bottom: 2rem;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-align: balance;
+    /* text-decoration-line: darkblue; */
+    text-underline-offset: 10px;
+    color: rgb(53, 52, 52);
+    /* text-decoration-color: rgb(213, 213, 213); */
+    /* text-decoration-color: rgb(255, 69, 69); */
+    text-decoration-color: rgb(253, 0, 190);
+
+    text-decoration-thickness: 0.7rem;
+}
+
+.homeSectionMain {
+    padding: 4rem;
+    margin: auto;
+    /* padding: 0rem 5rem; */
+    /* min-height: 50%; */
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));;
+    /* background-color: lightgreen; */
+}
+
+.largeCard {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+
+.largeCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;    border-radius: 5px;
+}
+
+.smallCard {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em 5em;
+    letter-spacing: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    text-decoration: none; /* for links */
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.button:hover {
+    /* background-color: #212121; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateX(5px);
+}
+
+.button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.buttonContainer {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+}
+      
+
+
 /*********************      country catalogue page    *********************/
 
 .continentContainer {
@@ -556,8 +669,8 @@ footer {
 .countryCardLink {
     width: 850px;
     max-width: 850px;
-    background-color: lightgreen;
-    background-color: blue;
+    /* background-color: lightgreen;
+    background-color: blue; */
     margin: 1px auto;
 }
 
@@ -612,8 +725,10 @@ footer {
     text-decoration: none;
 }
 
-.countryCard:hover > .countryTitle {
+.countryCard:hover > .countryTitle,
+.largeCard:hover > .countryTitle h2 {
     text-decoration: underline;
+    text-underline-offset: 5px;
     text-decoration-color: rgb(197, 255, 224);
     text-decoration-thickness: 0.6rem;
 }
@@ -652,6 +767,8 @@ footer {
     color: rgb(52, 52, 52);
     font-family: 'Noto Sans KR', sans-serif;
 }
+
+
 
 /*********************      detail page    *********************/
 
@@ -782,7 +899,8 @@ footer {
 
 }
 
-@media (max-width: 1078px) { 
+@media (max-width: 1078px) {
+
     .countryLink {
         margin: 5px 30px;
       }
@@ -793,7 +911,32 @@ footer {
     }
 }
 
-@media (max-width: 1000px) { 
+@media (max-width: 943px) { 
+    * {
+        /* background-color: lightgreen; */
+    }
+
+    .homeSectionMain {
+        /* padding: 0rem 5rem; */
+        /* min-height: 50%; */
+        display: block;
+        margin: 0 auto;
+
+        /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));; */
+    }
+    
+    .largeCard {
+        height: 400px;
+        width: 400px;
+        /* background-color: lightgreen; */
+        margin: 4rem auto;
+        transition: 500ms;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    
+    }
+
     .countryLink {
       margin: 5px 30px;
     }
@@ -805,6 +948,8 @@ footer {
 }
 
 @media (max-width: 910px) {
+
+
     .country {
         letter-spacing: 0px;
         padding: 5px 5px 2px 5px;
@@ -926,111 +1071,31 @@ footer {
     .navSubTitle {
         letter-spacing: 6px;
     }
-}
 
-
-
-/*********************      Homepage    *********************/
-.mainHomePage {
-    min-height: 80vh;
-    max-width: 1335px;
-    margin: 0 auto;
-    /* background-color: lightcoral; */
-}
-
-.categoryHomeSection {
-    padding: 0rem 0rem 1rem;
-    min-height: 50vh;
-    margin-bottom: 5rem;
-    margin: 0 auto;
-}
-
-.homeSectionTitle {
-    padding: 0.3rem 5rem ;
-    /* border: 1px solid rgb(241, 241, 241); */
-    /* border-radius: 10px; */
-}
-
-.homeSectionTitle h2 {
-    margin: 0px;
-    letter-spacing: 5px;
-    text-decoration: underline;
-    /* text-decoration-line: darkblue; */
-    text-underline-offset: 13px;
-    color: rgb(69, 69, 69);
-    text-decoration-color: rgb(137, 137, 137);
-}
-
-.homeSectionMain {
-    /* background-color: lightblue; */
-    /* padding: 0rem 5rem; */
-    /* min-height: 50%; */
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));;
-}
-
-.largeCard {
-    height: 400px;
-    width: 400px;
-    /* background-color: lightgreen; */
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 4px;
-
-}
-
-.largeCard:hover {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px, rgba(0, 0, 0, 0.3) 0px 4px 8px;
-}
-
-.smallCard {
-    height: 200px;
-    width: 200px;
-    background-color: lightgreen;
-    margin: 1rem;
-    padding: 1rem;
-}
-
-.button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.8em 5em;
-    letter-spacing: 3px;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #333;
-    border-radius: 8px;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
-    cursor: pointer;
-    text-decoration: none; /* for links */
-    margin: 0 auto;
-}
-
-.button:hover {
-    background-color: #111;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);
-}
-
-.button:active {
-    transform: translateY(1px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-.buttonContainer {
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    width: 100%;
-    /* background-color: lightcoral; */
-    display: flex;
-    justify-content: center;
-}
+    .homeSectionMain {
+        /* background-color: coral; */
       
+        margin: auto;
+        /* padding: 0rem 5rem; */
+        /* min-height: 50%; */
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));; */
+    }
 
+    .largeCard {
+        height: 400px;
+        width: 400px;
+        /* background-color: lightgreen; */
+        margin: 4rem auto;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    
+    }
+}
 
-
+.dreamLetter {
+    color: rgb(195, 0, 255);
+}
