@@ -51,22 +51,20 @@ h3 {
 
 h4 {
     letter-spacing: 2px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 2.0;
     margin: 4px 0 0 0px;
-    font-weight: 100;
+    font-weight: 400;
     color: rgb(24, 24, 24);
-    color: var(--gray);
 }
 
 h5 {
     letter-spacing: 2px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2.0;
-    margin: 4px 0 0 0px;
-    font-weight: 100;
+    margin: 4px 0 0 10px;
+    font-weight: 400;
     color: rgb(24, 24, 24);
-    color: var(--gray);
 }
 
 

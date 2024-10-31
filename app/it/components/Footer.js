@@ -27,10 +27,10 @@ export default function Footer() {
        
       </div>
       <div className="copyright">
-        <p style={{ color: "gray"}}>© Copyright {new Date().getFullYear()} 
+        <div style={{ color: "gray"}}>© Copyright {new Date().getFullYear()} 
         <Link href="/" style={{ textDecoration: "none", backgroundColor: "lightgreen", width: "270px", justifyContent: "space-between", alignItems: "center"  }}>
              <div className="logoMoyahug" id="blur" >MoyaHug</div>
-          </Link>          All rights reserved.</p> 
+          </Link>          All rights reserved.</div> 
         {/* <p><strong>PCB</strong> is owned and operated by <strong>Pacific Customs Brokers Ltd., Pacific Customs Brokers Inc.</strong>, and <strong>PCB Freight Management Ltd.</strong></p> */}
       </div>
     </footer>    
