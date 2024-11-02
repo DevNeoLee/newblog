@@ -44,10 +44,10 @@ export default function Home() {
         </Link>
         <div className="mainMenuLink">
           <Link href={`travel/`} className="countryLink" > 
-            <div id="blur" className="country">여행과 나</div>
+            <div className="country">여행과 나</div>
           </Link>
           <Link href={`it/`} className="countryLink" > 
-            <div id="blur" className="country">쉽게 더쉽게 IT</div>
+            <div className="country">쉽게 더쉽게 IT</div>
           </Link>
         </div>
       </div>

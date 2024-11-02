@@ -156,6 +156,7 @@ footer {
     display: flex;
 }
 
+
 .homeContainer {
     background-color: lightgray;
     padding: 2rem;
@@ -442,9 +443,16 @@ footer {
 .countryLink {
     margin: 5px 30px;
     color: #555;
-    /* color: white; */
-    /* transition: 300ms; */
-    /* background-color: red; */
+    font-weight: bold;
+}
+
+.countryLink:hover {
+    margin: 5px 30px;
+    /* color: rgb(0, 254, 212); */
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 254, 212);
+    text-underline-offset: 9px;
+    text-decoration-thickness: 5px;
 }
 
 .country {
@@ -466,13 +474,7 @@ footer {
     /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
 }
 
-.country:hover {
-    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 11px, rgb(255, 85, 85) 0px 0px 0px 13px; */
-    /* transform: rotate(-1deg); */
-    /* color: lightseagreen;
-    text-decoration: underline;
-    text-underline-offset: 4px; */
-}
+
 
 .travelMain {
     padding: 2rem 0 16rem 0;
