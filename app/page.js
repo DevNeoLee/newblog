@@ -80,9 +80,9 @@ export default function Home() {
             </div>
             <div className="homeSectionMain">
               {dataTravel.map((post, id) => (
-                <div key={id}>
-                  <LargeCard title={post.title} date={post.date} content={post.subtitle} link={`travel/prologue/${post.link}`}/>
-                </div>
+
+                  <LargeCard key={id} title={post.title} date={post.date} content={post.subtitle} link={`travel/prologue/${post.link}`}/>
+
               ))}
             </div>
             <div className='buttonContainer'><Link className='button' href="/travel">뭐 여행 <FaArrowRightLong  style={{ position: 'absolute', fontSize: "1rem", right: "3rem", color: "white"}} /></Link></div>
@@ -93,9 +93,7 @@ export default function Home() {
             </div>
             <div className="homeSectionMain">
               {dataIT.map((post, id) => (
-                <div key={id}>
-                  <LargeCard title={post.title} date={post.date} content={post.subtitle} link={`it/thought/${post.link}`}/>
-                </div>
+                  <LargeCard key={id} title={post.title} date={post.date} content={post.subtitle} link={`it/thought/${post.link}`}/>
               ))}
             </div>
             <div className='buttonContainer'><Link className='button' href="/it">뭐 IT <FaArrowRightLong style={{ position: 'absolute', fontSize: "1rem", right: "3rem", color: "white"}}/></Link></div>
