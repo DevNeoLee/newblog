@@ -610,6 +610,7 @@ footer {
     text-decoration: none; /* for links */
     margin: 0 auto;
     position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -628,6 +629,7 @@ footer {
     margin-top: 2rem;
     margin-bottom: 5rem;
     width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
     /* background-color: lightcoral; */
     display: flex;
     justify-content: center;
