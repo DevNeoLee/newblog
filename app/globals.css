@@ -465,7 +465,7 @@ footer {
     content: "";
     bottom: -2px;
     left: 0;
-    height: 7px; 
+    height: 12px; 
     width: 97%;
     background-color: rgb(0, 254, 212);
     transform: scaleX(0);
