@@ -444,41 +444,45 @@ footer {
     margin: 5px 30px;
     color: #555;
     font-weight: bold;
-}
-
-.countryLink:hover {
-    margin: 5px 30px;
-    /* color: rgb(0, 254, 212); */
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 254, 212);
-    text-underline-offset: 9px;
-    text-decoration-thickness: 5px;
+    /* background-color: lightcoral; */
+    position: relative;
+    padding: 0px;
+    margin: 0px;
 }
 
 .country {
     font-size: 1.1rem;
     letter-spacing: 15px;
-    padding: 5px 25px 2px 25px;
     font-weight: 500;
     border-radius: 35px;
-    /* transition: 200ms; */
-    /* color: white; */
-    /* color: rgb(62, 62, 62); */
-    /* box-shadow:  rgb(255, 156, 85) 0px 0px 0px 0px */
-    /* text-decoration: underline; */
-    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
-    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
-    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
-    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
-    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
-    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.country::before {
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 0;
+    height: 7px; 
+    width: 97%;
+    background-color: rgb(0, 254, 212);
+    transform: scaleX(0);
+    transition: transform 0.2s ease;  
+    transform-origin: left; /* Start animation from the left */
+    display: inline-block;
+}
+
+.country:hover::before {
+    transform: scaleX(1);
+    display: inline-block;
 }
 
 
 
 .travelMain {
     padding: 2rem 0 16rem 0;
-    /* background-color: lightcoral; */
     min-height: 70vh;
 }
 
@@ -845,6 +849,7 @@ footer {
     .country {
         letter-spacing: 8px;
         padding: 5px 13px 2px 13px;
+        padding: 0px;
     }
 }
 
@@ -852,6 +857,7 @@ footer {
     .country {
         letter-spacing: 5px;
         padding: 5px 11px 2px 11px;
+        padding: 0px;
     }
 
     .countryLink {
@@ -871,7 +877,6 @@ footer {
     .country {
         font-size: 1.2rem;
         letter-spacing: 6px;
-        padding: 5px 2px 2px 2px;
     }
 
     .navSubTitle {
@@ -911,7 +916,6 @@ footer {
   
     .country {
         letter-spacing: 6px;
-        padding: 5px 2px 2px 2px;
     }
 }
 
@@ -934,7 +938,6 @@ footer {
 
     .country {
         letter-spacing: 2px;
-        padding: 5px 0px 2px 0px;
     }
 }
 
@@ -1028,7 +1031,7 @@ footer {
     
     .country {
         font-size: 1rem;
-        padding: 0 0.5rem;
+        /* padding: 0 0.5rem; */
         border-radius: 35px;
     }
 
