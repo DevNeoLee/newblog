@@ -10,7 +10,6 @@ import LargeCard
 import SmallCard from './components/SmallCard';
 import { FaArrowRightLong } from "react-icons/fa6";
 
-
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
       // Generate a random index
@@ -65,7 +64,7 @@ export default function Home() {
             <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
               <div className="countryCard" key={id}>
                 <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>
-                <p className="countryDate" >{post.date}</p>
+                <p className="countryDate" >{formatKoreanDate(post.date)}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>
                 </div>

@@ -1,6 +1,7 @@
 
 import Link from 'next/link'
 import { getMetadata } from '@/app/travel/utils/getData'; 
+import { formatKoreanDate } from '@/app/utils/functions';
 
 export const metadata = {
   title: '아프리카 꿀팁 가이드',
@@ -23,7 +24,7 @@ export default function 아프리카(props) {
               <div className="countryCard" key={id}>
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>
                 <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>
-                <p className="countryDate" >{post.date}</p>
+                <p className="countryDate" >{formatKoreanDate(post.date)}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>
                 </div>

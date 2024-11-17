@@ -3,6 +3,7 @@ import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import { getMetadata } from '@/app/it/utils/getData';
 import Head from 'next/head';
+import { formatKoreanDate } from '@/app/utils/functions';
 
 const getPostContent = (link) => {
     const folder= 'dataIT/IT철학';
@@ -30,7 +31,7 @@ export default async function PostPage(props) {
       <div className="continentContainer">
         <div className="continentMain">
           <div className="detailTitle"><h1>{post.data.title}</h1></div>
-        
+          <p className="countryDateDetailPage" >{formatKoreanDate(post.data.date)}</p>
           <Markdown>{post.content}</Markdown>
         </div>
       </div>

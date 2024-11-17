@@ -744,17 +744,40 @@ footer {
 .countryDate {
     padding: 5px 0px 10px 0px;
     margin-top: 0px;
-    color: var(--darkgray);
+    color: #676767 !important;
     display: flex;
     justify-content: flex-end;
 
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 18px;
     line-height: 1;
     margin: 4px;
-    font-weight: 100;
-    color: rgb(24, 24, 24);
-    color: var(--gray);
+    margin-right: 1rem;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif !important;
+    /* color: rgb(24, 24, 24); */
+    /* color: var(--gray); */
+  
+}
+
+.countryDateDetailPage {
+    padding: 5px 0px 10px 0px;
+    margin-top: 0px;
+    color: #676767 !important;
+    display: flex;
+    justify-content: flex-end;
+
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 1;
+    margin: 4px;
+    margin-right: 0rem;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif !important;
+    margin-bottom: 3rem;
+    /* color: rgb(24, 24, 24); */
+    /* color: var(--gray); */
+  
 }
 
 .countryParagraph {

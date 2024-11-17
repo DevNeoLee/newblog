@@ -1,6 +1,7 @@
 
 import Link from 'next/link'
 import { getMetadata, getCatalogue } from '../../utils/getData';
+import { formatKoreanDate } from '@/app/utils/functions';
 
 export const metadata = {
   title: '나를 찾는 배움의 여행,  꿀팁',
@@ -27,7 +28,7 @@ export default function PrologueHome(props) {
               <div className="countryCard">
                 <div className="countryImage" style={{ backgroundColor: post.color}}></div>
                 <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>
-                <p className="countryDate" >{post.date}</p>
+                <p className="countryDate" >{formatKoreanDate(post.date)}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>
                 </div>

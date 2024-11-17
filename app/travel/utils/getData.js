@@ -25,7 +25,7 @@ export const getMetadata = (path) => {
       color: matterResult.data.color,
     }
   })
-  return posts;
+  return posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 } 
 
 export const getKorean = (ele) => {

@@ -2,6 +2,7 @@ import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import { getMetadata } from '@/app/travel/utils/getData';
+import { formatKoreanDate } from '@/app/utils/functions';
 
 const getPostContent = (link) => {
     const folder= 'dataTravel/유럽';
@@ -26,7 +27,8 @@ export default async function PostPage(props) {
   return (
       <div className="continentContainer">
         <div className="continentMain">
-          <div className="detailTitle"><h1>{post.data.title}</h1></div>
+         <div className="detailTitle"><h1>{post.data.title}</h1></div>
+          <p className="countryDateDetailPage" >{formatKoreanDate(post.data.date)}</p>
           <Markdown>{post.content}</Markdown>
         </div>
       </div>
