@@ -53,7 +53,9 @@ export const getMetadata = (path) => {
 // 공통 포스트 읽기 함수
 export const getPostContent = (link, category) => {
   try {
-    const folder = `dataTravel/${category}`;
+    // category를 한국어로 변환
+    const koreanCategory = getKorean(category);
+    const folder = `dataTravel/${koreanCategory}`;
     const file = `${folder}/${link}.md`;
     
     if (!fs.existsSync(file)) {

@@ -168,12 +168,12 @@ footer {
 
 /*********************      Main/Travel page   *********************/
 .logoMoyahug {
-    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-family: "Sen";
     font-optical-sizing: auto;
     font-style: normal;
-    color: rgb(44, 44, 44);
+    color: rgb(80, 80, 80);
     font-size: 40px;
-    /* font-weight: 800; */
+    font-weight: 600;
     letter-spacing: 5px;
     margin-left: 10px;
 }
