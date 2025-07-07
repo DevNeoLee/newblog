@@ -9,11 +9,39 @@
             <link>https://moyahug.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Oct 2024 22:33:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Jul 2025 17:03:21 GMT</lastBuildDate>
         <atom:link href="https://moyahug.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 30 Oct 2024 22:33:04 GMT</pubDate>
-        <copyright><![CDATA[All rights reserved 2024]]></copyright>
+        <pubDate>Mon, 07 Jul 2025 17:03:21 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2025]]></copyright>
         <language><![CDATA[ko]]></language>
+        <item>
+            <title><![CDATA[오로라 볼 수 있는 국가별 명소 총정리 (아이슬란드, 노르웨이, 핀란드, 캐나다, 미국)]]></title>
+            <description><![CDATA[오로라는 우리나라에서 볼 수 없는 자연 현상으로 해외로 여행을 떠나서 오로라를 보고자 하는 분들도 많이 있습니다. 최근에서는 지구의 기후 변화로 중위도 지역에서 오로라를 볼 수 있는 경우도 있지만 확실하게 오로라를 관찰할 수 있는 지역들이 있습니다. 참고로, 오로라는 북반구의 경우은 10월 ~ 4월 정도에 관측이 잘되므로 이 시기에 맞춰 관측 지역을 방문하는 것을 추천합니다. 오로라를 관측할 수 있는 북반구 국가와 유명한 지역을 정리한 글입니다..]]></description>
+            <link>https://moyahug.com/travel/prologue/complete-guide-to-aurora-viewing-spots-by-country</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/complete-guide-to-aurora-viewing-spots-by-country</guid>
+            <pubDate>Sat, 02 Nov 2024 02:30:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[코딩 입문(3) - 함수와 로직의 기본 개념 이해하기]]></title>
+            <description><![CDATA[프로그래밍에서 함수와 로직은 마치 신체의 심장과 신경망 같은 역할을 합니다. 함수는 각 코드가 어떻게 작동할지를 정의하고, 로직은 이 코드들이 적절한 순서와 조건에 따라 수행될 수 있도록 설계해줍니다. 이는 단순히 코드를 줄이는 기술을 넘어, 문제 해결의 핵심 도구입니다. 이번 글에서는 함수와 로직의 의미와 중요성을 다양한 일상적인 예시를 통해 풀어보겠습니다.]]></description>
+            <link>https://moyahug.com/it/coding/introduction-to-coding-3-functions</link>
+            <guid isPermaLink="true">https://moyahug.com/it/coding/introduction-to-coding-3-functions</guid>
+            <pubDate>Wed, 30 Oct 2024 14:48:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[코딩 입문(2) - 프로그래밍 언어의 기초 이해하기: 다양한 언어들의 역할과 특징]]></title>
+            <description><![CDATA[프로그래밍을 시작하려면 먼저 프로그래밍 언어가 무엇인지 이해하는 것이 필요합니다. 언어는 단순히 문법과 구조를 외우는 것이 아니라, 각각의 언어가 가진 특성과 장점을 이해하고 상황에 맞는 언어를 선택하는 것이 중요합니다. 이 글에서는 대표적인 프로그래밍 언어들을 살펴보며, 각 언어가 어디에서 어떻게 쓰이는지 실생활의 예를 들어 설명해 보겠습니다.]]></description>
+            <link>https://moyahug.com/it/coding/introduction-to-coding-2-languages</link>
+            <guid isPermaLink="true">https://moyahug.com/it/coding/introduction-to-coding-2-languages</guid>
+            <pubDate>Tue, 29 Oct 2024 18:17:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[코딩 입문(1) - 컴퓨터의 기본 원리 이해하기]]></title>
+            <description><![CDATA[컴퓨터와 소통하는 방법인 코딩을 배우기 위해선 먼저 컴퓨터가 어떤 방식으로 작동하는지 이해하는 것이 중요합니다. 이 기본 원리를 이해하면 컴퓨터라는 기계가 코드를 통해 어떤 과정을 거쳐 결과를 내는지 그려볼 수 있습니다. 특히, 컴퓨터 내부의 ‘작은 일꾼들’이 어떤 역할을 하며 움직이는지를 알게 되면, 단순히 코드를 짜는 것 이상의 흥미를 느낄 수 있죠. 이번 글에서는 컴퓨터의 기본 원리를 쉽고 재미있게, 실생활 속 이야기로 살펴보겠습니다.]]></description>
+            <link>https://moyahug.com/it/coding/introduction-to-coding-1-computers</link>
+            <guid isPermaLink="true">https://moyahug.com/it/coding/introduction-to-coding-1-computers</guid>
+            <pubDate>Mon, 28 Oct 2024 10:47:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[비지니스 클라스 항공권 싸게 구매(예매)하는 방법]]></title>
             <description><![CDATA[비즈니스 클래스 좌석을 저렴하게 예약하는 것은 고급스러운 여행을 보다 합리적인 가격에 즐기기 위한 한가지 방법입니다. 특히 장거리 비행에서는 편안한 좌석과 고급 서비스를 제공하는 비즈니스 클래스가 큰 매력으로 다가오지만, 그만큼 높은 가격이 부담이 될 수 있습니다. 하지만 몇 가지 방법을 잘 활용하면 비즈니스 클래스 좌석을 저렴하게 예약할 수 있는 기회가 생깁니다. 이 글에서는 비즈니스 클래스 좌석을 저렴하게 예약하는 다양한 방법을 소개하는 글입니다.]]></description>
@@ -48,13 +76,6 @@
             <link>https://moyahug.com/it/techcompany/tech-company-fang</link>
             <guid isPermaLink="true">https://moyahug.com/it/techcompany/tech-company-fang</guid>
             <pubDate>Wed, 09 Oct 2024 18:17:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[코딩 입문(1) - 컴퓨터의 기본 원리 이해하기]]></title>
-            <description><![CDATA[컴퓨터와 소통하는 방법인 코딩을 배우기 위해선 먼저 컴퓨터가 어떤 방식으로 작동하는지 이해하는 것이 중요합니다. 이 기본 원리를 이해하면 컴퓨터라는 기계가 코드를 통해 어떤 과정을 거쳐 결과를 내는지 그려볼 수 있습니다. 특히, 컴퓨터 내부의 ‘작은 일꾼들’이 어떤 역할을 하며 움직이는지를 알게 되면, 단순히 코드를 짜는 것 이상의 흥미를 느낄 수 있죠. 이번 글에서는 컴퓨터의 기본 원리를 쉽고 재미있게, 실생활 속 이야기로 살펴보겠습니다.]]></description>
-            <link>https://moyahug.com/it/coding/coding1</link>
-            <guid isPermaLink="true">https://moyahug.com/it/coding/coding1</guid>
-            <pubDate>Wed, 09 Oct 2024 08:44:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[코딩, 쉽게 시작해보겠습니다!]]></title>
@@ -248,8 +269,8 @@
         <item>
             <title><![CDATA[해외여행 항공권 저렴하게 예매하기 위해서 꼭 알아두어야 할 정보 3가지]]></title>
             <description><![CDATA[해외여행을 갈 때 전체 비용 중에서 큰 비중을 차지하는 것이 항공권 가격으로 항공권만 저렴하게 예매한다면 여행 비용을 많이 아낄 수 있습니다. 해외항공권의 경우는 싸게 구매하는 것이 좋지만 너무 저렴한 항공권은 그 내용을 잘 살펴보고 구매하지 않으면 오히려 더 큰 비용이 발생하는 경우도 있습니다. 해외여행 항공권을 예매할 때 저렴하게 구입하기 위해서 꼭 알아두면 좋은 정보 3가지에 대해서 설명하는 포스팅입니다.]]></description>
-            <link>https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets.md</link>
-            <guid isPermaLink="true">https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets.md</guid>
+            <link>https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets</link>
+            <guid isPermaLink="true">https://moyahug.com/travel/prologue/three-tips-for-getting-low-fare-plane-tickets</guid>
             <pubDate>Wed, 12 Jun 2024 18:32:43 GMT</pubDate>
         </item>
         <item>

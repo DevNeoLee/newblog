@@ -1,6 +1,8 @@
 {
-    "name":"",
-    "short_name":"",
+    "name":"생활의 지혜, 현명한 블로그 매거진 Moyahug",
+    "short_name":"생활의 지혜",
+    "description":"여행, 음식, 수필, 경험담, 썰, 주식, 투자 등에 대해서 실제 응용이 가능한 꼭 도움이 될 팁들과 경험을 쓰는 웹 매거진",
+    "start_url":"/",
     "icons":[
         {
             "src":"/android-chrome-192x192.png",
@@ -13,7 +15,8 @@
         "type":"image/png"
         }
     ],
-    "theme_color":"#ffffff",
+    "theme_color":"#191960",
     "background_color":"#ffffff",
-    "display":"standalone"
+    "display":"standalone",
+    "lang":"ko"
 }

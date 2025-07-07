@@ -1,52 +1,89 @@
-import fs from 'fs';
+import { getMetadata, getPostContent, generateStructuredData } from '@/app/travel/utils/getData';
 import Markdown from 'markdown-to-jsx';
-import matter from 'gray-matter';
-import { getMetadata } from '@/app/travel/utils/getData';
-import Head from 'next/head';
+import { notFound } from 'next/navigation';
 import { formatKoreanDate } from '@/app/utils/functions';
 
-const getPostContent = (link) => {
-    const folder= 'dataTravel/아프리카';
-    const file = `${folder}/${link}.md`;
-    const content = fs.readFileSync(file, 'utf8');
-    const matterResult = matter(content);
-    return matterResult;
-}
-
-
-
 export const generateStaticParams = async () => {
-    const posts = getMetadata('아프리카');
-    console.log('africa: ', posts)
-    return posts.map(post => ({
-        link: post.link,
-    }))
+    try {
+        const posts = getMetadata('아프리카');
+        return posts.map(post => ({
+            link: post.link,
+        }))
+    } catch (error) {
+        console.error('Error generating static params:', error);
+        return [];
+    }
 }
 
 export default async function PostPage(props) {
   const link = props.params.link;
-  const post = getPostContent(link);
+  const post = getPostContent(link, 'africa');
+
+  if (!post) {
+    notFound();
+  }
+
+  const structuredData = generateStructuredData(post, link, 'africa');
 
   return (
-      <div className="continentContainer">
-        <div className="continentMain">
-         <div className="detailTitle"><h1>{post.data.title}</h1></div>
-          <p className="countryDateDetailPage" >{formatKoreanDate(post.data.date)}</p>
-          <Markdown>{post.content}</Markdown>
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData)
+          }}
+        />
+        <div className="continentContainer">
+          <div className="continentMain">
+            <div className="detailTitle"><h1>{post.data.title}</h1></div>
+            <p className="countryDateDetailPage">{formatKoreanDate(post.data.date)}</p>
+            <article>
+              <Markdown>{post.content}</Markdown>
+            </article>
+          </div>
         </div>
-      </div>
+      </>
   )
 }
 
 export function generateMetadata({ params, searchParams }) {
-  const details = getPostContent(params.link);
+  const details = getPostContent(params.link, 'africa');
+
+  if (!details) {
+    return {
+      title: '페이지를 찾을 수 없습니다',
+      description: '요청하신 페이지를 찾을 수 없습니다.',
+    };
+  }
 
   return { 
     title: details.data.title,
-    description: details.content.slice(1, 175),   
+    description: details.data.subtitle || details.content.slice(1, 175),   
     alternates: {
-      canonical: 'https://moyahug.com/travel/africa/' + params.link,
-    }
+      canonical: `https://moyahug.com/travel/africa/${params.link}`,
+    },
+    openGraph: {
+      title: details.data.title,
+      description: details.data.subtitle || details.content.slice(1, 175),
+      type: 'article',
+      publishedTime: details.data.date,
+      modifiedTime: details.data.date,
+      authors: ['생활의 지혜'],
+      images: [
+        {
+          url: 'https://moyahug.com/icon1.png',
+          width: 512,
+          height: 512,
+          alt: '생활의 지혜',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: details.data.title,
+      description: details.data.subtitle || details.content.slice(1, 175),
+      images: ['https://moyahug.com/icon1.png'],
+    },
   };
 }
  

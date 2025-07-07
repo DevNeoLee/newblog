@@ -8,7 +8,7 @@ import FooterMain from './travel/components/FooterMain';
 import LargeCard
  from './components/LargeCard';
 import SmallCard from './components/SmallCard';
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -84,7 +84,7 @@ export default function Home() {
 
               ))}
             </div>
-            <div className='buttonContainer'><Link className='button' href="/travel">뭐 여행 <FaArrowRightLong  style={{ position: 'absolute', fontSize: "1rem", right: "3rem", color: "white"}} /></Link></div>
+            <div className='buttonContainer'><Link className='button' href="/travel">뭐 여행 <FaArrowRight  style={{ position: 'absolute', fontSize: "1rem", right: "3rem", color: "white"}} /></Link></div>
           </div>
           <div className="categoryHomeSection">
             <div className="homeSectionTitle">
@@ -95,7 +95,7 @@ export default function Home() {
                   <LargeCard key={id} title={post.title} date={post.date} content={post.subtitle} link={`it/thought/${post.link}`}/>
               ))}
             </div>
-            <div className='buttonContainer'><Link className='button' href="/it">뭐 IT <FaArrowRightLong style={{ position: 'absolute', fontSize: "1rem", right: "3rem", color: "white"}}/></Link></div>
+            <div className='buttonContainer'><Link className='button' href="/it">뭐 IT <FaArrowRight style={{ position: 'absolute', fontSize: "1rem", right: "3rem", color: "white"}}/></Link></div>
           </div>
         </div>
       </div>

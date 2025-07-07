@@ -10,8 +10,8 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    font-family: 'Noto Sans KR', sans-serif;
-    /* font-family: 'Noto Serif KR', serif; */
+    font-family: var(--font-noto-sans-kr), sans-serif;
+    /* font-family: var(--font-noto-serif-kr), serif; */
   }
 
 
@@ -26,7 +26,7 @@ h1 {
     /* margin: 20px; */
     /* font-weight: 100; */
     /* color: rgb(27, 27, 27); */
-    font-family: 'Noto Serif KR', serif;
+    font-family: var(--font-noto-serif-kr), serif;
 }
 
 h2 {
@@ -75,7 +75,7 @@ h6 {
     margin: 4px 0 0 0px;
     font-weight: 100;
     color: red;
-    font-family: 'Noto Serif KR', serif;
+    font-family: var(--font-noto-serif-kr), serif;
 }
 
 p {
@@ -86,12 +86,12 @@ p {
     font-weight: 100;
     /* color: rgb(24, 24, 24);
     color: var(--gray); */
-    font-family: 'Noto Serif KR', serif;
+    font-family: var(--font-noto-serif-kr), serif;
 }
 
 u, span, b {
     font-size: 1.2rem;
-    font-family: 'Noto Serif KR', serif;
+    font-family: var(--font-noto-serif-kr), serif;
 }
 
 
@@ -101,7 +101,7 @@ a {
     line-height: 2.0;
     margin: 4px 0 0 0px;
     font-weight: 900;
-    font-family: 'Noto Serif KR', serif;
+    font-family: var(--font-noto-serif-kr), serif;
     text-decoration: none;
 }
 
@@ -194,7 +194,7 @@ footer {
     font-style: normal;
     letter-spacing: 20px;
     margin-left: 8px;
-    font-family: "Nanum Myeongjo", serif;
+    font-family: var(--font-nanum-myeongjo), serif;
 }
 
 .mainContainer {
@@ -1097,4 +1097,54 @@ footer {
 
 .dreamLetter {
     color: rgb(0, 254, 212);
+}
+
+/* 404 페이지 스타일 */
+.not-found-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.not-found-content {
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+}
+
+.not-found-content h1 {
+    font-size: 6rem;
+    color: #191960;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.not-found-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.not-found-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.home-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #191960;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #0f0f40;
 }
