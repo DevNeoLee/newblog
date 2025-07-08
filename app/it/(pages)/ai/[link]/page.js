@@ -14,7 +14,7 @@ const getPostContent = (link) => {
 
 export const generateStaticParams = async () => {
     const posts = getMetadata('인공지능');
-    console.log('ai: ', posts)
+
     return posts.map(post => ({
         link: post.link,
     }))

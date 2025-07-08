@@ -25,7 +25,7 @@ export default function Home() {
 
   const dataTravel = getTravelData("나를찾는세계여행");
   const dataIT = getITData("IT철학");
-  console.log('dataTravel: ', dataTravel)
+
   return (
     <div className="main">
       <div className="mainMenu">

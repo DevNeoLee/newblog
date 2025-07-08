@@ -14,7 +14,7 @@ const getPostContent = (link) => {
 
 export const generateStaticParams = async () => {
     const posts = getMetadata('블록체인');
-    console.log('blockchain: ', posts)
+
     return posts.map(post => ({
         link: post.link,
     }))

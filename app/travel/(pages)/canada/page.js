@@ -13,7 +13,6 @@ export const metadata = {
 
 export default function CanadaHome() {
   const metaInfo = getMetadata('캐나다');
-  console.log("metadata: ", metadata)
   return (
     <div className="continentContainer">
       <div className="continentCategory">

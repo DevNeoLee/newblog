@@ -11,7 +11,6 @@ export default function Nav({ links }) {
 
   // const links = getPages().map(ele => ele.url)
 
-  // console.log('links: ...', links)
   const router = useRouter()
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
@@ -40,7 +39,7 @@ export default function Nav({ links }) {
           </div>
         </Link>
         <div className="menuButtonPlaneContainer" onClick={handlePlaneClick}>
-          <div className="menuButtonPlane" onMouseEnter={() => console.log('enter')} onMouseLeave={() => console.log('leave')}>
+          <div className="menuButtonPlane">
             <Image 
               priority
               alt="main menu icon"

@@ -14,7 +14,7 @@ const getPostContent = (link) => {
 
 export const generateStaticParams = async () => {
     const posts = getMetadata('테크회사들');
-    console.log('techcompany: ', posts)
+
     return posts.map(post => ({
         link: post.link,
     }))

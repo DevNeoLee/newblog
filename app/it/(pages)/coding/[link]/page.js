@@ -14,7 +14,7 @@ const getPostContent = (link) => {
 
 export const generateStaticParams = async () => {
     const posts = getMetadata('코딩');
-    console.log('coding: ', posts)
+
     return posts.map(post => ({
         link: post.link,
     }))

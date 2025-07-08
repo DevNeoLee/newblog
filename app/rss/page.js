@@ -50,14 +50,12 @@ async function generateRss(posts) {
 const generateRSSFeed = async () => {
   const cataloguesTravel = getTravelCatalogue();
   const cataloguesIT = getITCatalogue();
-  // console.log('rss catalogues rss: ', cataloguesTravel, cataloguesIT);
 
   const posts= [];
 
   cataloguesTravel?.forEach(catalogue => {
     const catalogueTravelKoreanName = getTravelKorean(catalogue).replace(/ /g, '')
     let postTravelList = getTravelMetadata(catalogueTravelKoreanName)
-    // console.log('rss travel catalogue: ', catalogueTravelKoreanName, catalogue);
 
     const updatedTravelPostList = postTravelList.map(list => ({...list, category: catalogue, type: "travel"}));
 
@@ -68,7 +66,6 @@ const generateRSSFeed = async () => {
   cataloguesIT?.forEach(catalogue => {
     const catalogueITKoreanName = getITKorean(catalogue).replace(/ /g, '')
     let postITList = getITMetadata(catalogueITKoreanName)
-    // console.log('rss IT catalogue: ', catalogueITKoreanName, catalogue);
 
     const updatedITPostList = postITList.map(list => ({...list, category: catalogue, type: "it"}));
 

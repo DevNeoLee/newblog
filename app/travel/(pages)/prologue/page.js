@@ -13,7 +13,6 @@ export const metadata = {
 
 export default function PrologueHome(props) {
   const catalogues = getCatalogue();  
-  console.log('catalogues: ', catalogues)
 
   const metaInfo = getMetadata('나를찾는세계여행');
 

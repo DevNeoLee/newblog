@@ -14,7 +14,7 @@ const getPostContent = (link) => {
 
 export const generateStaticParams = async () => {
     const posts = getMetadata('uiux');
-    console.log('uiux: ', posts)
+
     return posts.map(post => ({
         link: post.link,
     }))

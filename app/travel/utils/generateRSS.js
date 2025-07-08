@@ -1,8 +1,6 @@
 import fs from "fs";
 import RSS from "rss";
 
-console.log('hello world from generateRss! ')
-
 export default async function generateRss(allPosts) {
   const site_url =
     process.env.NODE_ENV === "production"
@@ -25,9 +23,7 @@ export default async function generateRss(allPosts) {
 
   // Add each individual post to the feed.
   allPosts.map(catalogue => {
-    console.log('catalogue generate rss: ', catalogue)
     catalogue.posts.forEach(post => {
-        console.log('post rss: ', post)
         feed.item({
         title: post.title,
         description: post.excerpt,
