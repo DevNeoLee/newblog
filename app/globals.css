@@ -11,7 +11,6 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: var(--font-noto-sans-kr), sans-serif;
-    /* font-family: var(--font-noto-serif-kr), serif; */
   }
 
 
@@ -23,10 +22,7 @@ h1 {
     letter-spacing: 2px;
     font-size: 2rem;
     line-height: 1.6;
-    /* margin: 20px; */
-    /* font-weight: 100; */
-    /* color: rgb(27, 27, 27); */
-    font-family: var(--font-noto-serif-kr), serif;
+    font-family: var(--font-noto-sans-kr), serif;
 }
 
 h2 {
@@ -75,7 +71,7 @@ h6 {
     margin: 4px 0 0 0px;
     font-weight: 100;
     color: red;
-    font-family: var(--font-noto-serif-kr), serif;
+    font-family: var(--font-noto-sans-kr), serif;
 }
 
 p {
@@ -84,14 +80,12 @@ p {
     line-height: 2;
     margin: 0.5rem 0px;
     font-weight: 100;
-    /* color: rgb(24, 24, 24);
-    color: var(--gray); */
-    font-family: var(--font-noto-serif-kr), serif;
+    font-family: var(--font-noto-sans-kr), serif;
 }
 
 u, span, b {
     font-size: 1.2rem;
-    font-family: var(--font-noto-serif-kr), serif;
+    font-family: var(--font-noto-sans-kr), serif;
 }
 
 
@@ -101,7 +95,7 @@ a {
     line-height: 2.0;
     margin: 4px 0 0 0px;
     font-weight: 900;
-    font-family: var(--font-noto-serif-kr), serif;
+    font-family: var(--font-noto-sans-kr), serif;
     text-decoration: none;
 }
 
@@ -190,8 +184,7 @@ footer {
 .logoIT {
     color: rgb(44, 44, 44);
     font-size: 36px;
-    margin-top: 12px;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     letter-spacing: 20px;
     margin-left: 8px;

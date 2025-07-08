@@ -1,35 +1,19 @@
 import './globals.css'
-import { Sen, Noto_Sans_KR, Noto_Serif_KR, Nanum_Myeongjo, Edu_SA_Beginner } from 'next/font/google'
+import { Noto_Sans_KR, Sen } from 'next/font/google'
 
 const notoSansKR = Noto_Sans_KR({
   subsets: ['latin'],
   weight: ['400', '600'],
   display: 'swap',
-})
-
-const notoSerifKR = Noto_Serif_KR({
-  subsets: ['latin'],
-  weight: ['200', '700'],
-  display: 'swap',
-})
-
-const nanumMyeongjo = Nanum_Myeongjo({
-  subsets: ['latin'],
-  weight: ['400', '700', '800'],
-  display: 'swap',
+  preload: true,
 })
 
 const sen = Sen({
   subsets: ['latin'],
-  weight: ['400', '700', '800'],
+  weight: ['400', '700'],
   variable: '--font-sen',
   display: 'swap',
-})
-
-const eduSABeginner = Edu_SA_Beginner({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
+  preload: true,
 })
 
 export const metadata = {
@@ -59,7 +43,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ko" className={`${sen.variable} ${notoSansKR.variable} ${notoSerifKR.variable} ${nanumMyeongjo.variable} ${eduSABeginner.variable}`}>
+    <html lang="ko" className={`${sen.variable} ${notoSansKR.variable}`}>
       <body suppressHydrationWarning={true}>
         {children}
       </body>

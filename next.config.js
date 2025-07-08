@@ -3,11 +3,14 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   generateEtags: false,
+  swcMinify: true,
   images: {
     formats: ['image/webp', 'image/avif'],
+    minimumCacheTTL: 60,
   },
   experimental: {
     optimizePackageImports: ['react-icons'],
+    optimizeCss: true,
   },
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
@@ -18,6 +21,11 @@ const nextConfig = {
           test: /\.(css|scss)$/,
           chunks: 'all',
           enforce: true,
+        },
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
         },
       };
     }
