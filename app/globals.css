@@ -183,11 +183,12 @@ footer {
 
 .logoIT {
     color: rgb(44, 44, 44);
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 20px;
     margin-left: 8px;
+    margin-bottom: 10px;
 }
 
 .mainContainer {
@@ -1034,7 +1035,7 @@ footer {
         line-height: 2;
         margin: 2rem 0.4rem;
         font-weight: 400;
-        font-family: 'Noto Serif KR', serif;
+        font-family: var(--font-noto-sans-kr), serif;
     }
 
     .travelMenu {
