@@ -4,6 +4,7 @@ import { Noto_Sans_KR, Sen } from 'next/font/google'
 const notoSansKR = Noto_Sans_KR({
   subsets: ['latin'],
   weight: ['400', '600'],
+  variable: '--font-noto-sans-kr',
   display: 'swap',
   preload: true,
 })
