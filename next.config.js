@@ -9,7 +9,6 @@ const nextConfig = {
   },
   experimental: {
     optimizePackageImports: ['react-icons'],
-    optimizeCss: true,
   },
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
