@@ -15,8 +15,9 @@ export const generateStaticParams = async () => {
     }
 }
 
-export default async function PostPage(props) {
-  const link = props.params.link;
+export default async function PostPage({ params }) {
+  const resolvedParams = await params;
+  const link = resolvedParams.link;
   const post = getPostContent(link, 'europe');
 
   if (!post) {
@@ -46,8 +47,10 @@ export default async function PostPage(props) {
   )
 }
 
-export function generateMetadata({ params, searchParams }) {
-  const details = getPostContent(params.link, 'europe');
+export async function generateMetadata({ params, searchParams }) {
+  const resolvedParams = await params;
+  const link = resolvedParams.link;
+  const details = getPostContent(link, 'europe');
 
   if (!details) {
     return {
@@ -60,7 +63,7 @@ export function generateMetadata({ params, searchParams }) {
     title: details.data.title,
     description: details.data.subtitle || details.content.slice(1, 175),   
     alternates: {
-      canonical: `https://moyahug.com/travel/europe/${params.link}`,
+      canonical: `https://moyahug.com/travel/europe/${link}`,
     },
     openGraph: {
       title: details.data.title,

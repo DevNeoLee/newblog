@@ -1,7 +1,7 @@
 import { getMetadata, getPostContent, generateStructuredData } from '@/app/travel/utils/getData';
 import Markdown from 'markdown-to-jsx';
 import { notFound } from 'next/navigation';
-import { formatKoreanDate } from '@/app/utils/functions';
+import { formatDateLong } from '@/app/utils/functions';
 
 export const generateStaticParams = async () => {
     try {
@@ -15,8 +15,9 @@ export const generateStaticParams = async () => {
     }
 }
 
-export default async function PostPage(props) {
-  const link = props.params.link;
+export default async function PostPage({ params }) {
+  const resolvedParams = await params;
+  const link = resolvedParams.link;
   const post = getPostContent(link, 'canada');
 
   if (!post) {
@@ -36,7 +37,7 @@ export default async function PostPage(props) {
         <div className="continentContainer">
           <div className="continentMain">
             <div className="detailTitle"><h1>{post.data.title}</h1></div>
-            <p className="countryDateDetailPage">{formatKoreanDate(post.data.date)}</p>
+            <p className="countryDateDetailPage">{formatDateLong(post.data.date)}</p>
             <article>
               <Markdown>{post.content}</Markdown>
             </article>
@@ -46,8 +47,10 @@ export default async function PostPage(props) {
   )
 }
 
-export function generateMetadata({ params, searchParams }) {
-  const details = getPostContent(params.link, 'canada');
+export async function generateMetadata({ params, searchParams }) {
+  const resolvedParams = await params;
+  const link = resolvedParams.link;
+  const details = getPostContent(link, 'canada');
 
   if (!details) {
     return {
@@ -60,7 +63,7 @@ export function generateMetadata({ params, searchParams }) {
     title: details.data.title,
     description: details.data.subtitle || details.content.slice(1, 175),   
     alternates: {
-      canonical: `https://moyahug.com/travel/canada/${params.link}`,
+      canonical: `https://moyahug.com/travel/canada/${link}`,
     },
     openGraph: {
       title: details.data.title,

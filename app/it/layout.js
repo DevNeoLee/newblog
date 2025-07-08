@@ -12,9 +12,12 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  // 서버 사이드에서만 실행되도록 수정
+  const pages = getPages();
+  
   return (
     <>
-      <Nav links={getPages()}/>
+      <Nav links={pages}/>
       <div className='mainContainer'>
           {children}
       </div>

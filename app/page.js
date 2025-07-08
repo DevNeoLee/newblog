@@ -1,25 +1,14 @@
 
 import Link from 'next/link'
-import { getMetadata as getTravelData, getCatalogue as getTravelCataglogue, getKorean as getTravelKorean  } from './travel/utils/getData';
-import { getMetadata as getITData, getCatalogue as getITCataglogue, getKorean as getITKorean  } from './it/utils/getData';
-import fs from 'fs'
+import { getMetadata as getTravelData } from './travel/utils/getData';
+import { getMetadata as getITData } from './it/utils/getData';
+
 import Image from 'next/image';
 import FooterMain from './travel/components/FooterMain';
-import LargeCard
- from './components/LargeCard';
-import SmallCard from './components/SmallCard';
+import LargeCard from './components/LargeCard';
 import { FaArrowRight } from "react-icons/fa";
 
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-      // Generate a random index
-      const j = Math.floor(Math.random() * (i + 1));
-      
-      // Swap elements at indices i and j
-      [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
+// shuffleArray 함수 제거 - hydration mismatch 방지
 
 export default function Home() {
 
@@ -51,27 +40,6 @@ export default function Home() {
         </div>
       </div>
       <div className="travelMain">
-        {/* <Image 
-          priority
-          alt="travel main image"
-          src="/background_image_mesut-kaya.jpg"
-          fill
-          quality={60}
-          style={{ zIndex: "-12", position: "absolute", objectFit: "cover"}}
-        /> */}
-        {/* <div className="mainPagePrologues">
-          {shuffleArray(metaInfo).map((post, id) => (
-            <Link href={`travel/prologue/${post.link}`} key={id} className="countryCardLink">
-              <div className="countryCard" key={id}>
-                <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>
-                <p className="countryDate" >{formatKoreanDate(post.date)}</p>
-                <div className="countryParagraph" >
-                  <p className="countrySubtitle" >{post.subtitle}</p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div> */}
         <div className="mainHomePage">
           <div className="categoryHomeSection">
             <div className="homeSectionTitle">

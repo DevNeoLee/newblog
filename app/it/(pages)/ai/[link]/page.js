@@ -20,8 +20,9 @@ export const generateStaticParams = async () => {
     }))
 }
 
-export default async function PostPage(props) {
-  const link = props.params.link;
+export default async function PostPage({ params }) {
+  const resolvedParams = await params;
+  const link = resolvedParams.link;
   const post = getPostContent(link);
 
   return (
@@ -35,14 +36,15 @@ export default async function PostPage(props) {
   )
 }
 
-export function generateMetadata({ params, searchParams }) {
-  const details = getPostContent(params.link);
+export async function generateMetadata({ params, searchParams }) {
+  const resolvedParams = await params;
+  const details = getPostContent(resolvedParams.link);
 
   return { 
     title: details.data.title,
     description: details.content.slice(1, 175),   
     alternates: {
-        canonical: 'https://moyahug.com/it/ai/' + params.link,
+        canonical: 'https://moyahug.com/it/ai/' + resolvedParams.link,
     }
   };
 }

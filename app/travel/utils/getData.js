@@ -132,7 +132,7 @@ export const getPages = () => {
         posts.forEach(post => {
           urlList.push({
             url: `${site_url}/travel/${continent}/${post.link}`,
-            lastModified: new Date(post.date),
+            lastModified: post.date, // ISO string으로 유지
           })
         })
       })

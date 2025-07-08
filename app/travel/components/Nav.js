@@ -12,13 +12,10 @@ export default function Nav({ links }) {
   // const links = getPages().map(ele => ele.url)
 
   const router = useRouter()
-  function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
-
   const handlePlaneClick = () => {
-
-    router.push( links[getRandomInt(links.length)].url)
+    // 클라이언트 사이드에서만 랜덤 계산
+    const randomIndex = Math.floor(Math.random() * links.length);
+    router.push(links[randomIndex].url);
   }
 
   return (

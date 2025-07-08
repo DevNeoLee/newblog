@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { getMetadata, getCatalogue, getKorean } from './utils/getData';
 import fs from 'fs'
 import Image from 'next/image';
-import { formatKoreanDate } from '@/app/utils/functions';
+import { formatDateShort } from '@/app/utils/functions';
 
 export default function it() {
   const catalogues = getCatalogue();
@@ -37,7 +37,7 @@ export default function it() {
               <div className="countryCard" key={id}>
                 {/* <div className="countryImage" style={{ backgroundColor: post.color}}></div> */}
                 <h2 className="countryTitle" >{ post.title.length > 60 ? post.title.slice(0, 60) + "..." : post.title} </h2>
-                <p className="countryDate" >{formatKoreanDate(post.date)}</p>
+                <p className="countryDate" >{formatDateShort(post.date)}</p>
                 <div className="countryParagraph" >
                   <p className="countrySubtitle" >{post.subtitle}</p>
                 </div>
