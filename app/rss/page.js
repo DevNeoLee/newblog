@@ -3,6 +3,21 @@ import RSS from "rss";
 import { getMetadata as getTravelMetadata, getCatalogue as getTravelCatalogue, getKorean as getTravelKorean } from '../travel/utils/getData';
 import { getMetadata as getITMetadata, getCatalogue as getITCatalogue, getKorean as getITKorean } from '../it/utils/getData';
 
+// 날짜 유효성 검사 및 ISO 형식 변환 함수
+function formatDateForRSS(dateString) {
+  try {
+    const date = new Date(dateString);
+    // 유효한 날짜인지 확인
+    if (isNaN(date.getTime())) {
+      console.warn(`Invalid date for RSS: ${dateString}, using current date`);
+      return new Date();
+    }
+    return date;
+  } catch (error) {
+    console.warn(`Error parsing date for RSS: ${dateString}, using current date`);
+    return new Date();
+  }
+}
 
 async function generateRss(posts) {
   const site_url =
@@ -39,7 +54,7 @@ async function generateRss(posts) {
     title: post.title,
     description: post.subtitle,
     url: `${site_url}/${post.type}/${post.category}/${post.link}`,
-    date: post.date,
+    date: formatDateForRSS(post.date),
     });
   });
   

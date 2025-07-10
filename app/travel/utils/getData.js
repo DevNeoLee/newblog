@@ -24,9 +24,23 @@ export const getMetadata = (path) => {
       try {
         const fileContents = fs.readFileSync(`dataTravel/${path}/${fileName}`, 'utf8');
         const matterResult = matter(fileContents);
+        
+        // 날짜 유효성 검사 및 ISO 형식 변환
+        let date;
+        try {
+          const parsedDate = new Date(matterResult.data.date);
+          if (isNaN(parsedDate.getTime())) {
+            date = new Date().toISOString();
+          } else {
+            date = parsedDate.toISOString();
+          }
+        } catch (error) {
+          date = new Date().toISOString();
+        }
+        
         return {
           title: matterResult.data.title || '제목 없음',
-          date: matterResult.data.date || new Date().toISOString(),
+          date: date,
           subtitle: matterResult.data.subtitle || '',
           link: fileName.replace('.md', ''),
           color: matterResult.data.color || '#191960',
@@ -73,6 +87,22 @@ export const getPostContent = (link, category) => {
 
 // 구조화된 데이터 생성 함수
 export const generateStructuredData = (post, link, category) => {
+  // 날짜 유효성 검사 및 ISO 형식 변환
+  let datePublished, dateModified;
+  try {
+    const parsedDate = new Date(post.data.date);
+    if (isNaN(parsedDate.getTime())) {
+      datePublished = new Date().toISOString();
+      dateModified = new Date().toISOString();
+    } else {
+      datePublished = parsedDate.toISOString();
+      dateModified = parsedDate.toISOString();
+    }
+  } catch (error) {
+    datePublished = new Date().toISOString();
+    dateModified = new Date().toISOString();
+  }
+  
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -90,8 +120,8 @@ export const generateStructuredData = (post, link, category) => {
         "url": "https://moyahug.com/icon1.png"
       }
     },
-    "datePublished": post.data.date,
-    "dateModified": post.data.date,
+    "datePublished": datePublished,
+    "dateModified": dateModified,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://moyahug.com/travel/${category}/${link}`
@@ -130,9 +160,22 @@ export const getPages = () => {
         const trimedKorean = getKorean(continent).split(" ").join("");
         const posts = getMetadata(trimedKorean);
         posts.forEach(post => {
+          // 날짜 유효성 검사 및 ISO 형식 변환
+          let lastModified;
+          try {
+            const date = new Date(post.date);
+            if (isNaN(date.getTime())) {
+              lastModified = new Date().toISOString();
+            } else {
+              lastModified = date.toISOString();
+            }
+          } catch (error) {
+            lastModified = new Date().toISOString();
+          }
+          
           urlList.push({
             url: `${site_url}/travel/${continent}/${post.link}`,
-            lastModified: post.date, // ISO string으로 유지
+            lastModified: lastModified,
           })
         })
       })

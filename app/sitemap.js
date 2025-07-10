@@ -7,13 +7,29 @@ const site_url = process.env.NODE_ENV === "production" ? "https://moyahug.com" :
 const catalogueTravel = getTravelCatalogue();
 const catalogueIT = getITCatalogue();
 
+// 날짜 유효성 검사 및 ISO 형식 변환 함수
+function formatDateForSitemap(dateString) {
+  try {
+    const date = new Date(dateString);
+    // 유효한 날짜인지 확인
+    if (isNaN(date.getTime())) {
+      console.warn(`Invalid date: ${dateString}, using current date`);
+      return new Date().toISOString();
+    }
+    return date.toISOString();
+  } catch (error) {
+    console.warn(`Error parsing date: ${dateString}, using current date`);
+    return new Date().toISOString();
+  }
+}
+
 const urlList = [];
 
 export default function getSitemap() {
    //add main home page
    urlList.push({
     url: `${site_url}`,
-    lastModified: new Date(),
+    lastModified: new Date().toISOString(),
     changeFrequency: 'daily',
     priority: 1,
   })
@@ -21,7 +37,7 @@ export default function getSitemap() {
   //add main travel page
   urlList.push({
     url: `${site_url}/travel`,
-    lastModified: new Date(),
+    lastModified: new Date().toISOString(),
     changeFrequency: 'daily',
     priority: 1,
   })
@@ -29,16 +45,31 @@ export default function getSitemap() {
   //add main it page
   urlList.push({
     url: `${site_url}/it`,
-    lastModified: new Date(),
+    lastModified: new Date().toISOString(),
     changeFrequency: 'daily',
     priority: 1,
+  })
+
+  //add legal pages
+  urlList.push({
+    url: `${site_url}/privacy`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'monthly',
+    priority: 0.5,
+  })
+
+  urlList.push({
+    url: `${site_url}/terms`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'monthly',
+    priority: 0.5,
   })
 
   //add travel continent pages
   catalogueTravel.forEach(continent => {
     urlList.push({
       url: `${site_url}/travel/${continent}`,
-      lastModified: new Date(),
+      lastModified: new Date().toISOString(),
       changeFrequency: 'daily',
       priority: 0.9,
     })
@@ -48,7 +79,7 @@ export default function getSitemap() {
     catalogueIT.forEach(continent => {
       urlList.push({
         url: `${site_url}/it/${continent}`,
-        lastModified: new Date(),
+        lastModified: new Date().toISOString(),
         changeFrequency: 'daily',
         priority: 0.9,
       })
@@ -61,9 +92,8 @@ export default function getSitemap() {
     posts.forEach(post => {
       urlList.push({
         url: `${site_url}/travel/${continent}/${post.link}`,
-        // lastModified: new Date(),
-        lastModified: new Date(post.date),
-        changeFrequency: 'daily',
+        lastModified: formatDateForSitemap(post.date),
+        changeFrequency: 'weekly',
         priority: 0.8,
       })
     })
@@ -76,15 +106,12 @@ export default function getSitemap() {
     posts.forEach(post => {
       urlList.push({
         url: `${site_url}/it/${catalogue}/${post.link}`,
-        // lastModified: new Date(),
-        lastModified: new Date(post.date),
-        changeFrequency: 'daily',
+        lastModified: formatDateForSitemap(post.date),
+        changeFrequency: 'weekly',
         priority: 0.8,
       })
     })
   })
-
-
 
   //add detail pages
   const allPages = [...urlList, ...getTravelPages(), ...getITPages()]
