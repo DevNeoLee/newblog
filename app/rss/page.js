@@ -68,6 +68,7 @@ const generateRSSFeed = async () => {
 
   const posts= [];
 
+  // 모든 여행 카테고리의 모든 글 추가
   cataloguesTravel?.forEach(catalogue => {
     const catalogueTravelKoreanName = getTravelKorean(catalogue).replace(/ /g, '')
     let postTravelList = getTravelMetadata(catalogueTravelKoreanName)
@@ -75,9 +76,9 @@ const generateRSSFeed = async () => {
     const updatedTravelPostList = postTravelList.map(list => ({...list, category: catalogue, type: "travel"}));
 
     updatedTravelPostList.forEach(list => posts.push(list))
-
   })
 
+  // 모든 IT 카테고리의 모든 글 추가
   cataloguesIT?.forEach(catalogue => {
     const catalogueITKoreanName = getITKorean(catalogue).replace(/ /g, '')
     let postITList = getITMetadata(catalogueITKoreanName)
@@ -86,6 +87,11 @@ const generateRSSFeed = async () => {
 
     updatedITPostList.forEach(list => posts.push(list))
   })
+
+  // 총 글 수 로그 출력
+  console.log(`RSS Feed generated with ${posts.length} total posts`);
+  console.log(`Travel posts: ${posts.filter(p => p.type === 'travel').length}`);
+  console.log(`IT posts: ${posts.filter(p => p.type === 'it').length}`);
 
   await generateRss(posts.sort(function(a,b){
     return new Date(b.date) - new Date(a.date)}))

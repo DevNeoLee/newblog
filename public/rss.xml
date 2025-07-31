@@ -9,11 +9,18 @@
             <link>https://moyahug.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 10 Jul 2025 19:37:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 31 Jul 2025 18:33:32 GMT</lastBuildDate>
         <atom:link href="https://moyahug.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 10 Jul 2025 19:37:50 GMT</pubDate>
+        <pubDate>Thu, 31 Jul 2025 18:33:32 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2025]]></copyright>
         <language><![CDATA[ko]]></language>
+        <item>
+            <title><![CDATA[애자일(Agile) 방법론 - 빠르고 유연한 개발의 철학]]></title>
+            <description><![CDATA[애자일 방법론의 핵심 원칙과 실제 적용 사례를 통해 현대 소프트웨어 개발의 새로운 패러다임을 이해해보세요.]]></description>
+            <link>https://moyahug.com/it/thought/agile</link>
+            <guid isPermaLink="true">https://moyahug.com/it/thought/agile</guid>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[오로라 볼 수 있는 국가별 명소 총정리 (아이슬란드, 노르웨이, 핀란드, 캐나다, 미국)]]></title>
             <description><![CDATA[오로라는 우리나라에서 볼 수 없는 자연 현상으로 해외로 여행을 떠나서 오로라를 보고자 하는 분들도 많이 있습니다. 최근에서는 지구의 기후 변화로 중위도 지역에서 오로라를 볼 수 있는 경우도 있지만 확실하게 오로라를 관찰할 수 있는 지역들이 있습니다. 참고로, 오로라는 북반구의 경우은 10월 ~ 4월 정도에 관측이 잘되므로 이 시기에 맞춰 관측 지역을 방문하는 것을 추천합니다. 오로라를 관측할 수 있는 북반구 국가와 유명한 지역을 정리한 글입니다..]]></description>
@@ -104,13 +111,6 @@
             <link>https://moyahug.com/it/thought/fail-fast</link>
             <guid isPermaLink="true">https://moyahug.com/it/thought/fail-fast</guid>
             <pubDate>Sat, 05 Oct 2024 19:22:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[목적을 마음 평안하게 이루는 최적의 방법이 있을까요?]]></title>
-            <description><![CDATA[목적을 마음 평안하게 이루는 최적의 방식이 있을까요? 세계 최고의 앨리트들만이 모인 실리콘밸리의 소프트웨어 업계에서는 이것을 어떻게 이뤄낼까요? 그것도 도를 깨달은 사람처럼 매일 매일 마음 평안하게 말이죠. 목적을 달성하는 동시에 삶을 더 유연하게 즐기는 법!]]></description>
-            <link>https://moyahug.com/it/thought/agile</link>
-            <guid isPermaLink="true">https://moyahug.com/it/thought/agile</guid>
-            <pubDate>Sat, 05 Oct 2024 14:48:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[크루즈 여행을 즐기는 사람들의 공통점]]></title>

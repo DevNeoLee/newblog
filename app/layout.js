@@ -22,8 +22,8 @@ export const metadata = {
     default: '생활의 지혜, 현명한 블로그 매거진 Moyahug',
     template: '%s | Moyahug'
   },
-  description: '생활의 지혜, 현명한 블로그 매거진 Moyahug 는 여행, 음식, 수필, 경험담, 썰, 주식, 투자 등에 대해서 실제 응용이 가능한 꼭 도움이 될 팁들과 경험을 쓰는 웹 매거진 입니다.',
-  keywords: ['여행', 'IT', '블로그', '매거진', '여행팁', 'IT팁', '생활의지혜', 'Moyahug'],
+  description: '생활의 지혜, 현명한 블로그 매거진 Moyahug는 여행 팁, IT 노하우, 해외여행 가이드, 디지털 노마드, 애자일 방법론 등 실용적인 정보를 제공하는 웹 매거진입니다. 여행 준비부터 IT 트렌드까지 모든 것을 쉽게 배워보세요.',
+  keywords: ['여행', 'IT', '블로그', '매거진', '여행팁', 'IT팁', '생활의지혜', 'Moyahug', '해외여행', '디지털노마드', '애자일', '크루즈여행', '오로라여행', '비즈니스클래스', '유심카드', '렌트카'],
   authors: [{ name: 'Moyahug' }],
   creator: 'Moyahug',
   publisher: 'Moyahug',
@@ -58,7 +58,7 @@ export const metadata = {
     locale: 'ko_KR',
     url: 'https://moyahug.com',
     title: '생활의 지혜, 현명한 블로그 매거진 Moyahug',
-    description: '생활의 지혜, 현명한 블로그 매거진 Moyahug 는 여행, 음식, 수필, 경험담, 썰, 주식, 투자 등에 대해서 실제 응용이 가능한 꼭 도움이 될 팁들과 경험을 쓰는 웹 매거진 입니다.',
+    description: '생활의 지혜, 현명한 블로그 매거진 Moyahug는 여행 팁, IT 노하우, 해외여행 가이드, 디지털 노마드, 애자일 방법론 등 실용적인 정보를 제공하는 웹 매거진입니다.',
     siteName: 'Moyahug',
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '생활의 지혜, 현명한 블로그 매거진 Moyahug',
-    description: '생활의 지혜, 현명한 블로그 매거진 Moyahug 는 여행, 음식, 수필, 경험담, 썰, 주식, 투자 등에 대해서 실제 응용이 가능한 꼭 도움이 될 팁들과 경험을 쓰는 웹 매거진 입니다.',
+    description: '생활의 지혜, 현명한 블로그 매거진 Moyahug는 여행 팁, IT 노하우, 해외여행 가이드, 디지털 노마드, 애자일 방법론 등 실용적인 정보를 제공하는 웹 매거진입니다.',
     images: ['https://moyahug.com/icon1.png'],
   },
 }
@@ -88,8 +88,9 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Moyahug",
-              "description": "생활의 지혜, 현명한 블로그 매거진",
+              "description": "생활의 지혜, 현명한 블로그 매거진 - 여행과 IT 정보를 제공하는 57개 글의 지식 라이브러리",
               "url": "https://moyahug.com",
+              "numberOfItems": 57,
               "publisher": {
                 "@type": "Organization",
                 "name": "Moyahug",
@@ -102,6 +103,25 @@ export default function RootLayout({ children }) {
                 "@type": "SearchAction",
                 "target": "https://moyahug.com/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
+              },
+              "mainEntity": {
+                "@type": "ItemList",
+                "name": "Moyahug 콘텐츠 라이브러리",
+                "numberOfItems": 57,
+                "itemListElement": [
+                  {
+                    "@type": "ItemList",
+                    "name": "여행 카테고리",
+                    "numberOfItems": 45,
+                    "description": "해외여행, 크루즈여행, 오로라여행, 디지털노마드 등 여행 관련 실용 정보"
+                  },
+                  {
+                    "@type": "ItemList", 
+                    "name": "IT 카테고리",
+                    "numberOfItems": 12,
+                    "description": "애자일 방법론, KISS 원칙, 개발 철학 등 IT 관련 실용 정보"
+                  }
+                ]
               }
             })
           }}

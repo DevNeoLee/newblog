@@ -26,8 +26,8 @@ function formatDateForSitemap(dateString) {
 const urlList = [];
 
 export default function getSitemap() {
-   //add main home page
-   urlList.push({
+  //add main home page
+  urlList.push({
     url: `${site_url}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'daily',
@@ -52,6 +52,13 @@ export default function getSitemap() {
 
   //add legal pages
   urlList.push({
+    url: `${site_url}/about`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  })
+
+  urlList.push({
     url: `${site_url}/privacy`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'monthly',
@@ -75,17 +82,17 @@ export default function getSitemap() {
     })
   })
 
-    //add it category pages
-    catalogueIT.forEach(continent => {
-      urlList.push({
-        url: `${site_url}/it/${continent}`,
-        lastModified: new Date().toISOString(),
-        changeFrequency: 'daily',
-        priority: 0.9,
-      })
+  //add it category pages
+  catalogueIT.forEach(continent => {
+    urlList.push({
+      url: `${site_url}/it/${continent}`,
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'daily',
+      priority: 0.9,
     })
+  })
 
-
+  //add all travel posts
   catalogueTravel.forEach(continent => {
     const trimedKorean = getTravelKorean(continent).split(" ").join("");
     const posts = getTravelMetadata(trimedKorean);
@@ -99,9 +106,9 @@ export default function getSitemap() {
     })
   })
 
+  //add all IT posts
   catalogueIT.forEach(catalogue => {
     const trimedKorean = getITKorean(catalogue).split(" ").join("");
-
     const posts = getITMetadata(trimedKorean);
     posts.forEach(post => {
       urlList.push({
@@ -113,9 +120,7 @@ export default function getSitemap() {
     })
   })
 
-  //add detail pages
-  const allPages = [...urlList, ...getTravelPages(), ...getITPages()]
-
-  // return urlList
-  return allPages;
+  return urlList.sort(function(a,b){
+    return new Date(b.lastModified) - new Date(a.lastModified);
+  });
 }

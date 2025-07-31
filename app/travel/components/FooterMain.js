@@ -24,6 +24,7 @@ export default function FooterMain() {
       <div className="copyright">
         <div style={{ color: "gray"}}>© Copyright {new Date().getFullYear()} <span className="logoMoyahug" id="blur" style={{ fontSize: "20px"}}>MoyaHug</span> All rights reserved.</div> 
         <div style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
+          <Link href="/about" style={{ color: 'gray', marginRight: '1rem', textDecoration: 'none' }}>About</Link>
           <Link href="/privacy" style={{ color: 'gray', marginRight: '1rem', textDecoration: 'none' }}>개인정보 보호정책</Link>
           <Link href="/terms" style={{ color: 'gray', textDecoration: 'none' }}>이용약관</Link>
         </div>
