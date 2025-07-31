@@ -1,20 +1,7 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://moyahug.com/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
-
-# Daum WebMaster Tool
-DaumWebMasterTool: ddc325c33a7e2d249146857dff0f3ce3d3a0056f80993803d8cb69464d4a61d1:PvW75kWPXua/QWKabrLUfg==
-
-# Google Adsense
-User-agent: Mediapartners-Google
-Allow: /
-
-# Googlebot
+# Googlebot 특별 설정
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
@@ -49,4 +36,7 @@ Allow: /it/
 Allow: /about
 Allow: /privacy
 Allow: /terms
+
+# Sitemap
+Sitemap: https://moyahug.com/sitemap.xml
 

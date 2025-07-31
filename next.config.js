@@ -6,38 +6,10 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['react-icons'],
   },
-  webpack: (config) => {
-    // splitChunks가 없으면 생성
-    if (!config.optimization.splitChunks) {
-      config.optimization.splitChunks = {};
-    }
-    
-    // cacheGroups가 없으면 생성
-    if (!config.optimization.splitChunks.cacheGroups) {
-      config.optimization.splitChunks.cacheGroups = {};
-    }
-    
-    // styles 캐시 그룹 설정
-    config.optimization.splitChunks.cacheGroups.styles = {
-      name: 'styles',
-      test: /\.(css|scss)$/,
-      chunks: 'all',
-      enforce: true,
-    };
-    
-    // vendor 캐시 그룹 설정
-    config.optimization.splitChunks.cacheGroups.vendor = {
-      test: /[\\/]node_modules[\\/]/,
-      name: 'vendors',
-      chunks: 'all',
-    };
-    
-    return config;
-  },
   async redirects() {
     return [
-      // www 리다이렉트
-      {
+      // www 리다이렉트 (프로덕션에서만)
+      ...(process.env.NODE_ENV === 'production' ? [{
         source: '/:path*',
         has: [
           {
@@ -47,9 +19,9 @@ const nextConfig = {
         ],
         destination: 'https://moyahug.com/:path*',
         permanent: true,
-      },
-      // HTTP to HTTPS 리다이렉트
-      {
+      }] : []),
+      // HTTP to HTTPS 리다이렉트 (프로덕션에서만)
+      ...(process.env.NODE_ENV === 'production' ? [{
         source: '/:path*',
         has: [
           {
@@ -60,28 +32,24 @@ const nextConfig = {
         ],
         destination: 'https://moyahug.com/:path*',
         permanent: true,
-      },
-      // Combine: HTTP + www
-      {
+      }] : []),
+      // HTTP + www 조합 리다이렉트 (프로덕션에서만)
+      ...(process.env.NODE_ENV === 'production' ? [{
         source: '/:path*',
         has: [
-          { type: 'host', value: 'www.moyahug.com' },
-          { type: 'header', key: 'x-forwarded-proto', value: 'http' },
+          {
+            type: 'host',
+            value: 'www.moyahug.com',
+          },
+          {
+            type: 'header',
+            key: 'x-forwarded-proto',
+            value: 'http',
+          },
         ],
         destination: 'https://moyahug.com/:path*',
         permanent: true,
-      },
-      // 오래된 URL 패턴 리다이렉트
-      {
-        source: '/travel/:continent/:slug',
-        destination: '/travel/:continent/:slug',
-        permanent: true,
-      },
-      {
-        source: '/it/:category/:slug',
-        destination: '/it/:category/:slug',
-        permanent: true,
-      },
+      }] : []),
     ];
   },
   async headers() {
