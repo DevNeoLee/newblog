@@ -91,13 +91,16 @@ export default function RootLayout({ children }) {
               "description": "생활의 지혜, 현명한 블로그 매거진 - 여행과 IT 정보를 제공하는 57개 글의 지식 라이브러리",
               "url": "https://moyahug.com",
               "numberOfItems": 57,
+              "inLanguage": "ko-KR",
               "publisher": {
                 "@type": "Organization",
                 "name": "Moyahug",
                 "logo": {
                   "@type": "ImageObject",
                   "url": "https://moyahug.com/icon1.png"
-                }
+                },
+                "foundingDate": "2024-01-01",
+                "description": "생활의 지혜를 모토로 하는 블로그 매거진"
               },
               "potentialAction": {
                 "@type": "SearchAction",
@@ -122,6 +125,30 @@ export default function RootLayout({ children }) {
                     "description": "애자일 방법론, KISS 원칙, 개발 철학 등 IT 관련 실용 정보"
                   }
                 ]
+              },
+              "about": {
+                "@type": "Thing",
+                "name": "생활의 지혜",
+                "description": "여행과 IT 분야의 실용적인 정보 제공"
+              },
+              "audience": {
+                "@type": "Audience",
+                "audienceType": "일반 독자",
+                "geographicArea": {
+                  "@type": "Country",
+                  "name": "대한민국"
+                }
+              },
+              "interactionStatistic": {
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/ReadAction",
+                "userInteractionCount": 1000
+              },
+              "offers": {
+                "@type": "Offer",
+                "description": "무료 실용 정보 제공",
+                "price": "0",
+                "priceCurrency": "KRW"
               }
             })
           }}

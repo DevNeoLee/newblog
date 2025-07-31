@@ -44,10 +44,20 @@ export default function PrivacyPolicy() {
         <h2>3. 제3자 서비스</h2>
         <p>당사는 다음과 같은 제3자 서비스를 사용합니다:</p>
         <ul>
-          <li><strong>Google AdSense:</strong> 광고 서비스 제공</li>
-          <li><strong>Google Analytics:</strong> 웹사이트 분석</li>
-          <li><strong>Google Search Console:</strong> 검색 엔진 최적화</li>
+          <li><strong>Google AdSense:</strong> 광고 서비스 제공 및 수익화</li>
+          <li><strong>Google Analytics:</strong> 웹사이트 분석 및 트래픽 측정</li>
+          <li><strong>Google Search Console:</strong> 검색 엔진 최적화 및 성능 모니터링</li>
         </ul>
+        
+        <h3>3.1 Google AdSense</h3>
+        <p>Google AdSense는 당사 웹사이트에 광고를 표시하여 수익을 창출하는 서비스입니다. AdSense는 다음과 같은 정보를 수집할 수 있습니다:</p>
+        <ul>
+          <li>방문자의 IP 주소</li>
+          <li>브라우저 정보 및 쿠키</li>
+          <li>광고 클릭 및 노출 데이터</li>
+          <li>사용자의 관심사 및 행동 패턴</li>
+        </ul>
+        <p>이 정보는 광고의 관련성과 효과를 향상시키기 위해 사용됩니다. Google의 개인정보 보호정책은 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>에서 확인할 수 있습니다.</p>
         
         <h2>4. 개인정보 보호</h2>
         <p>당사는 개인정보 보호를 위해 다음과 같은 조치를 취하고 있습니다:</p>

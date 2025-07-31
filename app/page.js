@@ -168,6 +168,88 @@ export default function Home() {
             총 <strong>{totalPostCount}개의 실용적인 글</strong>로 구성된 Moyahug의 지식 라이브러리입니다.
           </p>
         </div>
+        
+        {/* 사용자 상호작용 섹션 추가 */}
+        <div style={{ 
+          marginTop: '2rem', 
+          padding: '1.5rem', 
+          backgroundColor: 'white', 
+          borderRadius: '8px',
+          border: '1px solid #e0e0e0'
+        }}>
+          <h3 style={{ textAlign: 'center', marginBottom: '1rem', color: '#191960' }}>
+            💡 여러분의 의견을 들려주세요
+          </h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem' }}>
+            <div style={{ textAlign: 'center' }}>
+              <p style={{ marginBottom: '0.5rem', fontSize: '0.9rem', color: '#666' }}>
+                어떤 주제의 글이 더 필요하신가요?
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+                <span style={{ 
+                  padding: '0.3rem 0.8rem', 
+                  backgroundColor: '#f0f0f0', 
+                  borderRadius: '15px', 
+                  fontSize: '0.8rem',
+                  cursor: 'pointer',
+                  transition: 'background-color 0.2s'
+                }}>더 많은 여행 팁</span>
+                <span style={{ 
+                  padding: '0.3rem 0.8rem', 
+                  backgroundColor: '#f0f0f0', 
+                  borderRadius: '15px', 
+                  fontSize: '0.8rem',
+                  cursor: 'pointer',
+                  transition: 'background-color 0.2s'
+                }}>IT 기술 동향</span>
+                <span style={{ 
+                  padding: '0.3rem 0.8rem', 
+                  backgroundColor: '#f0f0f0', 
+                  borderRadius: '15px', 
+                  fontSize: '0.8rem',
+                  cursor: 'pointer',
+                  transition: 'background-color 0.2s'
+                }}>실용적인 라이프스타일</span>
+              </div>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <p style={{ marginBottom: '0.5rem', fontSize: '0.9rem', color: '#666' }}>
+                이 사이트가 도움이 되었나요?
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem' }}>
+                <span style={{ 
+                  padding: '0.3rem 0.8rem', 
+                  backgroundColor: '#e8f5e8', 
+                  borderRadius: '15px', 
+                  fontSize: '0.8rem',
+                  cursor: 'pointer',
+                  transition: 'background-color 0.2s'
+                }}>👍 매우 도움됨</span>
+                <span style={{ 
+                  padding: '0.3rem 0.8rem', 
+                  backgroundColor: '#fff3cd', 
+                  borderRadius: '15px', 
+                  fontSize: '0.8rem',
+                  cursor: 'pointer',
+                  transition: 'background-color 0.2s'
+                }}>😊 도움됨</span>
+                <span style={{ 
+                  padding: '0.3rem 0.8rem', 
+                  backgroundColor: '#f8d7da', 
+                  borderRadius: '15px', 
+                  fontSize: '0.8rem',
+                  cursor: 'pointer',
+                  transition: 'background-color 0.2s'
+                }}>😐 보통</span>
+              </div>
+            </div>
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+            <p style={{ fontSize: '0.8rem', color: '#999' }}>
+              여러분의 피드백은 더 나은 콘텐츠를 만드는 원동력이 됩니다.
+            </p>
+          </div>
+        </div>
       </div>
       
       <FooterMain />
