@@ -17,15 +17,19 @@ Allow: /
 # Googlebot
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 # Bingbot
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 # Disallow admin or private areas (if any)
 Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
 
 # Allow important resources
 Allow: /css/
@@ -38,4 +42,11 @@ Allow: /*.gif
 Allow: /*.webp
 Allow: /*.svg
 Allow: /*.ico
+
+# Allow all content pages
+Allow: /travel/
+Allow: /it/
+Allow: /about
+Allow: /privacy
+Allow: /terms
 

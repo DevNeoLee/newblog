@@ -23,19 +23,10 @@ export const metadata = {
     template: '%s | Moyahug'
   },
   description: '생활의 지혜, 현명한 블로그 매거진 Moyahug는 여행 팁, IT 노하우, 해외여행 가이드, 디지털 노마드, 애자일 방법론 등 실용적인 정보를 제공하는 웹 매거진입니다. 여행 준비부터 IT 트렌드까지 모든 것을 쉽게 배워보세요.',
-  keywords: ['여행', 'IT', '블로그', '매거진', '여행팁', 'IT팁', '생활의지혜', 'Moyahug', '해외여행', '디지털노마드', '애자일', '크루즈여행', '오로라여행', '비즈니스클래스', '유심카드', '렌트카'],
+  keywords: ['여행', 'IT', '블로그', '매거진', '여행팁', 'IT팁', '생활의지혜', 'Moyahug', '해외여행', '디지털노마드', '애자일', '크루즈여행', '오로라여행', '비즈니스클래스', '유심카드', '렌트카', '린스타트업', 'KISS원칙', 'FailFast'],
   authors: [{ name: 'Moyahug' }],
   creator: 'Moyahug',
   publisher: 'Moyahug',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL('https://moyahug.com'),
-  alternates: {
-    canonical: 'https://moyahug.com',
-  },
   robots: {
     index: true,
     follow: true,
@@ -45,21 +36,23 @@ export const metadata = {
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
+      'noarchive': false,
+      'nosnippet': false,
+      'noimageindex': false,
+      'notranslate': false,
     },
   },
   verification: {
     google: 'I_9zf4wYx3f6QQl-1h77XZ0EGppANsViDrLtNSvxvnA',
-    other: {
-      'naver-site-verification': '68f53be6eb08c4d8c8e212c7245fcadfd933fa7d',
-    },
+    naver: '68f53be6eb08c4d8c8e212c7245fcadfd933fa7d',
   },
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
     url: 'https://moyahug.com',
+    siteName: 'Moyahug',
     title: '생활의 지혜, 현명한 블로그 매거진 Moyahug',
     description: '생활의 지혜, 현명한 블로그 매거진 Moyahug는 여행 팁, IT 노하우, 해외여행 가이드, 디지털 노마드, 애자일 방법론 등 실용적인 정보를 제공하는 웹 매거진입니다.',
-    siteName: 'Moyahug',
     images: [
       {
         url: 'https://moyahug.com/icon1.png',
@@ -75,6 +68,13 @@ export const metadata = {
     description: '생활의 지혜, 현명한 블로그 매거진 Moyahug는 여행 팁, IT 노하우, 해외여행 가이드, 디지털 노마드, 애자일 방법론 등 실용적인 정보를 제공하는 웹 매거진입니다.',
     images: ['https://moyahug.com/icon1.png'],
   },
+  alternates: {
+    canonical: 'https://moyahug.com',
+  },
+  other: {
+    'format-detection': 'telephone=no, address=no, email=no',
+  },
+  metadataBase: new URL('https://moyahug.com'),
 }
 
 export default function RootLayout({ children }) {
@@ -88,9 +88,9 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Moyahug",
-              "description": "생활의 지혜, 현명한 블로그 매거진 - 여행과 IT 정보를 제공하는 57개 글의 지식 라이브러리",
+              "description": "생활의 지혜, 현명한 블로그 매거진 - 여행과 IT 정보를 제공하는 58개 글의 지식 라이브러리",
               "url": "https://moyahug.com",
-              "numberOfItems": 57,
+              "numberOfItems": 58,
               "inLanguage": "ko-KR",
               "publisher": {
                 "@type": "Organization",
@@ -110,7 +110,7 @@ export default function RootLayout({ children }) {
               "mainEntity": {
                 "@type": "ItemList",
                 "name": "Moyahug 콘텐츠 라이브러리",
-                "numberOfItems": 57,
+                "numberOfItems": 58,
                 "itemListElement": [
                   {
                     "@type": "ItemList",
@@ -121,8 +121,8 @@ export default function RootLayout({ children }) {
                   {
                     "@type": "ItemList", 
                     "name": "IT 카테고리",
-                    "numberOfItems": 12,
-                    "description": "애자일 방법론, KISS 원칙, 개발 철학 등 IT 관련 실용 정보"
+                    "numberOfItems": 13,
+                    "description": "애자일 방법론, KISS 원칙, 린 스타트업 등 IT 관련 실용 정보"
                   }
                 ]
               },
@@ -149,7 +149,12 @@ export default function RootLayout({ children }) {
                 "description": "무료 실용 정보 제공",
                 "price": "0",
                 "priceCurrency": "KRW"
-              }
+              },
+              "sameAs": [
+                "https://moyahug.com/about",
+                "https://moyahug.com/privacy",
+                "https://moyahug.com/terms"
+              ]
             })
           }}
         />
