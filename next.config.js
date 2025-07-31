@@ -7,17 +7,31 @@ const nextConfig = {
     optimizePackageImports: ['react-icons'],
   },
   webpack: (config) => {
+    // splitChunks가 없으면 생성
+    if (!config.optimization.splitChunks) {
+      config.optimization.splitChunks = {};
+    }
+    
+    // cacheGroups가 없으면 생성
+    if (!config.optimization.splitChunks.cacheGroups) {
+      config.optimization.splitChunks.cacheGroups = {};
+    }
+    
+    // styles 캐시 그룹 설정
     config.optimization.splitChunks.cacheGroups.styles = {
       name: 'styles',
       test: /\.(css|scss)$/,
       chunks: 'all',
       enforce: true,
     };
+    
+    // vendor 캐시 그룹 설정
     config.optimization.splitChunks.cacheGroups.vendor = {
       test: /[\\/]node_modules[\\/]/,
       name: 'vendors',
       chunks: 'all',
     };
+    
     return config;
   },
   async redirects() {
@@ -47,7 +61,7 @@ const nextConfig = {
         destination: 'https://moyahug.com/:path*',
         permanent: true,
       },
-            // Combine: HTTP + www
+      // Combine: HTTP + www
       {
         source: '/:path*',
         has: [
