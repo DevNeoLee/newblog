@@ -1,5 +1,6 @@
 import './globals.css'
 import { Noto_Sans_KR, Sen } from 'next/font/google'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const notoSansKR = Noto_Sans_KR({
   subsets: ['latin'],
