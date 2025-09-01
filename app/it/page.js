@@ -4,6 +4,7 @@ import { getMetadata, getCatalogue, getKorean } from './utils/getData';
 import fs from 'fs'
 import Image from 'next/image';
 import { formatDateShort } from '@/app/utils/functions';
+import { generateCollectionPageStructuredData } from '../utils/structuredData';
 
 export default function it() {
   const catalogues = getCatalogue();
@@ -48,4 +49,47 @@ export default function it() {
       </div>
     </>
   )
+}
+
+export async function generateMetadata() {
+  const catalogues = getCatalogue();
+  const metaInfo = getMetadata("IT철학");
+  
+  const structuredData = generateCollectionPageStructuredData(
+    'thought', 
+    metaInfo, 
+    'IT철학'
+  );
+
+  return {
+    title: '쉽게 더쉽게 IT - Moyahug',
+    description: '애자일 방법론, KISS 원칙, 린 스타트업 등 IT 관련 실용 정보를 제공합니다.',
+    alternates: {
+      canonical: 'https://moyahug.com/it',
+    },
+    openGraph: {
+      title: '쉽게 더쉽게 IT - Moyahug',
+      description: '애자일 방법론, KISS 원칙, 린 스타트업 등 IT 관련 실용 정보를 제공합니다.',
+      type: 'website',
+      url: 'https://moyahug.com/it',
+      siteName: 'Moyahug',
+      images: [
+        {
+          url: 'https://moyahug.com/icon1.png',
+          width: 1200,
+          height: 630,
+          alt: 'Moyahug - 쉽게 더쉽게 IT',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: '쉽게 더쉽게 IT - Moyahug',
+      description: '애자일 방법론, KISS 원칙, 린 스타트업 등 IT 관련 실용 정보를 제공합니다.',
+      images: ['https://moyahug.com/icon1.png'],
+    },
+    other: {
+      'application/ld+json': JSON.stringify(structuredData),
+    },
+  };
 }

@@ -9,6 +9,7 @@ import Image from 'next/image';
 import FooterMain from './travel/components/FooterMain';
 import LargeCard from './components/LargeCard';
 import { FaArrowRight } from "react-icons/fa";
+import { generateWebsiteStructuredData } from './utils/structuredData';
 
 // shuffleArray 함수 제거 - hydration mismatch 방지
 
@@ -53,6 +54,9 @@ export default function Home() {
   };
 
   const totalPostCount = getTotalPostCount();
+
+  // Generate structured data for the main page
+  const structuredData = generateWebsiteStructuredData();
 
   return (
     <div className="main">
@@ -255,4 +259,38 @@ export default function Home() {
       <FooterMain />
     </div>
   )
+}
+
+export async function generateMetadata() {
+  return {
+    title: '생활의 지혜, 현명한 블로그 매거진 Moyahug',
+    description: '여행과 IT 분야의 실용적인 정보를 제공하는 지식 라이브러리입니다.',
+    alternates: {
+      canonical: 'https://moyahug.com',
+    },
+    openGraph: {
+      title: '생활의 지혜, 현명한 블로그 매거진 Moyahug',
+      description: '여행과 IT 분야의 실용적인 정보를 제공하는 지식 라이브러리입니다.',
+      type: 'website',
+      url: 'https://moyahug.com',
+      siteName: 'Moyahug',
+      images: [
+        {
+          url: 'https://moyahug.com/icon1.png',
+          width: 1200,
+          height: 630,
+          alt: 'Moyahug - 생활의 지혜',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: '생활의 지혜, 현명한 블로그 매거진 Moyahug',
+      description: '여행과 IT 분야의 실용적인 정보를 제공하는 지식 라이브러리입니다.',
+      images: ['https://moyahug.com/icon1.png'],
+    },
+    other: {
+      'application/ld+json': JSON.stringify(generateWebsiteStructuredData()),
+    },
+  };
 }

@@ -4,6 +4,7 @@ import { getMetadata, getCatalogue, getKorean } from './utils/getData';
 import fs from 'fs'
 import Image from 'next/image';
 import { formatDateShort } from '../utils/functions';
+import { generateCollectionPageStructuredData } from '../utils/structuredData';
 
 export default function Travel() {
   const catalogues = getCatalogue();
@@ -48,4 +49,47 @@ export default function Travel() {
       </div>
     </>
   )
+}
+
+export async function generateMetadata() {
+  const catalogues = getCatalogue();
+  const metaInfo = getMetadata("나를찾는세계여행");
+  
+  const structuredData = generateCollectionPageStructuredData(
+    'prologue', 
+    metaInfo, 
+    '나를찾는세계여행'
+  );
+
+  return {
+    title: '여행과 나 - Moyahug',
+    description: '해외여행, 크루즈여행, 오로라여행, 디지털노마드 등 여행 관련 실용 정보를 제공합니다.',
+    alternates: {
+      canonical: 'https://moyahug.com/travel',
+    },
+    openGraph: {
+      title: '여행과 나 - Moyahug',
+      description: '해외여행, 크루즈여행, 오로라여행, 디지털노마드 등 여행 관련 실용 정보를 제공합니다.',
+      type: 'website',
+      url: 'https://moyahug.com/travel',
+      siteName: 'Moyahug',
+      images: [
+        {
+          url: 'https://moyahug.com/icon1.png',
+          width: 1200,
+          height: 630,
+          alt: 'Moyahug - 여행과 나',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: '여행과 나 - Moyahug',
+      description: '해외여행, 크루즈여행, 오로라여행, 디지털노마드 등 여행 관련 실용 정보를 제공합니다.',
+      images: ['https://moyahug.com/icon1.png'],
+    },
+    other: {
+      'application/ld+json': JSON.stringify(structuredData),
+    },
+  };
 }

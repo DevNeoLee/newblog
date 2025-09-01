@@ -2,6 +2,7 @@ import { getMetadata, getPostContent } from '@/app/it/utils/getData';
 import Markdown from 'markdown-to-jsx';
 import { notFound } from 'next/navigation';
 import { formatKoreanDate } from '@/app/utils/functions';
+import { generateArticleStructuredData } from '@/app/utils/structuredData';
 
 export const generateStaticParams = async () => {
     try {
@@ -34,7 +35,6 @@ export default async function PostPage({ params }) {
             </article>
           </div>
         </div>
-      </>
   )
 }
 
@@ -49,6 +49,9 @@ export async function generateMetadata({ params, searchParams }) {
       description: '요청하신 페이지를 찾을 수 없습니다.',
     };
   }
+
+  // Generate structured data for the article
+  const structuredData = generateArticleStructuredData(details, link, 'thought');
 
   return { 
     title: details.data.title,
@@ -77,6 +80,9 @@ export async function generateMetadata({ params, searchParams }) {
       title: details.data.title,
       description: details.data.subtitle || details.content.slice(1, 175),
       images: ['https://moyahug.com/icon1.png'],
+    },
+    other: {
+      'application/ld+json': JSON.stringify(structuredData),
     },
   };
 }
