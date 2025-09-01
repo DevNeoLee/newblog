@@ -9,19 +9,20 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": "20.x"
   },
   "dependencies": {
-    "critters": "^0.0.23",
-    "eslint": "^9.30.1",
-    "eslint-config-next": "^15.3.5",
+    "@vercel/speed-insights": "^1.2.0",
+    "beasties": "^0.3.5",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^15.5.2",
     "gray-matter": "^4.0.3",
-    "markdown-to-jsx": "^7.7.10",
-    "next": "^15.3.5",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "markdown-to-jsx": "^7.7.13",
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
     "rss": "^1.2.2",
-    "sharp": "^0.34.2"
+    "sharp": "^0.34.3"
   }
 }
