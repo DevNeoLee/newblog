@@ -1,7 +1,7 @@
-import { getMetadata, getPostContent, generateStructuredData } from '@/app/travel/utils/getData';
+import { getMetadata, getPostContent } from '@/app/travel/utils/getData';
 import Markdown from 'markdown-to-jsx';
 import { notFound } from 'next/navigation';
-import { formatDateLong } from '@/app/utils/functions';
+import { formatDateLong, cleanMarkdownContent } from '@/app/utils/functions';
 
 export const generateStaticParams = async () => {
     try {
@@ -24,26 +24,37 @@ export default async function PostPage({ params }) {
     notFound();
   }
 
-  const structuredData = generateStructuredData(post, link, 'canada');
-
   return (
-      <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData)
-          }}
-        />
-        <div className="continentContainer">
+      <div className="continentContainer">
           <div className="continentMain">
             <div className="detailTitle"><h1>{post.data.title}</h1></div>
             <p className="countryDateDetailPage">{formatDateLong(post.data.date)}</p>
             <article>
-              <Markdown>{post.content}</Markdown>
+              <Markdown 
+                options={{
+                  forceBlock: true,
+                  overrides: {
+                    a: {
+                      component: 'a',
+                      props: {
+                        className: 'linkBold',
+                        style: { color: '#006dd7' }
+                      }
+                    },
+                    span: {
+                      component: 'span'
+                    },
+                    p: {
+                      component: 'p'
+                    }
+                  }
+                }}
+              >
+                {cleanMarkdownContent(post.content)}
+              </Markdown>
             </article>
           </div>
         </div>
-      </>
   )
 }
 

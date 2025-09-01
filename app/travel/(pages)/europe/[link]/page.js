@@ -1,4 +1,4 @@
-import { getMetadata, getPostContent, generateStructuredData } from '@/app/travel/utils/getData';
+import { getMetadata, getPostContent } from '@/app/travel/utils/getData';
 import Markdown from 'markdown-to-jsx';
 import { notFound } from 'next/navigation';
 import { formatKoreanDate } from '@/app/utils/functions';
@@ -24,17 +24,8 @@ export default async function PostPage({ params }) {
     notFound();
   }
 
-  const structuredData = generateStructuredData(post, link, 'europe');
-
   return (
-      <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData)
-          }}
-        />
-        <div className="continentContainer">
+      <div className="continentContainer">
           <div className="continentMain">
             <div className="detailTitle"><h1>{post.data.title}</h1></div>
             <p className="countryDateDetailPage">{formatKoreanDate(post.data.date)}</p>

@@ -85,50 +85,7 @@ export const getPostContent = (link, category) => {
   }
 }
 
-// 구조화된 데이터 생성 함수
-export const generateStructuredData = (post, link, category) => {
-  // 날짜 유효성 검사 및 ISO 형식 변환
-  let datePublished, dateModified;
-  try {
-    const parsedDate = new Date(post.data.date);
-    if (isNaN(parsedDate.getTime())) {
-      datePublished = new Date().toISOString();
-      dateModified = new Date().toISOString();
-    } else {
-      datePublished = parsedDate.toISOString();
-      dateModified = parsedDate.toISOString();
-    }
-  } catch (error) {
-    datePublished = new Date().toISOString();
-    dateModified = new Date().toISOString();
-  }
-  
-  return {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": post.data.title,
-    "description": post.data.subtitle,
-    "author": {
-      "@type": "Organization",
-      "name": "생활의 지혜"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "생활의 지혜",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://moyahug.com/icon1.png"
-      }
-    },
-    "datePublished": datePublished,
-    "dateModified": dateModified,
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": `https://moyahug.com/travel/${category}/${link}`
-    },
-    "inLanguage": "ko-KR"
-  };
-}
+
 
 export const getKorean = (ele) => {
   switch(ele) {
