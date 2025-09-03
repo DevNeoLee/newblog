@@ -27,6 +27,8 @@ export default async function PostPage({ params }) {
   }
 
   return (
+    <>
+      {/* Ensure metadata is properly structured for Next.js 15 */}
       <div className="continentContainer">
           <div className="continentMain">
             <div className="detailTitle"><h1>{post.data.title}</h1></div>
@@ -36,25 +38,68 @@ export default async function PostPage({ params }) {
             </article>
           </div>
         </div>
+    </>
   )
 }
 
 export async function generateMetadata({ params, searchParams }) {
-  const resolvedParams = await params;
-  const link = resolvedParams.link;
-  const details = getPostContent(link, 'thought');
+  try {
+    const resolvedParams = await params;
+    const link = resolvedParams.link;
+    
+    // Ensure we have a valid link parameter
+    if (!link) {
+      return {
+        title: '페이지를 찾을 수 없습니다 | Moyahug',
+        description: '요청하신 페이지를 찾을 수 없습니다.',
+        robots: {
+          index: false,
+          follow: false,
+        },
+      };
+    }
 
-  if (!details) {
+    const details = getPostContent(link, 'thought');
+
+    if (!details || !details.data) {
+      return {
+        title: '페이지를 찾을 수 없습니다 | Moyahug',
+        description: '요청하신 페이지를 찾을 수 없습니다.',
+        robots: {
+          index: false,
+          follow: false,
+        },
+      };
+    }
+
+    // Generate structured data for the article
+    const structuredData = generateArticleStructuredData(details, link, 'thought', 'it');
+
+    // Generate standardized metadata with additional safeguards
+    const metadata = generateITArticleMetadata(details, link, 'thought', structuredData);
+    
+    // Ensure metadata is properly formatted for Next.js
     return {
-      title: '페이지를 찾을 수 없습니다',
-      description: '요청하신 페이지를 찾을 수 없습니다.',
+      ...metadata,
+      // Add explicit metadataBase to prevent streaming issues
+      metadataBase: new URL('https://moyahug.com'),
+      // Ensure proper title template
+      title: {
+        default: metadata.title,
+        template: '%s | Moyahug'
+      },
+    };
+  } catch (error) {
+    console.error('Error generating metadata for IT thought page:', error);
+    return {
+      title: '페이지 오류 | Moyahug',
+      description: '페이지를 불러오는 중 오류가 발생했습니다.',
+      robots: {
+        index: false,
+        follow: false,
+      },
+      metadataBase: new URL('https://moyahug.com'),
     };
   }
-
-  // Generate structured data for the article
-  const structuredData = generateArticleStructuredData(details, link, 'thought', 'it');
-
-  // Generate standardized metadata
-  return generateITArticleMetadata(details, link, 'thought', structuredData);
 }
  

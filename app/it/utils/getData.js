@@ -66,16 +66,48 @@ export const getMetadata = (path) => {
 // 공통 포스트 읽기 함수
 export const getPostContent = (link, category) => {
   try {
+    // Validate input parameters
+    if (!link || !category) {
+      console.error('Invalid parameters for getPostContent:', { link, category });
+      return null;
+    }
+
     const koreanCategory = getKorean(category);
+    if (!koreanCategory) {
+      console.error(`Unknown category: ${category}`);
+      return null;
+    }
+
     const folder = `dataIT/${koreanCategory}`;
     const file = `${folder}/${link}.md`;
     
+    // Check if file exists
     if (!fs.existsSync(file)) {
+      console.error(`File not found: ${file}`);
       return null;
     }
     
+    // Read and parse file content
     const content = fs.readFileSync(file, 'utf8');
+    if (!content || content.trim().length === 0) {
+      console.error(`Empty file: ${file}`);
+      return null;
+    }
+
     const matterResult = matter(content);
+    
+    // Validate parsed content
+    if (!matterResult || !matterResult.data) {
+      console.error(`Invalid frontmatter in file: ${file}`);
+      return null;
+    }
+
+    // Ensure required fields exist
+    if (!matterResult.data.title) {
+      console.error(`Missing title in file: ${file}`);
+      matterResult.data.title = '제목 없음';
+    }
+
     return matterResult;
   } catch (error) {
     console.error(`Error reading IT post content for ${link} in ${category}:`, error);

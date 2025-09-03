@@ -3,6 +3,7 @@ import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import { getMetadata } from '@/app/it/utils/getData';
 import { formatKoreanDate } from '@/app/utils/functions';
+import { generateITPageMetadata } from '@/app/it/utils/metadataGenerator';
 
 const getPostContent = (link) => {
     const folder= 'dataIT/인공지능';
@@ -38,13 +39,5 @@ export default async function PostPage({ params }) {
 
 export async function generateMetadata({ params, searchParams }) {
   const resolvedParams = await params;
-  const details = getPostContent(resolvedParams.link);
-
-  return { 
-    title: details.data.title,
-    description: details.content.slice(1, 175),   
-    alternates: {
-        canonical: 'https://moyahug.com/it/ai/' + resolvedParams.link,
-    }
-  };
+  return generateITPageMetadata(resolvedParams.link, 'ai');
 }

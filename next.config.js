@@ -6,6 +6,8 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['react-icons'],
   },
+  // Next.js 15 specific configuration to force metadata in head
+  htmlLimitedBots: /.*/, // Force all user agents to render metadata in head instead of body
   async redirects() {
     return [
       // www 리다이렉트 (프로덕션에서만)

@@ -119,6 +119,8 @@ export const generateITArticleMetadata = (details, link, category, structuredDat
       publishedTime: details.data.date,
       modifiedTime: details.data.date,
       authors: ['Moyahug'],
+      url: `https://moyahug.com/it/${category}/${link}`,
+      siteName: 'Moyahug',
       images: [
         {
           url: 'https://moyahug.com/icon1.png',
@@ -137,5 +139,7 @@ export const generateITArticleMetadata = (details, link, category, structuredDat
     other: {
       'application/ld+json': JSON.stringify(structuredData),
     },
+    // Ensure proper metadata base for consistent rendering
+    metadataBase: new URL('https://moyahug.com'),
   };
 };
