@@ -3,6 +3,7 @@ import Markdown from 'markdown-to-jsx';
 import { notFound } from 'next/navigation';
 import { formatKoreanDate } from '@/app/utils/functions';
 import { generateArticleStructuredData } from '@/app/utils/structuredData';
+import { generateArticleMetadata } from '@/app/utils/metadata';
 
 export const generateStaticParams = async () => {
     try {
@@ -51,39 +52,9 @@ export async function generateMetadata({ params, searchParams }) {
   }
 
   // Generate structured data for the article
-  const structuredData = generateArticleStructuredData(details, link, 'africa');
+  const structuredData = generateArticleStructuredData(details, link, 'africa', 'travel');
 
-  return { 
-    title: details.data.title,
-    description: details.data.subtitle || details.content.slice(1, 175),   
-    alternates: {
-      canonical: `https://moyahug.com/travel/africa/${link}`,
-    },
-    openGraph: {
-      title: details.data.title,
-      description: details.data.subtitle || details.content.slice(1, 175),
-      type: 'article',
-      publishedTime: details.data.date,
-      modifiedTime: details.data.date,
-      authors: ['생활의 지혜'],
-      images: [
-        {
-          url: 'https://moyahug.com/icon1.png',
-          width: 512,
-          height: 512,
-          alt: '생활의 지혜',
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: details.data.title,
-      description: details.data.subtitle || details.content.slice(1, 175),
-      images: ['https://moyahug.com/icon1.png'],
-    },
-    other: {
-      'application/ld+json': JSON.stringify(structuredData),
-    },
-  };
+  // Generate standardized metadata
+  return generateArticleMetadata(details, link, 'africa', structuredData);
 }
  

@@ -82,8 +82,12 @@ export const generateCollectionPageStructuredData = (category, posts, categoryNa
 
 /**
  * Generate Article structured data for detail pages
+ * @param {Object} post - Post data from markdown frontmatter
+ * @param {string} link - Post URL slug
+ * @param {string} category - Category (canada, usa, ai, coding, etc.)
+ * @param {string} section - Section type ('travel' or 'it')
  */
-export const generateArticleStructuredData = (post, link, category) => {
+export const generateArticleStructuredData = (post, link, category, section = 'travel') => {
   // Ensure consistent date formatting
   let datePublished, dateModified;
   try {
@@ -107,7 +111,7 @@ export const generateArticleStructuredData = (post, link, category) => {
     "description": post.data.subtitle,
     "author": {
       "@type": "Organization",
-      "name": "생활의 지혜"
+      "name": "Moyahug"
     },
     "publisher": {
       "@type": "Organization",
@@ -121,7 +125,7 @@ export const generateArticleStructuredData = (post, link, category) => {
     "dateModified": dateModified,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/travel/${category}/${link}`
+      "@id": `${SITE_URL}/${section}/${category}/${link}`
     },
     "inLanguage": "ko-KR",
     "articleSection": category,
