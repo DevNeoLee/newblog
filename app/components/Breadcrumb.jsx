@@ -23,6 +23,7 @@ export default function Breadcrumb({
 
   return (
     <>
+      
       {/* Structured Data for SEO */}
       <script
         type="application/ld+json"
@@ -32,7 +33,6 @@ export default function Breadcrumb({
       {/* Visual Breadcrumb */}
       <nav 
         aria-label="Breadcrumb" 
-        className={className}
         style={{
           fontSize: '14px',
           margin: '0 0 10px 20px',
@@ -55,13 +55,12 @@ export default function Breadcrumb({
               {item.href && index < breadcrumbItems.length - 1 ? (
                 <Link 
                   href={item.href}
+                  className="breadcrumb-link"
                   style={{ 
-                    color: '#0066cc', 
+                    color: '#464646ff', 
                     textDecoration: 'none',
                     transition: 'color 0.2s ease'
                   }}
-                  onMouseEnter={(e) => e.target.style.color = '#004499'}
-                  onMouseLeave={(e) => e.target.style.color = '#0066cc'}
                 >
                   {item.name}
                 </Link>

@@ -26,9 +26,8 @@ export default function RelatedPosts({
 
   return (
     <section 
-      className={className}
       style={{
-        margin: '30px 0',
+        margin: '0px',
         padding: '20px',
         backgroundColor: '#f8f9fa',
         borderRadius: '8px',
