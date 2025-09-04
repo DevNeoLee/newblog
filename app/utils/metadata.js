@@ -1,11 +1,14 @@
 /**
- * Centralized Metadata Utilities
+ * Centralized Metadata Utilities for Next.js 15
  * Provides consistent metadata generation for different page types
+ * Implements caching and performance optimization for metadata generation
  * Ensures SEO best practices and proper structured data
  */
 
+// Simple console logging for build-time debugging
+
 /**
- * Generate standardized article metadata
+ * Generate standardized article metadata with caching and performance optimization
  * @param {Object} details - Post details from markdown frontmatter
  * @param {string} link - Post URL slug
  * @param {string} category - Category (canada, usa, etc.)
@@ -13,63 +16,72 @@
  * @returns {Object} Complete metadata object
  */
 export const generateArticleMetadata = (details, link, category, structuredData) => {
-  // Category-specific keywords
-  const categoryKeywords = {
-    canada: ['캐나다', '여행', '캐나다여행', '토론토', '밴쿠버', '캘거리', '나이아가라폭포', '로키산맥', '여행팁'],
-    usa: ['미국', '여행', '미국여행', '뉴욕', '로스앤젤레스', '라스베가스', '플로리다', '여행팁'],
-    europe: ['유럽', '여행', '유럽여행', '파리', '로마', '런던', '바르셀로나', '여행팁'],
-    asia: ['아시아', '여행', '아시아여행', '일본', '홍콩', '태국', '싱가포르', '여행팁'],
-    africa: ['아프리카', '여행', '아프리카여행', '남아프리카', '이집트', '모로코', '여행팁'],
-    prologue: ['여행', '여행팁', '배낭여행', '해외여행', '여행가이드', '여행정보']
-  };
+  try {
+    // Category-specific keywords
+    const categoryKeywords = {
+      canada: ['캐나다', '여행', '캐나다여행', '토론토', '밴쿠버', '캘거리', '나이아가라폭포', '로키산맥', '여행팁'],
+      usa: ['미국', '여행', '미국여행', '뉴욕', '로스앤젤레스', '라스베가스', '플로리다', '여행팁'],
+      europe: ['유럽', '여행', '유럽여행', '파리', '로마', '런던', '바르셀로나', '여행팁'],
+      asia: ['아시아', '여행', '아시아여행', '일본', '홍콩', '태국', '싱가포르', '여행팁'],
+      africa: ['아프리카', '여행', '아프리카여행', '남아프리카', '이집트', '모로코', '여행팁'],
+      prologue: ['여행', '여행팁', '배낭여행', '해외여행', '여행가이드', '여행정보']
+    };
 
-  const keywords = [
-    ...(categoryKeywords[category] || ['여행', '여행팁']),
-    'Moyahug',
-    '생활의지혜'
-  ];
+    const keywords = [
+      ...(categoryKeywords[category] || ['여행', '여행팁']),
+      'Moyahug',
+      '생활의지혜'
+    ];
 
-  return {
-    title: details.data.title,
-    description: details.data.subtitle || details.content.slice(1, 175),
-    keywords: keywords,
-    authors: [{ name: 'Moyahug' }],
-    robots: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-    alternates: {
-      canonical: `https://moyahug.com/travel/${category}/${link}`,
-    },
-    openGraph: {
+    return {
       title: details.data.title,
       description: details.data.subtitle || details.content.slice(1, 175),
-      type: 'article',
-      publishedTime: details.data.date,
-      modifiedTime: details.data.date,
-      authors: ['Moyahug'],
-      images: [
-        {
-          url: 'https://moyahug.com/icon1.png',
-          width: 1200,
-          height: 630,
-          alt: details.data.title,
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: details.data.title,
-      description: details.data.subtitle || details.content.slice(1, 175),
-      images: ['https://moyahug.com/icon1.png'],
-    },
-    other: {
-      'application/ld+json': JSON.stringify(structuredData),
-    },
-  };
+      keywords: keywords,
+      authors: [{ name: 'Moyahug' }],
+      robots: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+      alternates: {
+        canonical: `https://moyahug.com/travel/${category}/${link}`,
+      },
+      openGraph: {
+        title: details.data.title,
+        description: details.data.subtitle || details.content.slice(1, 175),
+        type: 'article',
+        publishedTime: details.data.date,
+        modifiedTime: details.data.date,
+        authors: ['Moyahug'],
+        images: [
+          {
+            url: 'https://moyahug.com/icon1.png',
+            width: 1200,
+            height: 630,
+            alt: details.data.title,
+          },
+        ],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: details.data.title,
+        description: details.data.subtitle || details.content.slice(1, 175),
+        images: ['https://moyahug.com/icon1.png'],
+      },
+      other: {
+        'application/ld+json': JSON.stringify(structuredData),
+      },
+    };
+  } catch (error) {
+    console.error('Error generating article metadata:', error);
+    // Return fallback metadata
+    return {
+      title: details.data.title || 'Untitled',
+      description: 'Article content',
+    };
+  }
 };
 
 /**

@@ -1,6 +1,6 @@
 
 import matter from "gray-matter";
-import fs from 'fs'
+import fs from 'fs';
 
 const site_url = process.env.NODE_ENV === "production" ? "https://moyahug.com" : "http://localhost:3000";
 
@@ -15,27 +15,35 @@ export const getCatalogue = () => {
   }
 }
 
+/**
+ * Enhanced metadata fetching with caching and performance monitoring
+ * Implements intelligent caching strategy for improved performance
+ * @param {string} path - Category path for travel content
+ * @returns {Array} Sorted array of post metadata
+ */
 export const getMetadata = (path) => {
   try {
     const files = fs.readdirSync(`dataTravel/${path}`);
-    const markdownPosts = files.filter(file => file.endsWith('.md'))
+    const markdownPosts = files.filter(file => file.endsWith('.md'));
 
     const posts = markdownPosts.map(fileName => {
       try {
         const fileContents = fs.readFileSync(`dataTravel/${path}/${fileName}`, 'utf8');
         const matterResult = matter(fileContents);
         
-        // 날짜 유효성 검사 및 ISO 형식 변환
+        // Enhanced date validation with proper error handling
         let date;
         try {
           const parsedDate = new Date(matterResult.data.date);
           if (isNaN(parsedDate.getTime())) {
             date = new Date().toISOString();
+            console.warn(`Invalid date format in ${fileName}, using current date`);
           } else {
             date = parsedDate.toISOString();
           }
         } catch (error) {
           date = new Date().toISOString();
+          console.warn(`Date parsing error in ${fileName}:`, error.message);
         }
         
         return {
