@@ -66,6 +66,10 @@ export async function generateMetadata() {
     description: '해외여행, 크루즈여행, 오로라여행, 디지털노마드 등 여행 관련 실용 정보를 제공합니다.',
     alternates: {
       canonical: 'https://moyahug.com/travel',
+      languages: {
+        'ko': 'https://moyahug.com/travel',
+        'x-default': 'https://moyahug.com/travel',
+      },
     },
     openGraph: {
       title: '여행과 나 - Moyahug',

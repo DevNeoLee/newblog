@@ -66,6 +66,10 @@ export async function generateMetadata() {
     description: '애자일 방법론, KISS 원칙, 린 스타트업 등 IT 관련 실용 정보를 제공합니다.',
     alternates: {
       canonical: 'https://moyahug.com/it',
+      languages: {
+        'ko': 'https://moyahug.com/it',
+        'x-default': 'https://moyahug.com/it',
+      },
     },
     openGraph: {
       title: '쉽게 더쉽게 IT - Moyahug',

@@ -66,6 +66,10 @@ export const metadata = {
   },
   alternates: {
     canonical: 'https://moyahug.com',
+    languages: {
+      'ko': 'https://moyahug.com',
+      'x-default': 'https://moyahug.com',
+    },
   },
   other: {
     'format-detection': 'telephone=no, address=no, email=no',

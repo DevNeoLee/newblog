@@ -47,6 +47,10 @@ export const generateArticleMetadata = (details, link, category, structuredData)
       },
       alternates: {
         canonical: `https://moyahug.com/travel/${category}/${link}`,
+        languages: {
+          'ko': `https://moyahug.com/travel/${category}/${link}`,
+          'x-default': `https://moyahug.com/travel/${category}/${link}`,
+        },
       },
       openGraph: {
         title: details.data.title,
@@ -123,6 +127,10 @@ export const generateITArticleMetadata = (details, link, category, structuredDat
     },
     alternates: {
       canonical: `https://moyahug.com/it/${category}/${link}`,
+      languages: {
+        'ko': `https://moyahug.com/it/${category}/${link}`,
+        'x-default': `https://moyahug.com/it/${category}/${link}`,
+      },
     },
     openGraph: {
       title: details.data.title,
