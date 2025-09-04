@@ -35,7 +35,7 @@ export default function Breadcrumb({
         className={className}
         style={{
           fontSize: '14px',
-          margin: '10px 0',
+          margin: '0 0 10px 20px',
           color: '#666'
         }}
       >

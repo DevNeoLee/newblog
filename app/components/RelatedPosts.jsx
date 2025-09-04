@@ -47,7 +47,8 @@ export default function RelatedPosts({
       <div style={{
         display: 'grid',
         gap: '15px',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))'
+        gridTemplateColumns: 'repeat(3, 1fr)',
+        justifyContent: 'start'
       }}>
         {relatedPosts.map((post, index) => {
           const readingTime = calculateReadingTime(post.content);
