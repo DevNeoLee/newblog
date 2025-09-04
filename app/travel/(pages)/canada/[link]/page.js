@@ -4,6 +4,9 @@ import { notFound } from 'next/navigation';
 import { formatDateLong, cleanMarkdownContent } from '@/app/utils/functions';
 import { generateArticleStructuredData } from '@/app/utils/structuredData';
 import { generateArticleMetadata } from '@/app/utils/metadata';
+import Breadcrumb from '@/app/components/Breadcrumb';
+import RelatedPosts from '@/app/components/RelatedPosts';
+import { calculateReadingTime } from '@/app/utils/readingTime';
 
 export const generateStaticParams = async () => {
     try {
@@ -26,11 +29,56 @@ export default async function PostPage({ params }) {
     notFound();
   }
 
+  // Calculate reading time
+  const readingTime = calculateReadingTime(post.content);
+  
+  // Get related posts (other Canada posts)
+  const allCanadaPosts = getMetadata('캐나다');
+  const relatedPosts = allCanadaPosts
+    .filter(p => p.link !== link)
+    .slice(0, 3)
+    .map(p => {
+      // Get actual content for reading time calculation
+      const postContent = getPostContent(p.link, 'canada');
+      return {
+        ...p,
+        section: 'travel',
+        category: 'canada',
+        href: `/travel/canada/${p.link}`,
+        content: postContent.content, // Include actual content
+        data: postContent.data // Include data object with subtitle
+      };
+    });
+
+  // Breadcrumb items
+  const breadcrumbItems = [
+    { name: '여행', href: '/travel' },
+    { name: '캐나다', href: '/travel/canada' },
+    { name: post.data.title }
+  ];
+
   return (
+    <>
+      {/* Breadcrumb Navigation - Outside main content frame */}
+      <Breadcrumb items={breadcrumbItems} />
+      
       <div className="continentContainer">
           <div className="continentMain">
             <div className="detailTitle"><h1>{post.data.title}</h1></div>
-            <p className="countryDateDetailPage">{formatDateLong(post.data.date)}</p>
+            <div style={{ 
+              display: 'flex', 
+              justifyContent: 'space-between', 
+              alignItems: 'center',
+              marginBottom: '20px',
+              fontSize: '14px',
+              color: '#666'
+            }}>
+              <p className="countryDateDetailPage" style={{ margin: 0 }}>
+                {formatDateLong(post.data.date)}
+              </p>
+              <span>읽는 시간: {readingTime.text}</span>
+            </div>
+            
             <article>
               <Markdown 
                 options={{
@@ -57,6 +105,14 @@ export default async function PostPage({ params }) {
             </article>
           </div>
         </div>
+        
+        {/* Related Posts - Outside main content frame */}
+        <RelatedPosts 
+          posts={relatedPosts}
+          currentPostId={link}
+          title="다른 캐나다 여행 글"
+        />
+    </>
   )
 }
 
